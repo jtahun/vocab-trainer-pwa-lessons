@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta name="theme-color" content="#0f172a" />
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="apple-touch-icon" href="./icons/icon-192.png">
+  <title>Vocabulary Trainer (JSON)</title>
+  <style>
+    :root{ --bg:#0f172a; --card:#111827; --muted:#94a3b8; --text:#e5e7eb; --acc:#22c55e; --warn:#f59e0b; --btn:#1f2937; --ring:#334155; }
+    *{box-sizing:border-box} html,body{height:100%}
+    body{margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,'Noto Sans',sans-serif;
+      background:linear-gradient(180deg,#0b1024 0%, #0f172a 100%); color:var(--text);
+      display:flex; align-items:center; justify-content:center;}
+    .app{width:min(680px,100%); padding:16px}
+    header{display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:12px}
+    header h1{font-size:20px; margin:0; font-weight:700}
+    .tag{background:rgba(148,163,184,.15); color:var(--muted); padding:6px 10px; border-radius:999px; font-size:12px}
+    .card{background:radial-gradient(120% 120% at 10% 0%, rgba(34,197,94,.08) 0%, transparent 55%), radial-gradient(120% 120% at 100% 100%, rgba(59,130,246,.08) 0%, transparent 50%), var(--card);
+      border:1px solid var(--ring); border-radius:20px; padding:22px; text-align:center; box-shadow:0 10px 30px rgba(0,0,0,.35);}
+    .lang{font-size:13px; color:var(--muted); text-transform:uppercase; letter-spacing:.14em}
+    .word{font-size:34px; font-weight:800; margin:8px 0 2px}
+    .trans{font-size:24px; color:#d1fae5; opacity:.95; margin:4px 0 0}
+    .hidden{filter:blur(10px); opacity:.35}
+    .row{display:flex; gap:10px; margin-top:14px; flex-wrap:wrap}
+    button{appearance:none; border:none; cursor:pointer; background:var(--btn); color:var(--text);
+      padding:12px 14px; border-radius:14px; font-weight:600; box-shadow:inset 0 0 0 1px var(--ring); flex:1; min-width:110px}
+    button:active{transform:translateY(1px)} .primary{background:var(--acc); color:#06280f; box-shadow:none} .warn{background:var(--warn); color:#1f1301} .ghost{background:transparent}
+    .bar{display:flex; align-items:center; justify-content:space-between; margin-top:10px; gap:8px}
+    .progress{flex:1; height:8px; background:#0b1226; border-radius:999px; border:1px solid var(--ring); overflow:hidden}
+    .progress>span{display:block; height:100%; background:linear-gradient(90deg,#22c55e,#38bdf8); width:0%}
+    .mini{font-size:12px; color:var(--muted)}
+    .toolbar{display:flex; gap:8px; margin:12px 0 4px; flex-wrap:wrap}
+    .toolbar select, .toolbar input{background:var(--card); color:var(--text); border-radius:12px; padding:10px 12px; border:1px solid var(--ring);}
+    .toolbar input{flex:1; min-width:120px}
+    .empty{padding:14px; text-align:center; color:var(--muted)}
+    @media (min-width:540px){ .word{font-size:40px} .trans{font-size:28px} }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>Vocabulary Trainer</h1>
+      <div style="display:flex; gap:6px; flex-wrap:wrap">
+        <span class="tag" id="tagTotal">—</span>
+        <span class="tag" id="tagHard">—</span>
+      </div>
+    </header>
+
+    <div class="toolbar">
+      <select id="mode">
+        <option value="all">Все слова</option>
+        <option value="hard">Только помеченные</option>
+      </select>
+      <select id="direction">
+        <option value="en-ru">EN → RU</option>
+        <option value="ru-en">RU → EN</option>
+      </select>
+      <input id="search" placeholder="Поиск…" />
+    </div>
+
+    <div class="card" id="card">
+      <div class="lang" id="langTop">English</div>
+      <div class="word" id="word">word</div>
+      <div class="trans hidden" id="trans">перевод</div>
+      <div class="row">
+        <button id="reveal" class="primary">Показать перевод</button>
+        <button id="hard" class="warn">Пометить забытое</button>
+      </div>
+      <div class="row">
+        <button id="prev" class="ghost">◀ Предыдущее</button>
+        <button id="shuffle">Перемешать</button>
+        <button id="next" class="ghost">Следующее ▶</button>
+      </div>
+      <div class="bar">
+        <div class="progress"><span id="progress"></span></div>
+        <div class="mini" id="counter">0 / 0</div>
+      </div>
+    </div>
+
+    <div class="empty" id="empty" style="display:none">Нет слов для показа</div>
+  </div>
+
+<script>
+const KEY_HARD='vocab_hard_v1';
+const $ = s=>document.querySelector(s);
+
+let hardSet = new Set(JSON.parse(localStorage.getItem(KEY_HARD)||'[]'));
+let direction='en-ru';
+let pool=[], index=0, DATA=[];
+
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a;}
+function save(){localStorage.setItem(KEY_HARD, JSON.stringify([...hardSet]));}
+function cur(){return pool[index];}
+function render(){
+  if(!pool.length){ $('#card').style.display='none'; $('#empty').style.display='block'; $('#counter').textContent='0 / 0'; $('#progress').style.width='0%'; return; }
+  $('#card').style.display='block'; $('#empty').style.display='none';
+  const [en,ru]=cur();
+  const top = direction==='en-ru'?'English':'Русский';
+  const main = direction==='en-ru'?en:ru;
+  const tr = direction==='en-ru'?ru:en;
+  $('#langTop').textContent=top; $('#word').textContent=main; $('#trans').textContent=tr;
+  $('#trans').classList.add('hidden'); $('#reveal').textContent='Показать перевод';
+  $('#counter').textContent=`${index+1} / ${pool.length}`;
+  $('#progress').style.width=((index+1)/pool.length*100).toFixed(1)+'%';
+  $('#hard').textContent = hardSet.has(en)?'Снять метку':'Пометить забытое';
+  $('#tagTotal').textContent=`Всего: ${DATA.length}`;
+  $('#tagHard').textContent=`Помечено: ${hardSet.size}`;
+}
+function apply(){
+  const mode = $('#mode').value;
+  const q = $('#search').value.trim().toLowerCase();
+  pool = DATA.filter(([en,ru])=>{
+    if(mode==='hard' && !hardSet.has(en)) return false;
+    if(q && !(en.toLowerCase().includes(q) || ru.toLowerCase().includes(q))) return false;
+    return true;
+  });
+  index = 0; render();
+}
+
+// UI handlers
+$('#reveal').onclick=()=>{const t=$('#trans'); t.classList.toggle('hidden'); $('#reveal').textContent=t.classList.contains('hidden')?'Показать перевод':'Скрыть перевод';};
+$('#hard').onclick=()=>{const [en]=cur(); if(hardSet.has(en)) hardSet.delete(en); else hardSet.add(en); save(); render();};
+$('#next').onclick=()=>{ if(pool.length){ index=(index+1)%pool.length; render(); } };
+$('#prev').onclick=()=>{ if(pool.length){ index=(index-1+pool.length)%pool.length; render(); } };
+$('#shuffle').onclick=()=>{ shuffle(pool); index=0; render(); };
+$('#direction').onchange=e=>{ direction=e.target.value; render(); };
+$('#mode').onchange=$('#search').oninput=()=>{ apply(); };
+
+window.addEventListener('keydown',e=>{ if(e.key==='ArrowRight')$('#next').click(); if(e.key==='ArrowLeft')$('#prev').click(); if(e.key===' ')$('#reveal').click(); });
+
+async function loadData(){
+  try{
+    const res = await fetch('./words.json', {cache:'no-cache'});
+    if(!res.ok) throw new Error('HTTP '+res.status);
+    const json = await res.json();
+    if(!Array.isArray(json)) throw new Error('Invalid JSON');
+    DATA = json;
+  }catch(e){
+    console.warn('words.json недоступен — покажу заглушку.', e);
+    DATA = [["example","пример"],["hello","привет"]];
+  }
+  shuffle(DATA); pool=[...DATA]; render();
+}
+loadData();
+
+if('serviceWorker' in navigator){ window.addEventListener('load',()=>{ navigator.serviceWorker.register('./sw.js'); }); }
+</script>
+</body>
+</html>
