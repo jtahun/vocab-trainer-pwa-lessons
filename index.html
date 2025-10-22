@@ -1,4 +1,5 @@
 <!doctype html>
+
 <html lang="ru">
 <head>
   <meta charset="utf-8" />
@@ -13,6 +14,8 @@
       --text: #e5e7eb; /* gray-200 */
       --accent: #22d3ee; /* cyan-400 */
       --accent-2: #38bdf8; /* sky-400 */
+      --danger: #fb7185; /* rose-400 */
+      --success: #34d399; /* green-400 */
     }
     html, body { height: 100%; }
     body {
@@ -37,39 +40,40 @@
     }
     .lesson:hover { transform: translateY(-2px); border-color: rgba(56,189,248,.55); }
     .lesson h3 { margin: 0 0 6px; font-size: 16px; color: #e2e8f0; }
-    .lesson small { color: var(--muted); }
+    .lesson small { color: var(--muted); }.toolbar { display:flex; flex-wrap:wrap; align-items:center; gap: 8px; margin: 10px 0 14px; }
+.btn, button { cursor:pointer; padding:10px 14px; border-radius: 12px; border: 1px solid rgba(255,255,255,.08);
+  background:#0b1224; color: var(--text); transition: background .12s ease, transform .08s ease; }
+.btn:hover { background:#0d1530; }
+.btn:active { transform: translateY(1px); }
 
-    .toolbar { display:flex; flex-wrap:wrap; align-items:center; gap: 8px; margin: 10px 0 14px; }
-    .btn, button { cursor:pointer; padding:10px 14px; border-radius: 12px; border: 1px solid rgba(255,255,255,.08);
-      background:#0b1224; color: var(--text); transition: background .12s ease, transform .08s ease; }
-    .btn:hover { background:#0d1530; }
-    .btn:active { transform: translateY(1px); }
+.btn-xl { padding: 16px 18px; font-size: 16px; border-radius: 14px; }
 
-    .btn-xl { padding: 16px 18px; font-size: 16px; border-radius: 14px; }
+.pill { padding:6px 10px; font-size: 12px; border-radius: 999px; background: rgba(34,211,238,.12); color: var(--accent);
+  border:1px solid rgba(34,211,238,.35); }
+.pill-hard { background: rgba(251,113,133,.15); color: var(--danger); border-color: rgba(251,113,133,.45); }
+.pill-dir { background: rgba(56,189,248,.15); color: var(--accent-2); border-color: rgba(56,189,248,.45); }
 
-    .pill { padding:6px 10px; font-size: 12px; border-radius: 999px; background: rgba(34,211,238,.12); color: var(--accent);
-      border:1px solid rgba(34,211,238,.35); }
+.viewer { display:flex; flex-direction:column; gap:12px; }
+.card-big { text-align:center; padding: 28px; border-radius: 18px; background:#0b1224; border: 1px solid rgba(255,255,255,.06); }
+.word-en { font-size: 28px; font-weight: 700; letter-spacing:.3px; }
+.word-ru { font-size: 20px; color:#cbd5e1; margin-top:8px; }
+.counter { color: var(--muted); font-size: 14px; }
+.nav { display:flex; flex-wrap:wrap; align-items:center; gap:10px; }
+.nav .btn { flex:1; }
 
-    .viewer { display:flex; flex-direction:column; gap:12px; }
-    .card-big { text-align:center; padding: 28px; border-radius: 18px; background:#0b1224; border: 1px solid rgba(255,255,255,.06); }
-    .word-en { font-size: 28px; font-weight: 700; letter-spacing:.3px; }
-    .word-ru { font-size: 20px; color:#cbd5e1; margin-top:8px; }
-    .counter { color: var(--muted); font-size: 14px; }
-    .nav { display:flex; align-items:center; justify-content:space-between; gap:10px; }
-    .nav .btn { flex:1; }
+.row { display:flex; align-items:center; gap:10px; }
+.hide { display:none; }
+.right { text-align:right; }
+a.link { color: var(--accent-2); text-decoration: none; }
+a.link:hover { text-decoration: underline; }
 
-    .row { display:flex; align-items:center; gap:10px; }
-    .hide { display:none; }
-    .right { text-align:right; }
-    a.link { color: var(--accent-2); text-decoration: none; }
-    a.link:hover { text-decoration: underline; }
+.menu { display:grid; gap: 12px; }
 
-    .menu { display:grid; gap: 12px; }
+@media (max-width: 480px) {
+  .word-en { font-size: 22px; }
+  .word-ru { font-size: 18px; }
+}
 
-    @media (max-width: 480px) {
-      .word-en { font-size: 22px; }
-      .word-ru { font-size: 18px; }
-    }
   </style>
 </head>
 <body>
@@ -80,59 +84,67 @@
         <button id="btn-menu" class="btn hide">В меню</button>
         <button id="btn-home" class="btn hide">К урокам</button>
       </div>
-    </header>
+    </header><!-- Главное меню -->
+<div id="screen-menu" class="card">
+  <div class="toolbar">
+    <span class="pill">Главное меню</span>
+    <span style="margin-left:auto" class="muted"><a class="link" href="./words.json" target="_blank" rel="noopener">Открыть words.json</a></span>
+  </div>
+  <div class="menu">
+    <button id="menu-play-all" class="btn btn-xl">Учить все слова</button>
+    <button id="menu-choose-lesson" class="btn btn-xl">Выбор уроков</button>
+    <button id="menu-play-hard" class="btn btn-xl">Учить HARD-слова</button>
+    <button id="menu-about" class="btn">О приложении</button>
+  </div>
+</div>
 
-    <!-- Главное меню (как было, плюс пункт Выбор уроков) -->
-    <div id="screen-menu" class="card">
-      <div class="toolbar">
-        <span class="pill">Главное меню</span>
-        <span style="margin-left:auto" class="muted"><a class="link" href="./words.json" target="_blank" rel="noopener">Открыть words.json</a></span>
-      </div>
-      <div class="menu">
-        <button id="menu-play-all" class="btn btn-xl">Учить все слова</button>
-        <button id="menu-choose-lesson" class="btn btn-xl">Выбор уроков</button>
-        <button id="menu-about" class="btn">О приложении</button>
-      </div>
-    </div>
+<!-- Выбор уроков -->
+<div id="screen-lessons" class="card hide">
+  <div class="toolbar">
+    <span class="pill">Выберите урок</span>
+    <span id="lessons-meta" class="muted"></span>
+  </div>
+  <div id="lessons" class="grid" aria-live="polite"></div>
+</div>
 
-    <!-- Выбор уроков -->
-    <div id="screen-lessons" class="card hide">
-      <div class="toolbar">
-        <span class="pill">Выберите урок</span>
-        <span id="lessons-meta" class="muted"></span>
-      </div>
-      <div id="lessons" class="grid" aria-live="polite"></div>
-    </div>
-
-    <!-- Просмотр слов -->
-    <div id="screen-viewer" class="card hide">
-      <div class="toolbar">
-        <span id="lesson-title" class="pill"></span>
-        <span id="badge-count" class="muted"></span>
-        <span style="margin-left:auto" class="muted">Стрелки ◀ ▶, Enter — следующая</span>
-      </div>
-
-      <div class="viewer">
-        <div class="card-big">
-          <div id="word-en" class="word-en">—</div>
-          <div id="word-ru" class="word-ru">—</div>
-          <div id="counter" class="counter">0 / 0</div>
-        </div>
-        <div class="nav">
-          <button id="prev" class="btn">◀ Назад</button>
-          <button id="shuffle" class="btn">Перемешать</button>
-          <button id="next" class="btn">Вперёд ▶</button>
-        </div>
-      </div>
-    </div>
+<!-- Просмотр слов -->
+<div id="screen-viewer" class="card hide">
+  <div class="toolbar" style="gap:12px; align-items:center;">
+    <span id="lesson-title" class="pill"></span>
+    <span id="badge-count" class="muted"></span>
+    <span id="badge-hard" class="pill pill-hard hide">HARD</span>
+    <span id="badge-dir" class="pill pill-dir">EN→RU</span>
+    <span style="margin-left:auto" class="muted">Клавиши: Space — перевод, H — hard, D — EN/RU, ◀ ▶ / Enter — навигация</span>
   </div>
 
-  <script>
+  <div class="viewer">
+    <div class="card-big">
+      <div id="word-front" class="word-en">—</div>
+      <div id="word-back" class="word-ru hide">—</div>
+      <div id="counter" class="counter">0 / 0</div>
+    </div>
+    <div class="nav">
+      <button id="prev" class="btn">◀ Назад</button>
+      <button id="reveal" class="btn">Показать перевод</button>
+      <button id="toggle-hard" class="btn">☆ В Hard</button>
+      <button id="toggle-dir" class="btn">EN↔RU</button>
+      <button id="shuffle" class="btn">Перемешать</button>
+      <button id="next" class="btn">Вперёд ▶</button>
+    </div>
+  </div>
+</div>
+
+  </div>  <script>
   const WORDS_URL = './words.json';
+  const LS_HARD_KEY = 'vocabHardSetV1';
 
   // ===== Helpers =====
   function $(id) { return document.getElementById(id); }
   function show(el, v=true){ el.classList.toggle('hide', !v); }
+  function clamp(n, a, b){ return Math.max(a, Math.min(b, n)); }
+  function escapeHtml(s){
+    return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;','\'':'&#39;'}[c]));
+  }
 
   async function fetchJsonNoCache(urlStr) {
     const url = new URL(urlStr, location.href);
@@ -153,19 +165,28 @@
     if (!data || !Array.isArray(data.lessons)) {
       throw new Error('Неверная структура words.json: нужен { lessons: [...] }');
     }
-    // Validate each lesson shape
     data.lessons.forEach((l,i) => {
       if (!Array.isArray(l.words)) throw new Error('lesson['+i+']: отсутствует массив words');
     });
     return data.lessons;
   }
 
+  // ===== Hard store =====
+  function loadHardSet(){
+    try { return new Set(JSON.parse(localStorage.getItem(LS_HARD_KEY) || '[]')); }
+    catch { return new Set(); }
+  }
+  function saveHardSet(set){ localStorage.setItem(LS_HARD_KEY, JSON.stringify([...set])); }
+  const hardSet = loadHardSet();
+
   // ===== Rendering state =====
   const state = {
     lessons: [],
-    currentLesson: null,
+    currentLesson: null, // { id, title, words: [...], _meta: [[lessonId, wordIndex], ...] }
     idx: 0,
-    order: [], // indices order
+    order: [], // indices order inside currentLesson
+    revealed: false,
+    dir: 'en-ru', // 'en-ru' | 'ru-en'
   };
 
   // ===== Screens nav =====
@@ -176,6 +197,7 @@
     show($('btn-menu'), false);
     show($('btn-home'), false);
     document.querySelector('h1 .muted').textContent = '· меню';
+    updateMenuHardButton();
   }
   function gotoLessons(){
     show($('screen-menu'), false);
@@ -194,6 +216,7 @@
     document.querySelector('h1 .muted').textContent = '· карточки';
   }
 
+  // ===== Lessons rendering =====
   function renderLessons() {
     const wrap = $('lessons');
     wrap.innerHTML = '';
@@ -210,24 +233,60 @@
     });
   }
 
+  // Build meta mapping for a lesson-like object
+  function buildMetaForLesson(lesson){
+    const meta = [];
+    for (let i=0;i<lesson.words.length;i++) meta.push([lesson.id, i]);
+    lesson._meta = meta; // attach
+    return lesson;
+  }
+
   function openLesson(lesson) {
-    state.currentLesson = lesson;
+    const L = buildMetaForLesson({ ...lesson });
+    state.currentLesson = L;
     state.idx = 0;
-    state.order = [...Array(lesson.words.length).keys()];
-    $('lesson-title').textContent = lesson.title;
-    $('badge-count').textContent = `${lesson.words.length} слов`;
+    state.order = [...Array(L.words.length).keys()];
+    state.revealed = false;
+    $('lesson-title').textContent = L.title;
+    $('badge-count').textContent = `${L.words.length} слов`;
 
     gotoViewer();
     renderCard();
   }
 
   function playAll(){
-    // Сборка всех слов в один псевдо-урок
     const words = [];
+    const meta = [];
     state.lessons.forEach(L => {
-      (L.words||[]).forEach(pair => words.push(pair));
+      (L.words||[]).forEach((pair, i) => { words.push(pair); meta.push([L.id, i]); });
     });
-    openLesson({ id: 'all', title: 'Все слова', words });
+    const all = { id: 'all', title: 'Все слова', words };
+    all._meta = meta;
+    state.currentLesson = all;
+    state.idx = 0; state.order = [...Array(words.length).keys()]; state.revealed = false;
+    $('lesson-title').textContent = all.title;
+    $('badge-count').textContent = `${words.length} слов`;
+    gotoViewer();
+    renderCard();
+  }
+
+  function playHard(){
+    const words = [];
+    const meta = [];
+    state.lessons.forEach(L => {
+      (L.words||[]).forEach((pair, i) => {
+        const k = keyOf(L.id, i);
+        if (hardSet.has(k)) { words.push(pair); meta.push([L.id, i]); }
+      });
+    });
+    const hard = { id: 'hard', title: 'HARD-слова', words };
+    hard._meta = meta;
+    state.currentLesson = hard;
+    state.idx = 0; state.order = [...Array(words.length).keys()]; state.revealed = false;
+    $('lesson-title').textContent = hard.title;
+    $('badge-count').textContent = `${words.length} слов`;
+    gotoViewer();
+    renderCard();
   }
 
   function backToLessons(){
@@ -235,51 +294,92 @@
     gotoLessons();
   }
 
+  // ===== Card rendering & actions =====
+  function currentIndex(){
+    const L = state.currentLesson; if (!L) return -1;
+    return clamp(state.idx, 0, L.words.length - 1);
+  }
+  function indexToKey(idx){
+    const L = state.currentLesson; if (!L || !L._meta) return null;
+    const realIdx = state.order[idx];
+    const [lessonId, wordIdx] = L._meta[realIdx];
+    return keyOf(lessonId, wordIdx);
+  }
+  function keyOf(lessonId, wordIdx){ return `${lessonId}:${wordIdx}`; }
+
   function renderCard(){
     const L = state.currentLesson;
     if (!L || !L.words || L.words.length === 0) {
-      $('word-en').textContent = 'Нет слов';
-      $('word-ru').textContent = '—';
+      $('word-front').textContent = 'Нет слов';
+      $('word-back').textContent = '—';
+      show($('word-back'), false);
       $('counter').textContent = '0 / 0';
+      show($('badge-hard'), false);
       return;
     }
-    const i = clamp(state.idx, 0, L.words.length - 1);
+    const i = currentIndex();
     state.idx = i;
-    const idxInLesson = state.order[i];
-    const pair = L.words[idxInLesson];
+    const pair = L.words[state.order[i]] || ['—','—'];
     const [en, ru] = Array.isArray(pair) ? pair : ['—','—'];
-    $('word-en').textContent = en;
-    $('word-ru').textContent = ru;
+
+    const front = state.dir === 'en-ru' ? en : ru;
+    const back  = state.dir === 'en-ru' ? ru : en;
+
+    $('word-front').textContent = front;
+    $('word-back').textContent  = back;
+    show($('word-back'), state.revealed);
+
     $('counter').textContent = `${i+1} / ${L.words.length}`;
+
+    const k = indexToKey(i);
+    const isHard = k && hardSet.has(k);
+    $('badge-hard').classList.toggle('hide', !isHard);
+    $('toggle-hard').textContent = isHard ? '★ Удалить Hard' : '☆ В Hard';
+
+    $('badge-dir').textContent = state.dir === 'en-ru' ? 'EN→RU' : 'RU→EN';
+
+    // Обновить доступность кнопок
+    $('reveal').disabled = state.revealed;
   }
 
   function next(){
-    const L = state.currentLesson; if (!L) return;
+    const L = state.currentLesson; if (!L || !L.words.length) return;
     state.idx = (state.idx + 1) % L.words.length;
+    state.revealed = false;
     renderCard();
   }
   function prev(){
-    const L = state.currentLesson; if (!L) return;
+    const L = state.currentLesson; if (!L || !L.words.length) return;
     state.idx = (state.idx - 1 + L.words.length) % L.words.length;
+    state.revealed = false;
     renderCard();
   }
   function shuffle(){
     const L = state.currentLesson; if (!L) return;
-    // Fisher–Yates
     const arr = state.order;
     for (let i = arr.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [arr[i], arr[j]] = [arr[j], arr[i]];
     }
-    state.idx = 0;
+    state.idx = 0; state.revealed = false;
     renderCard();
   }
+  function reveal(){ state.revealed = true; renderCard(); }
+  function toggleDir(){ state.dir = (state.dir === 'en-ru') ? 'ru-en' : 'en-ru'; state.revealed = false; renderCard(); }
+  function toggleHard(){
+    const i = currentIndex(); if (i < 0) return;
+    const k = indexToKey(i); if (!k) return;
+    if (hardSet.has(k)) hardSet.delete(k); else hardSet.add(k);
+    saveHardSet(hardSet);
+    renderCard();
+    updateMenuHardButton();
+  }
 
-  function clamp(n, a, b){ return Math.max(a, Math.min(b, n)); }
-  function escapeHtml(s){
-    return String(s).replace(/[&<>"']/g, c => ({
-      '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;','\'':'&#39;'
-    })[c]);
+  function updateMenuHardButton(){
+    const btn = $('menu-play-hard');
+    const count = hardSet.size;
+    btn.textContent = count ? `Учить HARD-слова (${count})` : 'Учить HARD-слова (0)';
+    btn.disabled = !count;
   }
 
   // ===== Events =====
@@ -289,14 +389,23 @@
   $('next').addEventListener('click', next);
   $('prev').addEventListener('click', prev);
   $('shuffle').addEventListener('click', shuffle);
+  $('reveal').addEventListener('click', reveal);
+  $('toggle-dir').addEventListener('click', toggleDir);
+  $('toggle-hard').addEventListener('click', toggleHard);
 
   $('menu-choose-lesson').addEventListener('click', gotoLessons);
   $('menu-play-all').addEventListener('click', playAll);
-  $('menu-about').addEventListener('click', () => alert(`Vocab Trainer PWA\nВыберите урок или учите все слова подряд.`));
+  $('menu-play-hard').addEventListener('click', playHard);
+  $('menu-about').addEventListener('click', () => alert(`Vocab Trainer PWA
+Режим самопроверки: нажмите «Показать перевод».
+Отмечайте сложные слова кнопкой «В Hard».`));
 
   window.addEventListener('keydown', (e) => {
     if (e.key === 'ArrowRight' || e.key === 'Enter') next();
     else if (e.key === 'ArrowLeft') prev();
+    else if (e.code === 'Space') { e.preventDefault(); if (!state.revealed) reveal(); }
+    else if (e.key.toLowerCase() === 'h') toggleHard();
+    else if (e.key.toLowerCase() === 'd') toggleDir();
   });
 
   // ===== Boot =====
@@ -305,7 +414,8 @@
       state.lessons = await loadLessons();
       renderLessons();
       gotoMenu();
-      runSelfTests(); // <-- простые тесты после загрузки
+      updateMenuHardButton();
+      runSelfTests();
     } catch (e) {
       console.error('Не удалось загрузить уроки:', e);
       $('lessons').innerHTML = '<div class="muted">words.json недоступен или имеет неверную структуру.</div>';
@@ -314,44 +424,37 @@
     }
   })();
 
-  // ===== Простейшие self-tests ("тест-кейсы") =====
+  // ===== Self-tests =====
   function runSelfTests(errorMode=false){
     const results = [];
     const assert = (name, cond) => { results.push({ name, cond }); };
 
-    // UI элементы
-    assert('#screen-menu существует', !!document.getElementById('screen-menu'));
-    assert('#screen-lessons существует', !!document.getElementById('screen-lessons'));
-    assert('#screen-viewer существует', !!document.getElementById('screen-viewer'));
+    assert('Имеется кнопка "Показать перевод"', !!$('reveal'));
+    assert('Имеется кнопка EN↔RU', !!$('toggle-dir'));
+    assert('Имеется кнопка В Hard', !!$('toggle-hard'));
 
-    // Данные
-    assert('state.lessons — массив', Array.isArray(state.lessons));
-    if (Array.isArray(state.lessons) && state.lessons.length > 0) {
+    assert('hardSet инициализирован', hardSet instanceof Set);
+
+    // Если уроки подгружены, проверим пару инвариантов
+    if (Array.isArray(state.lessons) && state.lessons.length) {
       const L0 = state.lessons[0];
       assert('lesson[0].words — массив', Array.isArray(L0.words));
-      if (Array.isArray(L0.words) && L0.words.length > 0) {
-        const p = L0.words[0];
-        assert('word pair — массив из 2 элементов', Array.isArray(p) && p.length === 2);
+      if (L0.words.length) {
+        const pair = L0.words[0];
+        assert('Слово — пара из 2', Array.isArray(pair) && pair.length === 2);
       }
     }
 
-    // Навигация функций
-    assert('Функция openLesson доступна', typeof openLesson === 'function');
-    assert('Функция renderLessons доступна', typeof renderLessons === 'function');
-
-    // Результаты
-    const ok = results.filter(r=>r.cond).length;
-    const fail = results.length - ok;
+    const ok = results.filter(r=>r.cond).length; const fail = results.length - ok;
     console.group('%cSelf-tests', 'color:#22d3ee');
     results.forEach(r => console.log(r.cond ? '✅' : '❌', r.name));
     console.log(`Итог: ${ok}/${results.length} пройдено${fail?`, ${fail} ошибок`:''}.`, errorMode?'(errorMode)':'');
     console.groupEnd();
   }
 
-  // ===== SW (не обязателен, но корректная регистрация с относительным путём) =====
+  // ===== SW registration (optional) =====
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('./sw.js').catch(console.warn);
   }
-  </script>
-</body>
-</html>
+  </script></body>
+</html> 
