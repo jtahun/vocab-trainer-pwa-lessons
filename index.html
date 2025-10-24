@@ -105,12 +105,19 @@ a.link:hover { text-decoration: underline; }
 <div id="screen-menu" class="card">
   <div class="toolbar">
     <span class="pill">Главное меню</span>
+	<!--селектор книг-->
+	<label for="book-select" class="muted" style="margin-left:12px;">Книга:</label>
+    <select id="book-select" class="btn" style="padding:8px 10px; border-radius:10px; min-width:140px;">
+      <option value="" disabled selected>Загрузка…</option>
+    </select>
+
+    <span style="margin-left:auto" class="muted">
+      <a id="link-json" class="link" href="./bothBookWords.json" target="_blank" rel="noopener">Открыть JSON</a>
+    </span>
     <span style="margin-left:auto" class="muted"><a class="link" href="./words.json" target="_blank" rel="noopener">Открыть words.json</a></span>
   </div>
   <div class="menu">
-    <button id="menu-play-all" class="btn btn-xl">Учить все слова</button>
-	<button id="menu-choose-book" class="btn btn-xl">Выбор книги</button>
-    <button id="menu-choose-lesson" class="btn btn-xl">Выбор уроков</button>
+    <button id="menu-play-all" class="btn btn-xl">Учить все слова</button>	
     <button id="menu-play-hard" class="btn btn-xl">Учить HARD-слова</button>
     <button id="menu-about" class="btn">О приложении</button>
   </div>
@@ -178,16 +185,43 @@ a.link:hover { text-decoration: underline; }
     return JSON.parse(text);
   }
 
-  async function loadLessons() {
+  // Загрузка списка книг (id + title) из общего файла
+  async function loadBooks() {
     const data = await fetchJsonNoCache(WORDS_URL);
-    if (!data || !Array.isArray(data.lessons)) {
-      throw new Error('Неверная структура words.json: нужен { lessons: [...] }');
+    if (!data || !Array.isArray(data.books)) {
+      throw new Error('Неверная структура bothBookWords.json: нужен { books:[...] }');
     }
-    data.lessons.forEach((l,i) => {
-      if (!Array.isArray(l.words)) throw new Error('lesson['+i+']: отсутствует массив words');
-    });
-    return data.lessons;
+    return data.books.map(b => ({ id: String(b.id), title: b.title || ('Book ' + b.id) }));
   }
+  
+  // Загрузка уроков конкретной книги по id
+  async function loadLessonsByBookId(bookId) {
+    const data = await fetchJsonNoCache(WORDS_URL);
+    if (!data || !Array.isArray(data.books)) {
+      throw new Error('Неверная структура bothBookWords.json: нужен { books:[...] }');
+    }
+    const book = data.books.find(b => String(b.id) === String(bookId));
+    if (!book) throw new Error('Книга не найдена: ' + bookId);
+  
+    const lessons = (book.lessons || []).map((l, i) => ({
+      id: l.id ?? `L${i+1}`,
+      title: l.title || `Урок ${i+1}`,
+      words: Array.isArray(l.words) ? l.words : []
+    }));
+  
+    return { book, lessons };
+  }
+  
+  // Заполнить селектор книг из массива [{id, title}]
+  function populateBookSelect(books) {
+    const sel = $('book-select');
+    sel.innerHTML = books.map(b =>
+      `<option value="${b.id}">${escapeHtml(b.title)}</option>`
+    ).join('');
+    // Выставляем текущее значение
+    if (state.bookId) sel.value = String(state.bookId);
+  }
+
 
   // ===== Hard store =====
   function loadHardSet(){
@@ -200,12 +234,14 @@ a.link:hover { text-decoration: underline; }
   // ===== Rendering state =====
   const state = {
     lessons: [],
-    currentLesson: null, // { id, title, words: [...], _meta: [[lessonId, wordIndex], ...] }
+    currentLesson: null,
     idx: 0,
-    order: [], // indices order inside currentLesson
+    order: [],
     revealed: false,
-    dir: 'en-ru', // 'en-ru' | 'ru-en'
+    dir: 'en-ru',
+    bookId: '' // ← текущая книга
   };
+
 
   // ===== Screens nav =====
   function gotoMenu(){
@@ -323,7 +359,8 @@ a.link:hover { text-decoration: underline; }
     const [lessonId, wordIdx] = L._meta[realIdx];
     return keyOf(lessonId, wordIdx);
   }
-  function keyOf(lessonId, wordIdx){ return `${lessonId}:${wordIdx}`; }
+  function keyOf(lessonId, wordIdx){ return `${state.bookId}|${lessonId}:${wordIdx}`; }
+
 
   function renderCard(){
     const L = state.currentLesson;
@@ -401,6 +438,23 @@ a.link:hover { text-decoration: underline; }
   }
 
   // ===== Events =====
+  $('book-select').addEventListener('change', async (e) => {
+  try {
+    const newBookId = String(e.target.value);
+    state.bookId = newBookId;
+
+    const { lessons } = await loadLessonsByBookId(newBookId);
+    state.lessons = lessons;
+    renderLessons();
+    gotoMenu();
+    updateMenuHardButton();
+  } catch (err) {
+    console.error('Не удалось загрузить выбранную книгу:', err);
+    $('lessons').innerHTML = '<div class="muted">Не удалось загрузить выбранную книгу.</div>';
+    gotoMenu();
+   }
+  });
+
   $('btn-menu').addEventListener('click', gotoMenu);
   $('btn-home').addEventListener('click', backToLessons);
 
@@ -466,20 +520,29 @@ a.link:hover { text-decoration: underline; }
   })();
 
   // ===== Boot =====
+  // ===== Boot =====
   (async () => {
     try {
-      state.lessons = await loadLessons();
+      const books = await loadBooks();
+      // если ранее сохранённая книга не задана — берём первую
+      state.bookId = books[0] ? String(books[0].id) : '1';
+      populateBookSelect(books);
+  
+      const { lessons } = await loadLessonsByBookId(state.bookId);
+      state.lessons = lessons;
+  
       renderLessons();
       gotoMenu();
       updateMenuHardButton();
       runSelfTests();
     } catch (e) {
-      console.error('Не удалось загрузить уроки:', e);
-      $('lessons').innerHTML = '<div class="muted">words.json недоступен или имеет неверную структуру.</div>';
+      console.error('Не удалось загрузить книги/уроки:', e);
+      $('lessons').innerHTML = '<div class="muted">bothBookWords.json недоступен или имеет неверную структуру.</div>';
       gotoMenu();
       runSelfTests(true);
     }
   })();
+
 
   // ===== Self-tests =====
   function runSelfTests(errorMode=false){
