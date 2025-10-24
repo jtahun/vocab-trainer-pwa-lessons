@@ -112,9 +112,9 @@ a.link:hover { text-decoration: underline; }
     </select>
 
     <span style="margin-left:auto" class="muted">
-      <a id="link-json" class="link" href="./bothBookWords.json" target="_blank" rel="noopener">Открыть JSON</a>
+      <a id="link-json" class="link" href="./words.json" target="_blank" rel="noopener">Открыть JSON</a>
     </span>
-    <span style="margin-left:auto" class="muted"><a class="link" href="./words.json" target="_blank" rel="noopener">Открыть words.json</a></span>
+    <!--span style="margin-left:auto" class="muted"><a class="link" href="./words.json" target="_blank" rel="noopener">Открыть words.json</a></span-->
   </div>
   <div class="menu">
     <button id="menu-play-all" class="btn btn-xl">Учить все слова</button>	
@@ -189,7 +189,7 @@ a.link:hover { text-decoration: underline; }
   async function loadBooks() {
     const data = await fetchJsonNoCache(WORDS_URL);
     if (!data || !Array.isArray(data.books)) {
-      throw new Error('Неверная структура bothBookWords.json: нужен { books:[...] }');
+      throw new Error('Неверная структура words.json: нужен { books:[...] }');
     }
     return data.books.map(b => ({ id: String(b.id), title: b.title || ('Book ' + b.id) }));
   }
@@ -198,7 +198,7 @@ a.link:hover { text-decoration: underline; }
   async function loadLessonsByBookId(bookId) {
     const data = await fetchJsonNoCache(WORDS_URL);
     if (!data || !Array.isArray(data.books)) {
-      throw new Error('Неверная структура bothBookWords.json: нужен { books:[...] }');
+      throw new Error('Неверная структура words.json: нужен { books:[...] }');
     }
     const book = data.books.find(b => String(b.id) === String(bookId));
     if (!book) throw new Error('Книга не найдена: ' + bookId);
@@ -537,7 +537,7 @@ a.link:hover { text-decoration: underline; }
       runSelfTests();
     } catch (e) {
       console.error('Не удалось загрузить книги/уроки:', e);
-      $('lessons').innerHTML = '<div class="muted">bothBookWords.json недоступен или имеет неверную структуру.</div>';
+      $('lessons').innerHTML = '<div class="muted">words.json недоступен или имеет неверную структуру.</div>';
       gotoMenu();
       runSelfTests(true);
     }
