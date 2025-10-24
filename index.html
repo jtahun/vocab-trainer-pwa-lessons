@@ -107,6 +107,7 @@ a.link:hover { text-decoration: underline; }
   </div>
   <div class="menu">
     <button id="menu-play-all" class="btn btn-xl">Учить все слова</button>
+	<button id="menu-choose-book" class="btn btn-xl">Выбор книги</button>
     <button id="menu-choose-lesson" class="btn btn-xl">Выбор уроков</button>
     <button id="menu-play-hard" class="btn btn-xl">Учить HARD-слова</button>
     <button id="menu-about" class="btn">О приложении</button>
@@ -129,8 +130,7 @@ a.link:hover { text-decoration: underline; }
     <span id="badge-count" class="muted"></span>
     <span id="badge-hard" class="pill pill-hard hide">HARD</span>
     <span id="badge-dir" class="pill pill-dir">EN→RU</span>
-    <!--span style="margin-left:auto" class="muted kbd-hint">Клавиши: Space — перевод, H — hard, D — EN/RU, ◀ ▶ / Enter — навигация</span><span class="touch-hint" style="margin-left:auto">Свайпы: ◀▶ — навигация, ▲ — перевод, ▼ — EN↔RU, долгий тап — Hard</span-->
-  </div>
+   </div>
 
   <div class="viewer">
     <div id="touch-area" class="card-big" style="touch-action:manipulation;">
@@ -142,7 +142,7 @@ a.link:hover { text-decoration: underline; }
       <button id="prev" class="btn">◀ Назад</button>
       <button id="reveal" class="btn">Показать перевод</button>
       <button id="toggle-hard" class="btn">☆Повтор</button>
-      <button id="toggle-dir" class="btn">EN↔RU</button>
+      <!--button id="toggle-dir" class="btn">EN↔RU</button-->
       <button id="shuffle" class="btn">Перемешать</button>
       <button id="next" class="btn">Вперёд ▶</button>
     </div>
@@ -406,7 +406,8 @@ a.link:hover { text-decoration: underline; }
   $('prev').addEventListener('click', prev);
   $('shuffle').addEventListener('click', shuffle);
   $('reveal').addEventListener('click', reveal);
-  $('toggle-dir').addEventListener('click', toggleDir);
+  $('badge-dir').addEventListener('click', toggleDir);
+  //$('toggle-dir').addEventListener('click', toggleDir);
   $('toggle-hard').addEventListener('click', toggleHard);
 
   $('menu-choose-lesson').addEventListener('click', gotoLessons);
