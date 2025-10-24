@@ -87,6 +87,8 @@ a.link:hover { text-decoration: underline; }
   /* скрываем подсказку про клавиатуру на мобильных */
   .kbd-hint { display:none; }
   .touch-hint { display:inline; color: var(--muted); }
+  #badge-dir { cursor:pointer; user-select:none;}
+  #badge-dir:hover {opacity: 0.8;}
 }
 
   </style>
@@ -129,7 +131,7 @@ a.link:hover { text-decoration: underline; }
     <span id="lesson-title" class="pill"></span>
     <span id="badge-count" class="muted"></span>
     <span id="badge-hard" class="pill pill-hard hide">HARD</span>
-    <span id="badge-dir" class="pill pill-dir">EN→RU</span>
+    <span id="badge-dir" class="pill pill-dir" tabindex="0" role="button">EN→RU</span>
    </div>
 
   <div class="viewer">
@@ -140,7 +142,7 @@ a.link:hover { text-decoration: underline; }
     </div>
     <div class="nav">
       <button id="prev" class="btn">◀ Назад</button>
-      <button id="reveal" class="btn">Показать перевод</button>
+      <button id="reveal" class="btn">Перевод</button>
       <button id="toggle-hard" class="btn">☆Повтор</button>
       <!--button id="toggle-dir" class="btn">EN↔RU</button-->
       <button id="shuffle" class="btn">Перемешать</button>
