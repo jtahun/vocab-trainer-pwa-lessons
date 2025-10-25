@@ -327,59 +327,22 @@ a.link:hover { text-decoration: underline; }
     });
   }
   
-  function renderLessonList(){
+ function renderLessonList(){
   const L = state.currentLesson;
   const wrap = $('words-list');
   if (!L || !Array.isArray(L.words)) {
-    wrap.innerHTML = '<div class="muted">Нет данных по уроку.</div>';
+    wrap.innerHTML = '<div class="muted">Нет слов.</div>';
     $('list-meta').textContent = '';
     return;
   }
   $('list-meta').textContent = `${L.title} — ${L.words.length} слов`;
-  wrap.innerHTML = '';
-
-  L.words.forEach((pair, idx) => {
+  wrap.innerHTML = L.words.map(pair => {
     const [en, ru] = Array.isArray(pair) ? pair : ['—','—'];
-    const row = document.createElement('div');
-    row.className = 'word-row';
-
-    row.innerHTML = `
-      <div class="word-pair">
-        <span class="word-front">${escapeHtml(en)}</span>
-        <span class="word-back">— ${escapeHtml(ru)}</span>
-      </div>
-      <div class="word-actions">
-        <button class="btn pill" data-idx="${idx}">Проверка с этого</button>
-        <button class="btn" data-hard="${idx}">☆</button>
-      </div>
-    `;
-
-    // старт проверки с конкретного слова
-    row.querySelector('[data-idx]').addEventListener('click', (e) => {
-      const i = Number(e.currentTarget.getAttribute('data-idx')) || 0;
-      state.idx = i;
-      state.revealed = false;
-      gotoViewer();
-      renderCard();
-    });
-
-    // быстрый toggle Hard прямо из списка
-    row.querySelector('[data-hard]').addEventListener('click', (e) => {
-      const i = Number(e.currentTarget.getAttribute('data-hard')) || 0;
-      // временно выставим индекс для корректного ключа
-      const prev = state.idx;
-      state.idx = i;
-      const k = indexToKey(currentIndex());
-      if (k) {
-        if (hardSet.has(k)) hardSet.delete(k); else hardSet.add(k);
-        saveHardSet(hardSet);
-        updateMenuHardButton();
-      }
-      state.idx = prev;
-    });
-
-    wrap.appendChild(row);
-  });
+    return `<div class="word-row">
+              <span class="word-front">${escapeHtml(en)}</span>
+              <span class="word-back">— ${escapeHtml(ru)}</span>
+            </div>`;
+  }).join('');
 }
 
   
