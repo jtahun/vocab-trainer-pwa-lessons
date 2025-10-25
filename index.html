@@ -276,6 +276,7 @@ a.link:hover { text-decoration: underline; }
   function gotoMenu(){
     show($('screen-menu'), true);
     show($('screen-lessons'), false);
+	show($('screen-list'), false);
     show($('screen-viewer'), false);
     show($('btn-menu'), false);
     show($('btn-home'), false);
@@ -285,6 +286,7 @@ a.link:hover { text-decoration: underline; }
   function gotoLessons(){
     show($('screen-menu'), false);
     show($('screen-lessons'), true);
+	show($('screen-list'), false);
     show($('screen-viewer'), false);
     show($('btn-menu'), true);
     show($('btn-home'), false);
@@ -293,10 +295,13 @@ a.link:hover { text-decoration: underline; }
   function gotoViewer(){
     show($('screen-menu'), false);
     show($('screen-lessons'), false);
+	show($('screen-list'), false);
     show($('screen-viewer'), true);
     show($('btn-menu'), true);
     show($('btn-home'), true);
     document.querySelector('h1 .muted').textContent = '· карточки';
+	const bh = $('btn-home');
+	if (bh) { bh.textContent = 'К списку'; bh.onclick = gotoList; }
   }
   
   function gotoList(){
@@ -307,6 +312,8 @@ a.link:hover { text-decoration: underline; }
     show($('btn-menu'), true);
     show($('btn-home'), true);
     document.querySelector('h1 .muted').textContent = '· список';
+	const bh = $('btn-home');
+	if (bh) { bh.textContent = 'К урокам'; bh.onclick = backToLessons; }
   }
 
 
