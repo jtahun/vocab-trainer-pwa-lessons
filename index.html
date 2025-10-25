@@ -127,10 +127,10 @@ a.link:hover { text-decoration: underline; }
       <option value="" disabled selected>Загрузка…</option>
     </select>
 
-    <span style="margin-left:auto" class="muted">
+    <!--span style="margin-left:auto" class="muted">
       <a id="link-json" class="link" href="./words.json" target="_blank" rel="noopener">Открыть JSON</a>
-    </span>
-    <!--span style="margin-left:auto" class="muted"><a class="link" href="./words.json" target="_blank" rel="noopener">Открыть words.json</a></span-->
+    </span-->
+   
   </div>
   <div class="menu">
     <button id="menu-play-all" class="btn btn-xl">Учить все слова</button>	
@@ -289,7 +289,7 @@ a.link:hover { text-decoration: underline; }
 	show($('screen-list'), false);
     show($('screen-viewer'), false);
     show($('btn-menu'), true);
-    setHome('В меню', gotoMenu);
+    setHome(null, null);
     document.querySelector('h1 .muted').textContent = '· уроки';
   }
   function gotoViewer(){
