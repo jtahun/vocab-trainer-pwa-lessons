@@ -118,6 +118,7 @@ a.link:hover { text-decoration: underline; }
   </div>
   <div class="menu">
     <button id="menu-play-all" class="btn btn-xl">Учить все слова</button>	
+	<button id="menu-choose-lesson" class="btn btn-xl">Выбор уроков</button>
     <button id="menu-play-hard" class="btn btn-xl">Учить HARD-слова</button>
     <button id="menu-about" class="btn">О приложении</button>
   </div>
@@ -215,11 +216,11 @@ a.link:hover { text-decoration: underline; }
   // Заполнить селектор книг из массива [{id, title}]
   function populateBookSelect(books) {
     const sel = $('book-select');
-    sel.innerHTML = books.map(b =>
-      `<option value="${b.id}">${escapeHtml(b.title)}</option>`
-    ).join('');
-    // Выставляем текущее значение
-    if (state.bookId) sel.value = String(state.bookId);
+    sel.innerHTML = books.map((b,i) =>
+   `<option value="${b.id}" ${i===0?'selected':''}>${escapeHtml(b.title)}</option>`
+   ).join('');
+   // если state.bookId уже задан – выставим его, иначе останется 1-я
+   if (state.bookId) sel.value = String(state.bookId);
   }
 
 
@@ -465,7 +466,7 @@ a.link:hover { text-decoration: underline; }
   $('badge-dir').addEventListener('click', toggleDir); 
   $('toggle-hard').addEventListener('click', toggleHard);
 
-  //$('menu-choose-lesson').addEventListener('click', gotoLessons);
+  $('menu-choose-lesson').addEventListener('click', gotoLessons);
   $('menu-play-all').addEventListener('click', playAll);
   $('menu-play-hard').addEventListener('click', playHard);
   $('menu-about').addEventListener('click', () => alert(`Vocab Trainer PWA
