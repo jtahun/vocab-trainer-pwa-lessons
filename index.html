@@ -89,6 +89,22 @@ a.link:hover { text-decoration: underline; }
   .touch-hint { display:inline; color: var(--muted); }
   #badge-dir { cursor:pointer; user-select:none;}
   #badge-dir:hover {opacity: 0.8;}
+  
+.list { display: grid; gap: 8px; }
+.word-row {
+  display:flex; justify-content:space-between; align-items:center;
+  padding:10px 12px; border-radius:12px;
+  background:#0b1224; border:1px solid rgba(255,255,255,.06);
+}
+.word-pair { display:flex; gap:16px; flex-wrap:wrap; align-items:baseline; }
+.word-front { font-weight:600; }
+.word-back { color:#cbd5e1; }
+.word-actions { display:flex; gap:8px; }
+.word-row button { padding:6px 10px; border-radius:10px; }
+@media (max-width: 480px) {
+  .word-pair { gap:8px; }
+}
+
 }
 
   </style>
@@ -131,6 +147,18 @@ a.link:hover { text-decoration: underline; }
     <span id="lessons-meta" class="muted"></span>
   </div>
   <div id="lessons" class="grid" aria-live="polite"></div>
+</div>
+
+<!-- Список слов выбранного урока -->
+<div id="screen-list" class="card hide">
+  <div class="toolbar">
+    <span class="pill">Слова урока</span>
+    <span id="list-meta" class="muted"></span>
+    <span style="margin-left:auto">
+      <button id="btn-start-check" class="btn">Проверка</button>
+    </span>
+  </div>
+  <div id="words-list" class="list" aria-live="polite"></div>
 </div>
 
 <!-- Просмотр слов -->
@@ -270,6 +298,17 @@ a.link:hover { text-decoration: underline; }
     show($('btn-home'), true);
     document.querySelector('h1 .muted').textContent = '· карточки';
   }
+  
+  function gotoList(){
+    show($('screen-menu'), false);
+    show($('screen-lessons'), false);
+    show($('screen-list'), true);
+    show($('screen-viewer'), false);
+    show($('btn-menu'), true);
+    show($('btn-home'), true);
+    document.querySelector('h1 .muted').textContent = '· список';
+  }
+
 
   // ===== Lessons rendering =====
   function renderLessons() {
@@ -287,6 +326,63 @@ a.link:hover { text-decoration: underline; }
       wrap.appendChild(div);
     });
   }
+  
+  function renderLessonList(){
+  const L = state.currentLesson;
+  const wrap = $('words-list');
+  if (!L || !Array.isArray(L.words)) {
+    wrap.innerHTML = '<div class="muted">Нет данных по уроку.</div>';
+    $('list-meta').textContent = '';
+    return;
+  }
+  $('list-meta').textContent = `${L.title} — ${L.words.length} слов`;
+  wrap.innerHTML = '';
+
+  L.words.forEach((pair, idx) => {
+    const [en, ru] = Array.isArray(pair) ? pair : ['—','—'];
+    const row = document.createElement('div');
+    row.className = 'word-row';
+
+    row.innerHTML = `
+      <div class="word-pair">
+        <span class="word-front">${escapeHtml(en)}</span>
+        <span class="word-back">— ${escapeHtml(ru)}</span>
+      </div>
+      <div class="word-actions">
+        <button class="btn pill" data-idx="${idx}">Проверка с этого</button>
+        <button class="btn" data-hard="${idx}">☆</button>
+      </div>
+    `;
+
+    // старт проверки с конкретного слова
+    row.querySelector('[data-idx]').addEventListener('click', (e) => {
+      const i = Number(e.currentTarget.getAttribute('data-idx')) || 0;
+      state.idx = i;
+      state.revealed = false;
+      gotoViewer();
+      renderCard();
+    });
+
+    // быстрый toggle Hard прямо из списка
+    row.querySelector('[data-hard]').addEventListener('click', (e) => {
+      const i = Number(e.currentTarget.getAttribute('data-hard')) || 0;
+      // временно выставим индекс для корректного ключа
+      const prev = state.idx;
+      state.idx = i;
+      const k = indexToKey(currentIndex());
+      if (k) {
+        if (hardSet.has(k)) hardSet.delete(k); else hardSet.add(k);
+        saveHardSet(hardSet);
+        updateMenuHardButton();
+      }
+      state.idx = prev;
+    });
+
+    wrap.appendChild(row);
+  });
+}
+
+  
 
   // Build meta mapping for a lesson-like object
   function buildMetaForLesson(lesson){
@@ -305,8 +401,8 @@ a.link:hover { text-decoration: underline; }
     $('lesson-title').textContent = L.title;
     $('badge-count').textContent = `${L.words.length} слов`;
 
-    gotoViewer();
-    renderCard();
+    renderLessonList();
+	gotoList();
   }
 
   function playAll(){
@@ -456,6 +552,14 @@ a.link:hover { text-decoration: underline; }
    }
   });
 
+  const btnStartCheck = $('btn-start-check');
+  if (btnStartCheck) btnStartCheck.addEventListener('click', () => {
+    state.idx = 0;            // начинаем с первого
+    state.revealed = false;   // перевод скрыт
+    gotoViewer();
+    renderCard();
+  });
+  
   $('btn-menu').addEventListener('click', gotoMenu);
   $('btn-home').addEventListener('click', backToLessons);
 
