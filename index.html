@@ -279,7 +279,7 @@ a.link:hover { text-decoration: underline; }
 	show($('screen-list'), false);
     show($('screen-viewer'), false);
     show($('btn-menu'), false);
-    show($('btn-home'), false);
+    setHome(null,null);
     document.querySelector('h1 .muted').textContent = '· меню';
     updateMenuHardButton();
   }
@@ -289,7 +289,7 @@ a.link:hover { text-decoration: underline; }
 	show($('screen-list'), false);
     show($('screen-viewer'), false);
     show($('btn-menu'), true);
-    show($('btn-home'), false);
+    setHome('В меню', gotoMenu);
     document.querySelector('h1 .muted').textContent = '· уроки';
   }
   function gotoViewer(){
@@ -298,10 +298,8 @@ a.link:hover { text-decoration: underline; }
 	show($('screen-list'), false);
     show($('screen-viewer'), true);
     show($('btn-menu'), true);
-    show($('btn-home'), true);
+    setHome('К списку', gotoList);       // обратно в список
     document.querySelector('h1 .muted').textContent = '· карточки';
-	const bh = $('btn-home');
-	if (bh) { bh.textContent = 'К списку'; bh.onclick = gotoList; }
   }
   
   function gotoList(){
@@ -310,11 +308,20 @@ a.link:hover { text-decoration: underline; }
     show($('screen-list'), true);
     show($('screen-viewer'), false);
     show($('btn-menu'), true);
-    show($('btn-home'), true);
-    document.querySelector('h1 .muted').textContent = '· список';
-	const bh = $('btn-home');
-	if (bh) { bh.textContent = 'К урокам'; bh.onclick = backToLessons; }
+    setHome('К урокам', backToLessons);
+    document.querySelector('h1 .muted').textContent = '· список';	
   }
+  
+  function setHome(label, handler){
+    const bh = $('btn-home');
+    if (!bh) return;
+    bh.textContent = label || '';
+    // Снимаем старый onclick и ставим новый
+    bh.onclick = null;
+    if (handler) bh.onclick = handler;
+    show(bh, !!handler); // если handler нет — прячем кнопку
+  }
+
 
 
   // ===== Lessons rendering =====
@@ -463,6 +470,7 @@ a.link:hover { text-decoration: underline; }
     // Обновить доступность кнопок
     $('reveal').disabled = state.revealed;
   }
+  
 
   function next(){
     const L = state.currentLesson; if (!L || !L.words.length) return;
@@ -530,8 +538,7 @@ a.link:hover { text-decoration: underline; }
     renderCard();
   });
   
-  $('btn-menu').addEventListener('click', gotoMenu);
-  $('btn-home').addEventListener('click', backToLessons);
+  $('btn-menu').addEventListener('click', gotoMenu); 
 
   $('next').addEventListener('click', next);
   $('prev').addEventListener('click', prev);
