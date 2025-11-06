@@ -35,5 +35,6 @@
   window.clamp = clamp;
   window.escapeHtml = escapeHtml;
   window.shuffleArray = shuffleArray;
+  window.shuffle = shuffleArray;
   window.fetchJsonNoCache = fetchJsonNoCache;
 })(window);

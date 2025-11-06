@@ -59,6 +59,24 @@ function populateBookSelect(books) {
 }
 
 /* ===== Навигация по экранам ===== */
+
+export function setHome(label, handler) {
+  const bh = $('btn-home');
+  if (!bh) return;
+  bh.textContent = label || '';
+  bh.onclick = null;
+  if (handler) bh.onclick = handler;
+  show(bh, !!handler);
+}
+
+export function getLessonWordsForGame() {
+  const L = state.currentLesson;
+  if (L?.words?.length) return L.words;
+  const first = state.lessons.find(x => x?.words?.length);
+  if (first) { openLesson(first); return first.words; }
+  return null;
+}
+
 function gotoMenu() {
   show($('screen-menu'), true);
   show($('screen-lessons'), false);
@@ -100,14 +118,6 @@ function gotoList() {
   document.querySelector('h1 .muted').textContent = '· список';
 }
 
-function setHome(label, handler) {
-  const bh = $('btn-home');
-  if (!bh) return;
-  bh.textContent = label || '';
-  bh.onclick = null;
-  if (handler) bh.onclick = handler;
-  show(bh, !!handler);
-}
 
 /* ===== Рендер списков ===== */
 function renderLessons() {
