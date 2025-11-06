@@ -35,22 +35,60 @@ const BrickMatch = (() => {
     updateHUD();
   };
 
+ let lock = false; // защита от дабл-кликов во время анимации
+
   const onPick = (t) => {
-    if (t.matched) return;
-    if (!picked) { picked = t; t.el.classList.add('selected'); return; }
+    if (lock || t.matched) return;
+  
+    // первый выбор
+    if (!picked) {
+      picked = t;
+      t.el.classList.add('selected');
+      return;
+    }
+  
+    // кликнули по той же плитке — игнор
     if (picked.id === t.id) return;
-    if (picked.pid === t.pid && picked.lang !== t.lang) {
-      picked.matched = t.matched = true;
-      picked.el.classList.add('match'); t.el.classList.add('match');
+  
+    // совпадение пары: одинаковый pid и разные языки
+    const isPair = (picked.pid === t.pid) && (picked.lang !== t.lang);
+  
+    if (isPair) {
+      lock = true;
+  
+      picked.matched = true;
+      t.matched = true;
+  
+      // визуально отметить совпадение
+      picked.el.classList.remove('selected');
+      t.el.classList.remove('selected');
+      picked.el.classList.add('match');
+      t.el.classList.add('match');
+  
+      // небольшая задержка для эффекта и затем мягкое исчезновение
       setTimeout(() => {
-        picked.el.classList.add('hideout'); t.el.classList.add('hideout');
-        setTimeout(() => { picked.el.style.display='none'; t.el.style.display='none'; updateHUD(); checkWin(); }, 160);
+        picked.el.classList.add('hideout');
+        t.el.classList.add('hideout');
+  
+        // окончательно убираем узлы из DOM
+        setTimeout(() => {
+          if (picked.el && picked.el.parentNode) picked.el.parentNode.removeChild(picked.el);
+          if (t.el && t.el.parentNode) t.el.parentNode.removeChild(t.el);
+          lock = false;
+          updateHUD();
+          checkWin();
+        }, 180);
       }, 120);
     } else {
-      shake(picked.el); shake(t.el); picked.el.classList.remove('selected');
+      // не пара — встряхнуть и снять выделение
+      shake(picked.el);
+      shake(t.el);
+      picked.el.classList.remove('selected');
     }
+  
     picked = null;
   };
+  
 
   const shake = (el) => el.animate([
     { transform:'translateX(0)' },{ transform:'translateX(-4px)' },
