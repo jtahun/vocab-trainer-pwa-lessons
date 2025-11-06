@@ -1,0 +1,33 @@
+/* === GAME: Brick Match === */
+.game-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 10px;
+}
+
+.brick {
+  cursor: pointer;
+  user-select: none;
+  background: #0b1224;
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: 12px;
+  padding: 12px 10px;
+  min-height: 56px;
+  display: flex; align-items: center; justify-content: center;
+  text-align: center;
+  transition: transform .12s ease, border-color .12s ease, background .12s ease, opacity .18s ease;
+  word-break: break-word;
+}
+
+.brick:hover { border-color: rgba(56,189,248,.45); }
+.brick.selected { outline: 2px solid var(--accent-2); transform: translateY(-2px); }
+.brick.match { background: rgba(34,211,238,.15); border-color: rgba(34,211,238,.65); }
+.brick.hideout { opacity: 0; transform: scale(.95); pointer-events: none; }
+
+.empty-hint {
+  color: var(--muted);
+  border: 1px dashed rgba(255,255,255,.15);
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+}
