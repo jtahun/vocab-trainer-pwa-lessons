@@ -70,11 +70,8 @@ export function setHome(label, handler) {
 }
 
 export function getLessonWordsForGame() {
-  const L = state.currentLesson;
-  if (L?.words?.length) return L.words;
-  const first = state.lessons.find(x => x?.words?.length);
-  if (first) { openLesson(first); return first.words; }
-  return null;
+  const L = state.currentLesson;  
+  return (L?.words?.length) ? L.words : null;
 }
 
 function gotoMenu() {
@@ -173,6 +170,7 @@ function openLesson(lesson) {
 
   renderLessonList();
   gotoList();
+  document.dispatchEvent(new CustomEvent('lesson-selected', { detail:{ id: lesson.id } }));
 }
 
 function playAll() {

@@ -1,5 +1,17 @@
 import { getLessonWordsForGame, setHome } from '../app.js';
 
+
+let pendingBrickStart = false;
+
+
+function requestLessonThenStart() {
+  pendingBrickStart = true;
+  // уводим на экран выбора уроков (кнопка уже вешает gotoLessons)
+  document.getElementById('menu-choose-lesson')?.click();
+  // можно показать мягкий алерт
+  // alert('Выберите урок — после выбора игра запустится автоматически.');
+}
+
 function gotoGameScreen() {
   show($('screen-menu'), false);
   show($('screen-lessons'), false);
@@ -92,7 +104,7 @@ const BrickMatch = (() => {
   const updateHUD = () => $('game-left').textContent = `Осталось: ${leftPairs()}`;
   const checkWin = () => { if (leftPairs()===0) metaEl.textContent = 'Готово! 🎉 Все пары найдены'; };
 
-  const start = (pairs) => {
+  const start = (pairs) => { 
     gridEl = $('game-grid'); leftEl = $('game-left'); metaEl = $('game-meta');
     tiles = buildTiles(pairs);
     $('game-title').textContent = '🧱 Стена пар';
@@ -113,11 +125,33 @@ const BrickMatch = (() => {
   return { start, restart, gotoGameScreen };
 })();
 
+// запуск игры через выбор урока
 $('game-brick-start')?.addEventListener('click', () => {
   const words = getLessonWordsForGame();
-  if (!words?.length) { alert('Выбери сначала урок со словами.'); return; }
+
+  // урок ещё не выбран
+  if (!words || !words.length) {
+    requestLessonThenStart();
+    return;
+  }
+
+  // урок уже выбран → запускаем сразу
   BrickMatch.gotoGameScreen();
   BrickMatch.start(words);
 });
+
+// когда пользователь выбрал урок — стартуем игру автоматически
+document.addEventListener('lesson-selected', () => {
+  if (!pendingBrickStart) return;
+
+  const words = getLessonWordsForGame();
+  if (words?.length) {
+    pendingBrickStart = false;
+    BrickMatch.gotoGameScreen();
+    BrickMatch.start(words);
+  }
+});
+
+
 $('game-exit')?.addEventListener('click', () => history.back());
 $('game-restart')?.addEventListener('click', () => BrickMatch.restart());
