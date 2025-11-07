@@ -35,59 +35,52 @@ const BrickMatch = (() => {
     updateHUD();
   };
 
- let lock = false; // защита от дабл-кликов во время анимации
+ let lock = false;
 
-  const onPick = (t) => {
-    if (lock || t.matched) return;
+  const onPick = (tile) => {
+    if (lock || tile.matched) return;
   
-    // первый выбор
     if (!picked) {
-      picked = t;
-      t.el.classList.add('selected');
+      picked = tile;
+      tile.el.classList.add('selected');
       return;
     }
   
-    // кликнули по той же плитке — игнор
-    if (picked.id === t.id) return;
+    if (picked.id === tile.id) return;
   
-    // совпадение пары: одинаковый pid и разные языки
-    const isPair = (picked.pid === t.pid) && (picked.lang !== t.lang);
+    const isPair = (picked.pid === tile.pid) && (picked.lang !== tile.lang);
   
     if (isPair) {
+      // фикс: зафиксируем ссылки прежде чем обнулять picked
+      const a = picked;
+      const b = tile;
+      picked = null;
       lock = true;
   
-      picked.matched = true;
-      t.matched = true;
+      a.matched = b.matched = true;
+      a.el.classList.remove('selected'); b.el.classList.remove('selected');
+      a.el.classList.add('match');       b.el.classList.add('match');
   
-      // визуально отметить совпадение
-      picked.el.classList.remove('selected');
-      t.el.classList.remove('selected');
-      picked.el.classList.add('match');
-      t.el.classList.add('match');
-  
-      // небольшая задержка для эффекта и затем мягкое исчезновение
       setTimeout(() => {
-        picked.el.classList.add('hideout');
-        t.el.classList.add('hideout');
-  
-        // окончательно убираем узлы из DOM
+        a.el?.classList.add('hideout');
+        b.el?.classList.add('hideout');
         setTimeout(() => {
-          if (picked.el && picked.el.parentNode) picked.el.parentNode.removeChild(picked.el);
-          if (t.el && t.el.parentNode) t.el.parentNode.removeChild(t.el);
+          a.el?.remove();
+          b.el?.remove();
           lock = false;
           updateHUD();
           checkWin();
         }, 180);
       }, 120);
     } else {
-      // не пара — встряхнуть и снять выделение
-      shake(picked.el);
-      shake(t.el);
+      // не пара
+      shake(picked.el); 
+      shake(tile.el);
       picked.el.classList.remove('selected');
+      picked = null; // тут можно безопасно сбросить
     }
-  
-    picked = null;
   };
+
   
 
   const shake = (el) => el.animate([
