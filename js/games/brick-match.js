@@ -1,4 +1,4 @@
-import { getLessonWordsForGame, setHome } from '../app.js';
+import { getLessonWordsForGame, setHome, gotoLessons, getCurrentLessonId } from '../app.js';
 
 
 let pendingBrickStart = false;
@@ -6,10 +6,7 @@ let pendingBrickStart = false;
 
 function requestLessonThenStart() {
   pendingBrickStart = true;
-  // уводим на экран выбора уроков (кнопка уже вешает gotoLessons)
-  document.getElementById('menu-choose-lesson')?.click();
-  // можно показать мягкий алерт
-  // alert('Выберите урок — после выбора игра запустится автоматически.');
+  gotoLessons(); 
 }
 
 function gotoGameScreen() {
@@ -153,5 +150,10 @@ document.addEventListener('lesson-selected', () => {
 });
 
 
-$('game-exit')?.addEventListener('click', () => history.back());
+$('game-exit')?.addEventListener('click', () => {
+  pendingBrickStart = false; 
+  show($('screen-menu'), true);
+  show($('screen-game'), false);
+});
+
 $('game-restart')?.addEventListener('click', () => BrickMatch.restart());

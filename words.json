@@ -367,6 +367,44 @@
             ["sparrow","воробей"],
             ["strange","странный"]
           ]
+        },
+		{
+          "id": 11,
+          "title": "Irregular verbs",
+          "words": 
+		  [
+            ["have, had", "иметь"],
+            ["hear, heard", "слышать"],
+            ["learn, learnt", "изучать"],
+            ["let, let", "позволять"],
+            ["lose, lost", "терять"],
+            ["make, made", "делать"],
+            ["meet, met", "встречать"],
+            ["put, put", "положить, поставить"],
+            ["run, ran", "бегать"],
+            ["say, said", "сказать"],
+            ["see, saw", "видеть"],
+            ["sing, sang", "петь"],
+            ["smell, smelt", "пахнуть, нюхать"],
+            ["swim, swam", "плавать"],
+            ["take, took", "брать"],
+            ["think, thought", "думать"],
+            ["be, was / were", "быть"],
+            ["become, became", "становиться"],
+            ["begin, began", "начинать"],
+            ["can, could", "мочь, уметь"],
+            ["come, came", "приходить"],
+            ["dive, dove", "нырять"],
+            ["drink, drank", "пить"],
+            ["eat, ate", "кушать"],
+            ["fall, fell", "падать"],
+            ["feel, felt", "чувствовать"],
+            ["find, found", "находить"],
+            ["fly, flew", "летать"],
+            ["give, gave", "давать"],
+            ["go, went", "идти, ехать"],
+            ["hang, hung", "повесить"]  
+          ]
         }
       ]
     },

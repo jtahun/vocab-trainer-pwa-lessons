@@ -12,6 +12,10 @@ function loadHardSet() {
 function saveHardSet(set) { localStorage.setItem(LS_HARD_KEY, JSON.stringify([...set])); }
 const hardSet = loadHardSet();
 
+export function getCurrentLessonId() {
+  return state.currentLesson?.id ?? null;
+}
+
 /* ===== Состояние рендеринга ===== */
 const state = {
   lessons: [],
@@ -85,7 +89,7 @@ function gotoMenu() {
   updateMenuHardButton();
 }
 
-function gotoLessons() {
+export function gotoLessons() {
   show($('screen-menu'), false);
   show($('screen-lessons'), true);
   show($('screen-list'), false);
