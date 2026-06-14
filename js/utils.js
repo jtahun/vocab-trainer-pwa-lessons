@@ -29,6 +29,15 @@
     return JSON.parse(text);
   }
 
+  // Удаляет транскрипцию в квадратных скобках в конце строки: "word [..]" -> "word"
+  function stripTranscription(s) {
+    const str = String(s ?? '');
+    // убираем самый частый формат: пробелы + [ ... ] в конце
+    const noBracket = str.replace(/\s*\[[^\]]*\]\s*$/, '');
+    return noBracket.trim();
+  }
+
+
   // Экспорт в глобальную область
   window.$ = $;
   window.show = show;
@@ -37,4 +46,5 @@
   window.shuffleArray = shuffleArray;
   window.shuffle = shuffleArray;
   window.fetchJsonNoCache = fetchJsonNoCache;
+  window.stripTranscription = stripTranscription;
 })(window);

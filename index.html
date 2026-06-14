@@ -8,9 +8,16 @@
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="stylesheet" href="css/styles.css" />
   <link rel="stylesheet" href="css/game-brick.css" />
+  <link rel="stylesheet" href="css/game-falling.css">
   <script defer src="js/utils.js"></script>
   <script defer type="module" src="js/app.js"></script>
   <script defer type="module" src="js/games/brick-match.js"></script>
+  <script defer type="module" src="js/games/falling-words.js"></script>
+  <script defer type="module" src="js/games/unscramble.js"></script>
+  <script defer type="module" src="js/stats.js"></script>
+  <script defer type="module" src="js/auth.js"></script>
+
+
 
 </head>
 <body>
@@ -23,22 +30,24 @@
       </div>
     </header><!-- Главное меню -->
 <div id="screen-menu" class="card">
-  <div class="toolbar">
-    <span class="pill">Главное меню</span>
-	<!--селектор книг-->
-	<label for="book-select" class="muted" style="margin-left:12px;">Книга:</label>
-	<div>
-	  <button id="game-brick-start" class="btn btn-xl">🧱 Стена пар</button>
-	</div>
-    <select id="book-select" class="btn" style="padding:8px 10px; border-radius:10px; min-width:140px;">
-      <option value="" disabled selected>Загрузка…</option>
-    </select>
+ <div class="toolbar">
+  <button id="toggle-transcription" class="btn">Транскр.: Вкл</button>
 
-    <!--span style="margin-left:auto" class="muted">
-      <a id="link-json" class="link" href="./words.json" target="_blank" rel="noopener">Открыть JSON</a>
-    </span-->
-   
-  </div>
+  <span class="pill">Главное меню</span>
+  
+  <select id="book-select" class="btn" style="padding:8px 10px; border-radius:10px; min-width:140px;">
+    <option value="" disabled selected>Загрузка…</option>
+  </select>
+  
+  <select id="game-select" class="btn" style="padding:8px 10px; border-radius:10px; min-width:160px;">
+    <option value="" disabled selected>Выберите игру…</option>
+    <option value="brick">🧱 Стена пар</option>
+    <option value="falling">🪂 Падающие слова</option>
+	<option value="unscr">🔤 Unscramble</option>
+  </select>
+ </div>
+
+  
   <div class="menu">
     <button id="menu-play-all" class="btn btn-xl">Учить все слова</button>	
 	<button id="menu-choose-lesson" class="btn btn-xl">Выбор уроков</button>
@@ -86,8 +95,7 @@
     <div class="nav">
       <button id="prev" class="btn">◀ Назад</button>
       <button id="reveal" class="btn">Перевод</button>
-      <button id="toggle-hard" class="btn">☆Повтор</button>
-      <!--button id="toggle-dir" class="btn">EN↔RU</button-->
+      <button id="toggle-hard" class="btn">☆Повтор</button>      
       <button id="shuffle" class="btn">Перемешать</button>
       <button id="next" class="btn">Вперёд ▶</button>
     </div>
@@ -106,6 +114,61 @@
   </div>
   <div id="game-grid" class="game-grid"></div>
 </section>  
-  </div>  
+</div> 
+  
+  <!-- === ИГРА 2: Falling Words === -->
+<section id="screen-falling" class="card hide">
+  <div class="row" style="gap:8px; margin-bottom:10px;">
+    <strong>🪂 Falling Words</strong>
+    <span class="muted" style="margin-left:auto;">⏱ <span id="fw-time">0.0s</span></span>
+    <span class="muted">Ошибок: <span id="fw-errors">0</span></span>
+    <span class="muted">Скорость: <span id="fw-speed">1.0x</span></span>
+  </div>
+
+  <div id="fw-area" class="fw-area"></div>
+
+  <div id="fw-options" class="fw-options"></div>
+
+  <div class="row" style="gap:8px; margin-top:12px;">
+    <button id="fw-exit" class="btn btn-outline">← В меню</button>
+    <button id="fw-restart" class="btn btn-outline">↺ Заново</button>
+    <span class="muted" style="margin-left:auto;">Раунд: <span id="fw-round">0/0</span></span>
+  </div>
+</section>
+
+  <!-- === ИГРА 3: Unscramble Words === -->
+<section id="screen-unscr" class="card hide">
+  <div class="row" style="gap:8px; margin-bottom:10px;">
+    <strong>🔤 Unscramble</strong>
+    <span class="muted" style="margin-left:auto;">Ошибок: <span id="un-errors">0</span></span>
+    <span class="muted">Слово: <span id="un-round">0/0</span></span>
+  </div>
+
+  <div id="un-word" class="un-word"></div>
+
+  <input id="un-input" class="un-input" placeholder="Введите слово…" autocomplete="off">
+
+  <div class="row" style="margin-top:12px;">
+    <button id="un-submit" class="btn btn-xl">OK</button>
+    <button id="un-exit" class="btn btn-outline">←</button>
+  </div>
+</section>
+
+<div id="screen-login" class="screen" style="display:none;">
+  <h2>Вход</h2>
+
+  <input id="login-email" type="email" placeholder="Email" />
+  <input id="login-password" type="password" placeholder="Пароль" />
+
+  <button id="btn-login">Войти</button>
+</div>
+
+<div id="auth-bar" style="display:none; position:fixed; top:5px; right:10px; font-size:12px;">
+  <span id="auth-user"></span>
+  <button id="btn-logout">Выйти</button>
+</div>
+
+
+  
   </body>
 </html>

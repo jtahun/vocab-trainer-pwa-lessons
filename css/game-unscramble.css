@@ -1,0 +1,30 @@
+.un-word {
+  text-align:center;
+  font-size:28px;
+  margin:20px 0;
+  letter-spacing:4px;
+  font-weight:700;
+}
+
+.un-input {
+  width:100%;
+  font-size:20px;
+  padding:14px;
+  border-radius:12px;
+  border:1px solid rgba(255,255,255,.1);
+  background:#0b1224;
+  color:#fff;
+  text-align:center;
+}
+
+.shake {
+  animation: shakeAnim .35s;
+}
+
+@keyframes shakeAnim {
+  0%{ transform:translateX(0); }
+  25%{ transform:translateX(-6px); }
+  50%{ transform:translateX(6px); }
+  75%{ transform:translateX(-6px); }
+  100%{ transform:translateX(0); }
+}

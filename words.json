@@ -8,179 +8,179 @@
           "id": 1,
           "title": "A dolphin",
           "words": [
-            ["ask for help", "попросить о помощи"],
-            ["have fun", "веселиться"],
-            ["heavy", "тяжёлый"],
-            ["jump out of the water", "выпрыгивать из воды"],
-            ["nice", "чудесный"],
-            ["other", "другие"],
-            ["parents", "родители"],
-            ["pour", "наливать"],
-            ["push", "толкать"],
-            ["soon", "скоро"],
-            ["suddenly", "вдруг"]
+            ["ask for help [ˈɑːsk fə help]", "попросить о помощи"],
+            ["have fun [hæv fʌn]", "веселиться"],
+            ["heavy [ˈhevi]", "тяжёлый"],
+            ["jump out of the water [dʒʌmp aʊt əv ðə ˈwɔːtə]", "выпрыгивать из воды"],
+            ["nice [naɪs]", "чудесный"],
+            ["other [ˈʌðə]", "другие"],
+            ["parents [ˈpeərənts]", "родители"],
+            ["pour [pɔː]", "наливать"],
+            ["push [pʊʃ]", "толкать"],
+            ["soon [suːn]", "скоро"],
+            ["suddenly [ˈsʌdənli]", "вдруг"]
           ]
         },
         {
           "id": 2,
           "title": "A helpful fox",
           "words": [
-            ["be glad", "быть довольным"],
-            ["butterfly", "бабочка"],
-            ["cry", "плакать"],
-            ["she cries", "она плачет"],
-            ["find", "находить"],
-            ["hug", "обнимать"],
-            ["kind", "добрый"],
-            ["look for", "искать"],
-            ["neck", "шея"],
-            ["run around", "бегать вокруг"],
-            ["play", "играть"],
-            ["worry", "беспокоиться"]
+            ["be glad [biː ɡlæd]", "быть довольным"],
+            ["butterfly [ˈbʌtəflaɪ]", "бабочка"],
+            ["cry [kraɪ]", "плакать"],
+            ["she cries [ʃiː kraɪz]", "она плачет"],
+            ["find [faɪnd]", "находить"],
+            ["hug [hʌɡ]", "обнимать"],
+            ["kind [kaɪnd]", "добрый"],
+            ["look for [lʊk fɔː]", "искать"],
+            ["neck [nek]", "шея"],
+            ["run around [rʌn əˈraʊnd]", "бегать вокруг"],
+            ["play [pleɪ]", "играть"],
+            ["worry [ˈwʌri]", "беспокоиться"]
           ]
         },
         {
           "id": 3,
           "title": "A good friend",
           "words": [
-            ["ask", "спрашивать"],
-            ["be thirsty", "испытывать жажду"],
-            ["come", "приходить"],
-            ["look", "смотреть"],
-            ["pain", "боль"],
-            ["paw", "лапа"],
-            ["piece of wood", "кусок дерева"],
-            ["shape", "форма"],
-            ["take", "брать, взять"],
-            ["wooden", "деревянный"],
-            ["why", "почему"]
+            ["ask [ɑːsk]", "спрашивать"],
+            ["be thirsty [biː ˈθɜːsti]", "испытывать жажду"],
+            ["come [kʌm]", "приходить"],
+            ["look [lʊk]", "смотреть"],
+            ["pain [peɪn]", "боль"],
+            ["paw [pɔː]", "лапа"],
+            ["piece of wood [piːs əv wʊd]", "кусок дерева"],
+            ["shape [ʃeɪp]", "форма"],
+            ["take [teɪk]", "брать, взять"],
+            ["wooden [ˈwʊdn]", "деревянный"],
+            ["why [waɪ]", "почему"]
           ]
         },
         {
           "id": 4,
           "title": "Hamsters",
           "words": [
-            ["again", "снова"],
-            ["because", "потому что"],
-            ["be hungry", "быть голодным"],
-            ["dinner", "обед"],
-            ["easy", "лёгкий"],
-            ["full", "полный"],
-            ["gather", "собирать"],
-            ["grains", "зёрна"],
-            ["hard-working", "трудолюбивый"],
-            ["kid", "ребёнок"],
-            ["lazy", "ленивый"],
-            ["porridge", "каша"],
-            ["want", "хотеть"],
-            ["work", "работать"]
+            ["again [əˈɡen]", "снова"],
+            ["because [bɪˈkɒz]", "потому что"],
+            ["be hungry [biː ˈhʌŋɡri]", "быть голодным"],
+            ["dinner [ˈdɪnə]", "обед"],
+            ["easy [ˈiːzi]", "лёгкий"],
+            ["full [fʊl]", "полный"],
+            ["gather [ˈɡæðə]", "собирать"],
+            ["grains [ɡreɪnz]", "зёрна"],
+            ["hard-working [ˌhɑːdˈwɜːkɪŋ]", "трудолюбивый"],
+            ["kid [kɪd]", "ребёнок"],
+            ["lazy [ˈleɪzi]", "ленивый"],
+            ["porridge [ˈpɒrɪdʒ]", "каша"],
+            ["want [wɒnt]", "хотеть"],
+            ["work [wɜːk]", "работать"]
           ]
         },
         {
           "id": 5,
           "title": "A real friend",
           "words": [
-            ["cut", "разрезать, перекусить"],
-            ["eat", "кушать"],
-            ["far from", "далеко от"],
-            ["free", "свободный"],
-            ["let", "позволять, разрешать"],
-            ["mood", "настроение"],
-            ["need", "нуждаться"],
-            ["new", "новый"],
-            ["place", "место"],
-            ["real", "настоящий"],
-            ["sharp", "острый"],
-            ["strong", "сильный"],
-            ["tooth (teeth)", "зуб (зубы)"],
-            ["under", "под"]
+            ["cut [kʌt]", "разрезать, перекусить"],
+            ["eat [iːt]", "кушать"],
+            ["far from [fɑː frɒm]", "далеко от"],
+            ["free [friː]", "свободный"],
+            ["let [let]", "позволять, разрешать"],
+            ["mood [muːd]", "настроение"],
+            ["need [niːd]", "нуждаться"],
+            ["new [njuː]", "новый"],
+            ["place [pleɪs]", "место"],
+            ["real [ˈrɪəl]", "настоящий"],
+            ["sharp [ʃɑːp]", "острый"],
+            ["strong [strɒŋ]", "сильный"],
+            ["tooth (teeth) [tuːθ | tiːθ]", "зуб (зубы)"],
+            ["under [ˈʌndə]", "под"]
           ]
         },
         {
           "id": 6,
           "title": "A greedy boy",
           "words": [
-            ["alone", "один, сам"],
-            ["boring", "скучный"],
-            ["fast", "быстрый"],
-            ["greedy", "жадный"],
-            ["how", "как"],
-            ["recommend", "советовать"],
-            ["other", "другие"],
-            ["share", "делить"],
-            ["together", "вместе"]
+            ["alone [əˈləʊn]", "один, сам"],
+            ["boring [ˈbɔːrɪŋ]", "скучный"],
+            ["fast [fɑːst]", "быстрый"],
+            ["greedy [ˈɡriːdi]", "жадный"],
+            ["how [haʊ]", "как"],
+            ["recommend [ˌrekəˈmend]", "советовать"],
+            ["other [ˈʌðə]", "другие"],
+            ["share [ʃeə]", "делить"],
+            ["together [təˈɡeðə]", "вместе"]
           ]
         },
         {
           "id": 7,
           "title": "A lion and a hippo",
           "words": [
-            ["be angry", "злиться"],
-            ["clever", "умный"],
-            ["feel pain", "чувствовать боль"],
-            ["forgive", "прощать"],
-            ["let's go", "давай пойдём"],
-            ["move", "двигаться"],
-            ["often", "часто"],
-            ["remember", "помнить"],
-            ["rest", "отдыхать"],
-            ["silly", "глупый"],
-            ["understand", "понимать"],
-            ["wait for", "ждать"]
+            ["be angry [biː ˈæŋɡri]", "злиться"],
+            ["clever [ˈklevə]", "умный"],
+            ["feel pain [fiːl peɪn]", "чувствовать боль"],
+            ["forgive [fəˈɡɪv]", "прощать"],
+            ["let's go [lets ɡəʊ]", "давай пойдём"],
+            ["move [muːv]", "двигаться"],
+            ["often [ˈɒfn]", "часто"],
+            ["remember [rɪˈmembə]", "помнить"],
+            ["rest [rest]", "отдыхать"],
+            ["silly [ˈsɪli]", "глупый"],
+            ["understand [ˌʌndəˈstænd]", "понимать"],
+            ["wait for [weɪt fɔː]", "ждать"]
           ]
         },
         {
           "id": 8,
           "title": "A titmouse and a swallow",
           "words": [
-            ["autumn", "осень"],
-            ["be busy", "быть занятым"],
-            ["beginning", "начало"],
-            ["each other", "друг другу"],
-            ["enjoy", "наслаждаться"],
-            ["food", "еда"],
-            ["make", "делать"],
-            ["stay", "оставаться"],
-            ["summer", "лето"],
-            ["swallow", "ласточка"],
-            ["titmouse", "синица"],
-            ["warm", "тёплый"]
+            ["autumn [ˈɔːtəm]", "осень"],
+            ["be busy [biː ˈbɪzi]", "быть занятым"],
+            ["beginning [bɪˈɡɪnɪŋ]", "начало"],
+            ["each other [iːtʃ ˈʌðə]", "друг другу"],
+            ["enjoy [ɪnˈdʒɔɪ]", "наслаждаться"],
+            ["food [fuːd]", "еда"],
+            ["make [meɪk]", "делать"],
+            ["stay [steɪ]", "оставаться"],
+            ["summer [ˈsʌmə]", "лето"],
+            ["swallow [ˈswɒləʊ]", "ласточка"],
+            ["titmouse [ˈtɪtmaʊs]", "синица"],
+            ["warm [wɔːm]", "тёплый"]
           ]
         },
         {
           "id": 9,
           "title": "A helpful bear",
           "words": [
-            ["always", "всегда"],
-            ["answer", "отвечать"],
-            ["become", "становиться"],
-            ["come home", "прийти домой"],
-            ["seeds", "семечки"],
-            ["show", "показывать"],
-            ["strong", "сильный"],
-            ["sunflower", "подсолнечник"],
-            ["tasty", "вкусный"],
-            ["tell", "рассказывать"],
-            ["there", "там"],
-            ["river", "река"],
-            ["field", "поле"]
+            ["always [ˈɔːlweɪz]", "всегда"],
+            ["answer [ˈɑːnsə]", "отвечать"],
+            ["become [bɪˈkʌm]", "становиться"],
+            ["come home [kʌm həʊm]", "прийти домой"],
+            ["seeds [siːdz]", "семечки"],
+            ["show [ʃəʊ]", "показывать"],
+            ["strong [strɒŋ]", "сильный"],
+            ["sunflower [ˈsʌnflaʊə]", "подсолнечник"],
+            ["tasty [ˈteɪsti]", "вкусный"],
+            ["tell [tel]", "рассказывать"],
+            ["there [ðeə]", "там"],
+            ["river [ˈrɪvə]", "река"],
+            ["field [fiːld]", "поле"]
           ]
         },
         {
           "id": 10,
           "title": "Polly and her cat",
           "words": [
-            ["allow", "позволять"],
-            ["be ready", "быть готовым"],
-            ["brave", "храбрый"],
-            ["carefully", "внимательно"],
-            ["go for a walk", "идти на прогулку"],
-            ["hiss", "шипеть"],
-            ["notice", "замечать"],
-            ["run away", "убегать"],
-            ["start", "начинать"],
-            ["stop", "закончить"],
-            ["then", "затем, потом"]
+            ["allow [əˈlaʊ]", "позволять"],
+            ["be ready [biː ˈredi]", "быть готовым"],
+            ["brave [breɪv]", "храбрый"],
+            ["carefully [ˈkeəfəli]", "внимательно"],
+            ["go for a walk [ɡəʊ fə ə wɔːk]", "идти на прогулку"],
+            ["hiss [hɪs]", "шипеть"],
+            ["notice [ˈnəʊtɪs]", "замечать"],
+            ["run away [rʌn əˈweɪ]", "убегать"],
+            ["start [stɑːt]", "начинать"],
+            ["stop [stɒp]", "закончить"],
+            ["then [ðen]", "затем, потом"]
           ]
         }
       ]
@@ -193,218 +193,218 @@
           "id": 1,
           "title": "A great friend",
           "words": [
-            ["a lot of time", "много времени"],
-            ["be healthy", "быть здоровым"],
-            ["be surprised", "быть удивлённым"],
-            ["buy", "покупать"],
-            ["decide", "решить"],
-            ["Friday", "пятница"],
-            ["have a cold", "простудиться"],
-            ["maybe", "возможно"],
-            ["on the way home", "по дороге домой"],
-            ["reason", "причина"],
-            ["recover", "выздоравливать"],
-            ["spend", "проводить"],
-            ["visit", "посещать, навещать"],
-            ["Wednesday", "среда"]
+            ["a lot of time [ə lɒt əv taɪm]", "много времени"],
+            ["be healthy [biː ˈhelθi]", "быть здоровым"],
+            ["be surprised [biː səˈpraɪzd]", "быть удивлённым"],
+            ["buy [baɪ]", "покупать"],
+            ["decide [dɪˈsaɪd]", "решить"],
+            ["Friday [ˈfraɪdeɪ]", "пятница"],
+            ["have a cold [hæv ə kəʊld]", "простудиться"],
+            ["maybe [ˈmeɪbi]", "возможно"],
+            ["on the way home [ɒn ðə weɪ həʊm]", "по дороге домой"],
+            ["reason [ˈriːzn]", "причина"],
+            ["recover [rɪˈkʌvə]", "выздоравливать"],
+            ["spend [spend]", "проводить"],
+            ["visit [ˈvɪzɪt]", "посещать, навещать"],
+            ["Wednesday [ˈwenzdeɪ]", "среда"]
           ]
         },
         {
           "id": 2,
           "title": "Froggy and his pipe",
           "words": [
-            ["bog", "болото"],
-            ["close", "закрывать"],
-            ["come true", "сбываться"],
-            ["croak", "квакать"],
-            ["dream", "мечта"],
-            ["hear", "слышать"],
-            ["hole", "дыра, отверстие"],
-            ["make", "делать"],
-            ["pipe", "дудочка"],
-            ["play", "играть"],
-            ["reed", "тростник, камыш"],
-            ["repeat after me", "повторять за мной"],
-            ["sound", "звук"],
-            ["teach", "научить кого-либо"],
-            ["titmouse", "синица"]
+            ["bog [bɒɡ]", "болото"],
+            ["close [kləʊz]", "закрывать"],
+            ["come true [kʌm truː]", "сбываться"],
+            ["croak [krəʊk]", "квакать"],
+            ["dream [driːm]", "мечта"],
+            ["hear [hɪə]", "слышать"],
+            ["hole [həʊl]", "дыра, отверстие"],
+            ["make [meɪk]", "делать"],
+            ["pipe [paɪp]", "дудочка"],
+            ["play [pleɪ]", "играть"],
+            ["reed [riːd]", "тростник, камыш"],
+            ["repeat after me [rɪˈpiːt ɑːftə miː]", "повторять за мной"],
+            ["sound [saʊnd]", "звук"],
+            ["teach [tiːtʃ]", "научить кого-либо"],
+            ["titmouse [ˈtɪtmaʊs]", "синица"]
           ]
         },
         {
           "id": 3,
           "title": "Woodpecker and a mole",
           "words": [
-            ["broken", "сломанный"],
-            ["disturb", "мешать"],
-            ["dry", "сухой"],
-            ["hollow", "дупло"],
-            ["mole", "крот"],
-            ["oak", "дуб"],
-            ["quiet", "тихий"],
-            ["roots", "корни"],
-            ["rude", "грубый"],
-            ["safe", "безопасный"],
-            ["show", "показывать"],
-            ["woodpecker", "дятел"]
+            ["broken [ˈbrəʊkən]", "сломанный"],
+            ["disturb [dɪˈstɜːb]", "мешать"],
+            ["dry [draɪ]", "сухой"],
+            ["hollow [ˈhɒləʊ]", "дупло"],
+            ["mole [məʊl]", "крот"],
+            ["oak [əʊk]", "дуб"],
+            ["quiet [ˈkwaɪət]", "тихий"],
+            ["roots [ruːts]", "корни"],
+            ["rude [ruːd]", "грубый"],
+            ["safe [seɪf]", "безопасный"],
+            ["show [ʃəʊ]", "показывать"],
+            ["woodpecker [ˈwʊdˌpekə]", "дятел"]
           ]
         },
         {
           "id": 4,
           "title": "A lucky ticket",
           "words": [
-            ["be thankful", "быть благодарным"],
-            ["bus stop", "автобусная остановка"],
-            ["city", "город"],
-            ["conductor", "кондуктор"],
-            ["extra", "дополнительный, лишний"],
-            ["get on a bus", "сесть в автобус"],
-            ["get off", "выходить (из транспорта)"],
-            ["hedgehog", "ёж"],
-            ["lucky", "удачливый"],
-            ["must", "должен"],
-            ["mushrooms", "грибы"],
-            ["rabbit", "кролик"],
-            ["ticket", "билет"],
-            ["village", "село, деревня"]
+            ["be thankful [biː ˈθæŋkfʊl]", "быть благодарным"],
+            ["bus stop [bʌs stɒp]", "автобусная остановка"],
+            ["city [ˈsɪti]", "город"],
+            ["conductor [kənˈdʌktə]", "кондуктор"],
+            ["extra [ˈekstrə]", "дополнительный, лишний"],
+            ["get on a bus [ɡet ɒn ə bʌs]", "сесть в автобус"],
+            ["get off [ɡet ɒf]", "выходить (из транспорта)"],
+            ["hedgehog [ˈhedʒhɒɡ]", "ёж"],
+            ["lucky [ˈlʌki]", "удачливый"],
+            ["must [mʌst]", "должен"],
+            ["mushrooms [ˈmʌʃruːmz]", "грибы"],
+            ["rabbit [ˈræbɪt]", "кролик"],
+            ["ticket [ˈtɪkɪt]", "билет"],
+            ["village [ˈvɪlɪdʒ]", "село, деревня"]
           ]
         },
         {
           "id": 5,
           "title": "Helpful swallow",
           "words": [
-            ["disappear", "исчезать"],
-            ["everywhere", "везде"],
-            ["fail", "падать"],
-            ["pit", "яма"],
-            ["stick", "палка"],
-            ["sunny", "солнечно"],
-            ["take for a walk", "вести на прогулку"],
-            ["take out of", "доставать из..."],
-            ["the youngest", "самый младший"],
-            ["What's wrong?", "Что случилось?"]
+            ["disappear [ˌdɪsəˈpɪə]", "исчезать"],
+            ["everywhere [ˈevriweə]", "везде"],
+            ["fail [feɪl]", "падать"],
+            ["pit [pɪt]", "яма"],
+            ["stick [stɪk]", "палка"],
+            ["sunny [ˈsʌni]", "солнечно"],
+            ["take for a walk [teɪk fər ə wɔːk]", "вести на прогулку"],
+            ["take out of [teɪk aʊt əv]", "доставать из..."],
+            ["the youngest [ðə ˈjʌŋɡɪst]", "самый младший"],
+            ["What's wrong? [wɒts rɒŋ]", "Что случилось?"]
           ]
         },
         {
           "id": 6,
           "title": "Clever Sam",
           "words": [
-            ["be sure", "быть уверенным"],
-            ["be thankful", "быть благодарным"],
-            ["count", "считать"],
-            ["counting", "счёт"],
-            ["especially", "особенно"],
-            ["favourite", "любимый"],
-            ["finally", "в конце концов"],
-            ["hide-and-seek", "игра прятки"],
-            ["make mistakes", "делать ошибки"],
-            ["numbers", "числа"],
-            ["refuse", "отказываться"],
-            ["the following day", "на следующий день"],
-            ["the day before yesterday", "позавчера"]
+            ["be sure [biː ʃʊə]", "быть уверенным"],
+            ["be thankful [biː ˈθæŋkfʊl]", "быть благодарным"],
+            ["count [kaʊnt]", "считать"],
+            ["counting [ˈkaʊntɪŋ]", "счёт"],
+            ["especially [ɪˈspeʃəli]", "особенно"],
+            ["favourite [ˈfeɪvərɪt]", "любимый"],
+            ["finally [ˈfaɪnəli]", "в конце концов"],
+            ["hide-and-seek [ˌhaɪd ən ˈsiːk]", "игра прятки"],
+            ["make mistakes [meɪk mɪˈsteɪks]", "делать ошибки"],
+            ["numbers [ˈnʌmbəz]", "числа"],
+            ["refuse [rɪˈfjuːz]", "отказываться"],
+            ["the following day [ðə ˈfɒləʊɪŋ deɪ]", "на следующий день"],
+            ["the day before yesterday [ðə deɪ bɪˈfɔː ˈjestədeɪ]", "позавчера"]
           ]
         },
         {
           "id": 7,
           "title": "An unusual talent",
           "words": [
-            ["a little", "немного"],
-            ["believe", "верить"],
-            ["between", "между"],
-            ["daisy", "ромашка"],
-            ["daisies", "ромашки"],
-            ["difference", "разница"],
-            ["easy", "лёгкий"],
-            ["mint", "мята"],
-            ["owl", "сова"],
-            ["plant", "растение"],
-            ["smell", "нюхать, пахнуть, запах"]
+            ["a little [ə ˈlɪtl]", "немного"],
+            ["believe [bɪˈliːv]", "верить"],
+            ["between [bɪˈtwiːn]", "между"],
+            ["daisy [ˈdeɪzi]", "ромашка"],
+            ["daisies [ˈdeɪziːz]", "ромашки"],
+            ["difference [ˈdɪfrəns]", "разница"],
+            ["easy [ˈiːzi]", "лёгкий"],
+            ["mint [mɪnt]", "мята"],
+            ["owl [aʊl]", "сова"],
+            ["plant [plɑːnt]", "растение"],
+            ["smell [smel]", "нюхать, пахнуть, запах"]
           ]
         },
         {
           "id": 8,
           "title": "Too small to be a friend",
           "words": [
-            ["chain", "цепочка"],
-            ["dive", "нырять"],
-            ["golden", "золотой"],
-            ["lose", "терять"],
-            ["puppy", "щенок"],
-            ["swimming pool", "бассейн"],
-            ["too", "слишком"],
-            ["twice a week", "дважды в неделю"]
+            ["chain [tʃeɪn]", "цепочка"],
+            ["dive [daɪv]", "нырять"],
+            ["golden [ˈɡəʊldən]", "золотой"],
+            ["lose [luːz]", "терять"],
+            ["puppy [ˈpʌpi]", "щенок"],
+            ["swimming pool [ˈswɪmɪŋ puːl]", "бассейн"],
+            ["too [tuː]", "слишком"],
+            ["twice a week [twaɪs ə wiːk]", "дважды в неделю"]
           ]
         },
         {
           "id": 9,
           "title": "Sharp prickles",
           "words": [
-            ["Are you OK?", "У тебя всё в порядке?"],
-            ["bush", "куст"],
-            ["fluffy", "пушистый"],
-            ["hunt", "охотиться"],
-            ["look sad", "выглядеть грустным"],
-            ["prickles", "колючки"],
-            ["prickly", "колючий"],
-            ["proud", "гордый"],
-            ["save", "спасать"],
-            ["soft", "мягкий"],
-            ["turn into", "превратиться"],
-            ["wings", "крылья"]
+            ["Are you OK? [ɑː juː əʊˈkeɪ]", "У тебя всё в порядке?"],
+            ["bush [bʊʃ]", "куст"],
+            ["fluffy [ˈflʌfi]", "пушистый"],
+            ["hunt [hʌnt]", "охотиться"],
+            ["look sad [lʊk sæd]", "выглядеть грустным"],
+            ["prickles [ˈprɪklz]", "колючки"],
+            ["prickly [ˈprɪkli]", "колючий"],
+            ["proud [praʊd]", "гордый"],
+            ["save [seɪv]", "спасать"],
+            ["soft [sɒft]", "мягкий"],
+            ["turn into [tɜːn ˈɪntuː]", "превратиться"],
+            ["wings [wɪŋz]", "крылья"]
           ]
         },
         {
           "id": 10,
           "title": "Dolly's sparrows",
           "words": [
-            ["branch", "ветка"],
-            ["coat", "пальто"],
-            ["feed", "кормить"],
-            ["gloves", "перчатки"],
-            ["guest", "гость"],
-            ["hang", "повесить"],
-            ["knock", "стучать"],
-            ["let", "позволять"],
-            ["put on", "надевать"],
-            ["show", "показывать"],
-            ["sparrow", "воробей"],
-            ["strange", "странный"]
+            ["branch [brɑːntʃ]", "ветка"],
+            ["coat [kəʊt]", "пальто"],
+            ["feed [fiːd]", "кормить"],
+            ["gloves [ɡlʌvz]", "перчатки"],
+            ["guest [ɡest]", "гость"],
+            ["hang [hæŋ]", "повесить"],
+            ["knock [nɒk]", "стучать"],
+            ["let [let]", "позволять"],
+            ["put on [pʊt ɒn]", "надевать"],
+            ["show [ʃəʊ]", "показывать"],
+            ["sparrow [ˈspærəʊ]", "воробей"],
+            ["strange [streɪndʒ]", "странный"]
           ]
         },
         {
           "id": 11,
           "title": "Irregular verbs",
           "words": [
-            ["have, had", "иметь"],
-            ["hear, heard", "слышать"],
-            ["learn, learnt", "изучать"],
-            ["let, let", "позволять"],
-            ["lose, lost", "терять"],
-            ["make, made", "делать"],
-            ["meet, met", "встречать"],
-            ["put, put", "положить, поставить"],
-            ["run, ran", "бегать"],
-            ["say, said", "сказать"],
-            ["see, saw", "видеть"],
-            ["sing, sang", "петь"],
-            ["smell, smelt", "пахнуть, нюхать"],
-            ["swim, swam", "плавать"],
-            ["take, took", "брать"],
-            ["think, thought", "думать"],
-            ["be, was / were", "быть"],
-            ["become, became", "становиться"],
-            ["begin, began", "начинать"],
-            ["can, could", "мочь, уметь"],
-            ["come, came", "приходить"],
-            ["dive, dove", "нырять"],
-            ["drink, drank", "пить"],
-            ["eat, ate", "кушать"],
-            ["fall, fell", "падать"],
-            ["feel, felt", "чувствовать"],
-            ["find, found", "находить"],
-            ["fly, flew", "летать"],
-            ["give, gave", "давать"],
-            ["go, went", "идти, ехать"],
-            ["hang, hung", "повесить"]
+            ["have, had [hæv | hæd]", "иметь"],
+            ["hear, heard [hɪə | hɜːd]", "слышать"],
+            ["learn, learnt [lɜːn | lɜːnt]", "изучать"],
+            ["let, let [let | let]", "позволять"],
+            ["lose, lost [luːz | lɒst]", "терять"],
+            ["make, made [meɪk | meɪd]", "делать"],
+            ["meet, met [miːt | met]", "встречать"],
+            ["put, put [pʊt | pʊt]", "положить, поставить"],
+            ["run, ran [rʌn | ræn]", "бегать"],
+            ["say, said [seɪ | sed]", "сказать"],
+            ["see, saw [siː | sɔː]", "видеть"],
+            ["sing, sang [sɪŋ | sæŋ]", "петь"],
+            ["smell, smelt [smel | smelt]", "пахнуть, нюхать"],
+            ["swim, swam [swɪm | swæm]", "плавать"],
+            ["take, took [teɪk | tʊk]", "брать"],
+            ["think, thought [θɪŋk | θɔːt]", "думать"],
+            ["be, was / were [biː | wɒz | wɜː]", "быть"],
+            ["become, became [bɪˈkʌm | bɪˈkeɪm]", "становиться"],
+            ["begin, began [bɪˈɡɪn | bɪˈɡæn]", "начинать"],
+            ["can, could [kæn | kʊd]", "мочь, уметь"],
+            ["come, came [kʌm | keɪm]", "приходить"],
+            ["dive, dove [daɪv | doʊv]", "нырять"],
+            ["drink, drank [drɪŋk | dræŋk]", "пить"],
+            ["eat, ate [iːt | et]", "кушать"],
+            ["fall, fell [fɔːl | fel]", "падать"],
+            ["feel, felt [fiːl | felt]", "чувствовать"],
+            ["find, found [faɪnd | faʊnd]", "находить"],
+            ["fly, flew [flaɪ | fluː]", "летать"],
+            ["give, gave [ɡɪv | ɡeɪv]", "давать"],
+            ["go, went [ɡəʊ | went]", "идти, ехать"],
+            ["hang, hung [hæŋ | hʌŋ]", "повесить"]
           ]
         }
       ]
@@ -417,265 +417,221 @@
           "id": 1,
           "title": "A useful invention",
           "words": [
-            ["attack", "атаковать, нападать"],
-            ["beak", "клюв"],
-            ["from now on", "с тех пор"],
-            ["need", "нуждаться"],
-            ["in order to", "для того, чтобы"],
-            ["inside", "внутри"],
-            ["invention", "изобретение"],
-            ["lid", "крышка"],
-            ["nestling", "птенец"],
-            ["own", "собственный"],
-            ["protect", "защищать"],
-            ["safely", "безопасно"],
-            ["stork", "аист"],
-            ["travel", "путешествовать"],
-            ["twig", "ветка"]
+            ["attack [əˈtæk]", "атаковать, нападать"],
+            ["beak [biːk]", "клюв"],
+            ["from now on [frɒm naʊ ɒn]", "с тех пор"],
+            ["need [niːd]", "нуждаться"],
+            ["in order to [ɪn ˈɔːdə tuː]", "для того, чтобы"],
+            ["inside [ɪnˈsaɪd]", "внутри"],
+            ["invention [ɪnˈvenʃən]", "изобретение"],
+            ["lid [lɪd]", "крышка"],
+            ["nestling [ˈnestlɪŋ]", "птенец"],
+            ["own [əʊn]", "собственный"],
+            ["protect [prəˈtekt]", "защищать"],
+            ["safely [ˈseɪfli]", "безопасно"],
+            ["stork [stɔːk]", "аист"],
+            ["travel [ˈtrævl]", "путешествовать"],
+            ["twig [twɪɡ]", "ветка"]
           ]
         },
         {
           "id": 2,
           "title": "Mice in danger",
           "words": [
-            ["be (was/were)", "быть"],
-            ["in danger", "в опасности"],
-            ["bell", "колокольчик"],
-            ["clean", "чистить, чистый"],
-            ["enough", "достаточно"],
-            ["fur", "шерсть, мех"],
-            ["meeting", "встреча"],
-            ["monster", "монстр"],
-            ["organise", "организовать"],
-            ["owner", "владелец, хозяин"],
-            ["screw", "болт"],
-            ["shout at", "кричать на"],
-            ["smell", "запах, пахнуть"],
-            ["stable", "конюшня"],
-            ["thread", "нитка"],
-            ["tie", "завязывать"]
+            ["be (was/were) [biː | wɒz | wɜː]", "быть"],
+            ["in danger [ɪn ˈdeɪndʒə]", "в опасности"],
+            ["bell [bel]", "колокольчик"],
+            ["clean [kliːn]", "чистить, чистый"],
+            ["enough [ɪˈnʌf]", "достаточно"],
+            ["fur [fɜː]", "шерсть, мех"],
+            ["meeting [ˈmiːtɪŋ]", "встреча"],
+            ["monster [ˈmɒnstə]", "монстр"],
+            ["organise [ˈɔːɡənaɪz]", "организовать"],
+            ["owner [ˈəʊnə]", "владелец, хозяин"],
+            ["screw [skruː]", "болт"],
+            ["shout at [ʃaʊt æt]", "кричать на"],
+            ["smell [smel]", "запах, пахнуть"],
+            ["stable [ˈsteɪbl]", "конюшня"],
+            ["thread [θred]", "нитка"],
+            ["tie [taɪ]", "завязывать"]
           ]
         },
         {
           "id": 3,
           "title": "Steve's hobby",
           "words": [
-            ["be amazed", "быть удивлённым"],
-            ["carry", "нести (в руках)"],
-            ["clap", "хлопать"],
-            ["Coca-Cola cans", "банки колы"],
-            ["competition", "соревнование"],
-            ["direction", "направление"],
-            ["football pitch", "футбольное поле"],
-            ["fortunately", "к счастью"],
-            ["go (went) past", "пройти мимо"],
-            ["hand-made", "сделанный вручную"],
-            ["hate", "ненавидеть"],
-            ["headphones", "наушники"],
-            ["maybe", "возможно"],
-            ["pen stand", "подставка для ручек"],
-            ["recycling", "переработка (продуктов, вещей)"]
+            ["be amazed [biː əˈmeɪzd]", "быть удивлённым"],
+            ["carry [ˈkæri]", "нести (в руках)"],
+            ["clap [klæp]", "хлопать"],
+            ["Coca-Cola cans [ˈkəʊkə ˈkəʊlə kænz]", "банки колы"],
+            ["competition [ˌkɒmpəˈtɪʃən]", "соревнование"],
+            ["direction [dəˈrekʃən]", "направление"],
+            ["football pitch [ˈfʊtbɔːl pɪtʃ]", "футбольное поле"],
+            ["fortunately [ˈfɔːtʃənətli]", "к счастью"],
+            ["go (went) past [ɡəʊ | went pɑːst]", "пройти мимо"],
+            ["hand-made [ˌhændˈmeɪd]", "сделанный вручную"],
+            ["hate [heɪt]", "ненавидеть"],
+            ["headphones [ˈhedfəʊnz]", "наушники"],
+            ["maybe [ˈmeɪbi]", "возможно"],
+            ["pen stand [pen stænd]", "подставка для ручек"],
+            ["recycling [ˌriːˈsaɪklɪŋ]", "переработка (продуктов, вещей)"]
           ]
         },
         {
           "id": 4,
           "title": "A grey brother",
           "words": [
-            ["as much as", "так сильно, как"],
-            ["bark", "лаять"],
-            ["come (came) closer", "подойти ближе"],
-            ["follow", "следовать"],
-            ["get (got) lost", "потеряться"],
-            ["grow (grew)", "расти"],
-            ["howl", "выть"],
-            ["kennel", "будка, конура"],
-            ["lick", "облизывать"],
-            ["scarf", "шарф"],
-            ["snowballs", "снежки"],
-            ["spend (spent) time", "проводить время"],
-            ["throw (threw)", "бросать"],
-            ["shiver (with cold)", "дрожать от холода"],
-            ["wrap", "заматывать"]
+            ["as much as [æz mʌtʃ æz]", "так сильно, как"],
+            ["bark [bɑːk]", "лаять"],
+            ["come (came) closer [kʌm | keɪm ˈkləʊsə]", "подойти ближе"],
+            ["follow [ˈfɒləʊ]", "следовать"],
+            ["get (got) lost [ɡet | ɡɒt lɒst]", "потеряться"],
+            ["grow (grew) [ɡrəʊ | ɡruː]", "расти"],
+            ["howl [haʊl]", "выть"],
+            ["kennel [ˈkenl]", "будка, конура"],
+            ["lick [lɪk]", "облизывать"],
+            ["scarf [skɑːf]", "шарф"],
+            ["snowballs [ˈsnəʊbɔːlz]", "снежки"],
+            ["spend (spent) time [spend | spent taɪm]", "проводить время"],
+            ["throw (threw) [θrəʊ | θruː]", "бросать"],
+            ["shiver (with cold) [ˈʃɪvə wɪð kəʊld]", "дрожать от холода"],
+            ["wrap [ræp]", "заматывать"]
           ]
         },
         {
           "id": 5,
           "title": "A helpful stranger",
           "words": [
-            ["bank", "берег"],
-            ["beaver", "бобёр"],
-            ["become (became)", "становиться"],
-            ["behind", "за, позади"],
-            ["break (broke)", "ломать"],
-            ["brightly", "ярко"],
-            ["bridge", "мост"],
-            ["change", "меняться"],
-            ["cross", "пересекать, перейти"],
-            ["dam", "плотина"],
-            ["hide (hid)", "прятаться"],
-            ["hurry", "торопиться"],
-            ["pinery", "сосновый бор"],
-            ["prepare", "подготовить"],
-            ["shine (shone)", "светить"],
-            ["weather", "погода"]
+            ["bank [bæŋk]", "берег"],
+            ["beaver [ˈbiːvə]", "бобёр"],
+            ["become (became) [bɪˈkʌm | bɪˈkeɪm]", "становиться"],
+            ["behind [bɪˈhaɪnd]", "за, позади"],
+            ["break (broke) [breɪk | brəʊk]", "ломать"],
+            ["brightly [ˈbraɪtli]", "ярко"],
+            ["bridge [brɪdʒ]", "мост"],
+            ["change [tʃeɪndʒ]", "меняться"],
+            ["cross [krɒs]", "пересекать, перейти"],
+            ["dam [dæm]", "плотина"],
+            ["hide (hid) [haɪd | hɪd]", "прятаться"],
+            ["hurry [ˈhʌri]", "торопиться"],
+            ["pinery [ˈpaɪnəri]", "сосновый бор"],
+            ["prepare [prɪˈpeə]", "подготовить"],
+            ["shine (shone) [ʃaɪn | ʃɒn]", "светить"],
+            ["weather [ˈweðə]", "погода"]
           ]
         },
         {
           "id": 6,
           "title": "Spiky and sunny",
           "words": [
-            ["answer", "отвечать"],
-            ["bright", "яркий"],
-            ["cheerfully", "весело"],
-            ["close to", "близко к"],
-            ["cruel", "злой"],
-            ["defend", "защищать"],
-            ["disgusting (о еде)", "отвратительный"],
-            ["duckling", "утёнок"],
-            ["find out (found out)", "узнавать"],
-            ["look for", "искать"],
-            ["object", "предмет"],
-            ["outwit", "перехитрить"],
-            ["prick", "проколоть, наколоть"],
-            ["shiny", "сверкающий"],
-            ["tasty", "вкусный"],
-            ["worm", "червяк"]
+            ["answer [ˈɑːnsə]", "отвечать"],
+            ["bright [braɪt]", "яркий"],
+            ["cheerfully [ˈtʃɪəfəli]", "весело"],
+            ["close to [kləʊs tuː]", "близко к"],
+            ["cruel [ˈkruːəl]", "злой"],
+            ["defend [dɪˈfend]", "защищать"],
+            ["disgusting (о еде) [dɪsˈɡʌstɪŋ]", "отвратительный"],
+            ["duckling [ˈdʌklɪŋ]", "утёнок"],
+            ["find out (found out) [faɪnd aʊt | faʊnd aʊt]", "узнавать"],
+            ["look for [lʊk fɔː]", "искать"],
+            ["object [ˈɒbdʒɪkt]", "предмет"],
+            ["outwit [ˌaʊtˈwɪt]", "перехитрить"],
+            ["prick [prɪk]", "проколоть, наколоть"],
+            ["shiny [ˈʃaɪni]", "сверкающий"],
+            ["tasty [ˈteɪsti]", "вкусный"],
+            ["worm [wɜːm]", "червяк"]
           ]
         },
         {
           "id": 7,
           "title": "A green elephant",
           "words": [
-            ["almost", "почти"],
-            ["be surrounded by", "быть окружённым чем-то"],
-            ["brush", "кисть, щётка"],
-            ["bucket", "ведро"],
-            ["call", "звонить, звонок"],
-            ["curious", "любопытный"],
-            ["information centre", "информационный центр"],
-            ["inside", "внутри"],
-            ["paint", "красить, краска"],
-            ["spill (spilt)", "проливать"],
-            ["step", "шаг"],
-            ["the only", "единственный"],
-            ["trunk", "хобот"],
-            ["unique", "уникальный"],
-            ["zoo-keeper", "смотритель зоопарка"]
+            ["almost [ˈɔːlməʊst]", "почти"],
+            ["be surrounded by [biː səˈraʊndɪd baɪ]", "быть окружённым чем-то"],
+            ["brush [brʌʃ]", "кисть, щётка"],
+            ["bucket [ˈbʌkɪt]", "ведро"],
+            ["call [kɔːl]", "звонить, звонок"],
+            ["curious [ˈkjʊəriəs]", "любопытный"],
+            ["information centre [ˌɪnfəˈmeɪʃən sentə]", "информационный центр"],
+            ["inside [ɪnˈsaɪd]", "внутри"],
+            ["paint [peɪnt]", "красить, краска"],
+            ["spill (spilt) [spɪl | spɪlt]", "проливать"],
+            ["step [step]", "шаг"],
+            ["the only [ðiː ˈəʊnli]", "единственный"],
+            ["trunk [trʌŋk]", "хобот"],
+            ["unique [juːˈniːk]", "уникальный"],
+            ["zoo-keeper [ˈzuːˌkiːpə]", "смотритель зоопарка"]
           ]
         },
         {
           "id": 8,
           "title": "Faster or stronger",
           "words": [
-            ["accident", "происшествие, несчастный случай"],
-            ["be ashamed", "быть пристыженным"],
-            ["be in danger", "быть в опасности"],
-            ["be proud of", "гордиться"],
-            ["be thankful to", "быть благодарным"],
-            ["better", "лучше"],
-            ["bring (brought)", "приносить"],
-            ["cub", "детёныш"],
-            ["den", "берлога"],
-            ["eagle", "орёл"],
-            ["hunt", "охотиться"],
-            ["laugh at", "смеяться над"],
-            ["lift", "поднимать"],
-            ["news", "новости"],
-            ["nimble", "проворный, ловкий"],
-            ["rescue", "спасение"],
-            ["save", "спасать"],
-            ["should", "следует"],
-            ["slow", "медленный"],
-            ["than", "чем"]
+            ["accident [ˈæksɪdənt]", "происшествие, несчастный случай"],
+            ["be ashamed [biː əˈʃeɪmd]", "быть пристыженным"],
+            ["be in danger [biː ɪn ˈdeɪndʒə]", "быть в опасности"],
+            ["be proud of [biː praʊd ɒv]", "гордиться"],
+            ["be thankful to [biː ˈθæŋkfʊl tuː]", "быть благодарным"],
+            ["better [ˈbetə]", "лучше"],
+            ["bring (brought) [brɪŋ | brɔːt]", "приносить"],
+            ["cub [kʌb]", "детёныш"],
+            ["den [den]", "берлога"],
+            ["eagle [ˈiːɡl]", "орёл"],
+            ["hunt [hʌnt]", "охотиться"],
+            ["laugh at [lɑːf æt]", "смеяться над"],
+            ["lift [lɪft]", "поднимать"],
+            ["news [njuːz]", "новости"],
+            ["nimble [ˈnɪmbl]", "проворный, ловкий"],
+            ["rescue [ˈreskjuː]", "спасение"],
+            ["save [seɪv]", "спасать"],
+            ["should [ʃʊd]", "следует"],
+            ["slow [sləʊ]", "медленный"],
+            ["than [ðæn]", "чем"]
           ]
         },
         {
           "id": 9,
           "title": "People and animals save lives",
           "words": [
-            ["carry", "нести"],
-            ["expedition", "экспедиция"],
-            ["for the last 10 years", "за последние 10 лет"],
-            ["hold (held)", "держать"],
-            ["hunger", "голод"],
-            ["life (lives)", "жизнь (жизни)"],
-            ["research", "исследование"],
-            ["research centre", "исследовательский центр"],
-            ["researcher", "исследователь"],
-            ["suffer from", "страдать от"],
-            ["survive", "выживать"],
-            ["take (took) a photo", "сделать фотографию"],
-            ["that's why", "поэтому"],
-            ["thirst", "жажда"],
-            ["wake up (woke up)", "просыпаться"],
-            ["weak", "слабый"]
+            ["carry [ˈkæri]", "нести"],
+            ["expedition [ˌekspəˈdɪʃən]", "экспедиция"],
+            ["for the last 10 years [fɔː ðə lɑːst ten jɪəz]", "за последние 10 лет"],
+            ["hold (held) [həʊld | held]", "держать"],
+            ["hunger [ˈhʌŋɡə]", "голод"],
+            ["life (lives) [laɪf | lɪvz]", "жизнь (жизни)"],
+            ["research [rɪˈsɜːtʃ]", "исследование"],
+            ["research centre [rɪˈsɜːtʃ sentə]", "исследовательский центр"],
+            ["researcher [rɪˈsɜːtʃə]", "исследователь"],
+            ["suffer from [ˈsʌfə frɒm]", "страдать от"],
+            ["survive [səˈvaɪv]", "выживать"],
+            ["take (took) a photo [teɪk | tʊk ə ˈfəʊtəʊ]", "сделать фотографию"],
+            ["that's why [ðæts waɪ]", "поэтому"],
+            ["thirst [θɜːst]", "жажда"],
+            ["wake up (woke up) [weɪk ʌp | wəʊk ʌp]", "просыпаться"],
+            ["weak [wiːk]", "слабый"]
           ]
         },
         {
           "id": 10,
           "title": "The dolphins against the shark",
           "words": [
-            ["against", "против"],
-            ["catcher", "ловец"],
-            ["daughter", "дочь"],
-            ["dolphinarium", "дельфинарий"],
-            ["earn", "зарабатывать"],
-            ["enjoy", "наслаждаться"],
-            ["fin", "плавник"],
-            ["go (went) on holiday", "ехать в отпуск"],
-            ["job", "работа, профессия"],
-            ["kill", "убивать"],
-            ["permission", "разрешение"],
-            ["reach", "достигать"],
-            ["rich", "богатый"],
-            ["sail", "плыть под парусами"],
-            ["sell (sold)", "продавать"],
-            ["wife", "жена"],
-            ["yacht", "яхта"]
-          ]
-        },
-		{
-          "id": 11,
-          "title": "Past Simple",
-          "words": [
-            ["was / were", "был / были"],
-            ["became", "стал"],
-            ["began", "начал"],
-            ["brought", "принёс"],
-            ["could", "мог"],
-            ["came", "пришёл"],
-            ["dove", "нырнул"],
-            ["drank", "пил"],
-            ["ate", "ел"],
-            ["fell", "упал"],
-            ["felt", "чувствовал"],
-            ["found", "нашёл"],
-            ["flew", "летел"],
-            ["got", "получил"],
-            ["got lost", "потерялся"],
-            ["gave", "дал"],
-            ["went", "шёл"],
-            ["grew", "рос"],
-            ["hung", "висел"],
-            ["had", "имел"],
-            ["heard", "слышал"],
-            ["learnt", "учил"],
-            ["let", "позволил"],
-            ["lost", "потерял"],
-            ["made", "сделал"],
-            ["met", "встретил"],
-            ["put", "положил"],
-            ["ran", "бежал"],
-            ["said", "сказал"],
-            ["saw", "увидел"],
-            ["shot", "выстрелил"],
-            ["sang", "пел"],
-            ["smelt", "пах"],
-            ["spent", "провёл"],
-            ["swam", "плыл"],
-            ["took", "взял"],
-            ["thought", "думал"],
-            ["threw", "бросил"]
+            ["against [əˈɡenst]", "против"],
+            ["catcher [ˈkætʃə]", "ловец"],
+            ["daughter [ˈdɔːtə]", "дочь"],
+            ["dolphinarium [ˌdɒlfɪˈneəriəm]", "дельфинарий"],
+            ["earn [ɜːn]", "зарабатывать"],
+            ["enjoy [ɪnˈdʒɔɪ]", "наслаждаться"],
+            ["fin [fɪn]", "плавник"],
+            ["go (went) on holiday [ɡəʊ | went ɒn ˈhɒlɪdeɪ]", "ехать в отпуск"],
+            ["job [dʒɒb]", "работа, профессия"],
+            ["kill [kɪl]", "убивать"],
+            ["permission [pəˈmɪʃən]", "разрешение"],
+            ["reach [riːtʃ]", "достигать"],
+            ["rich [rɪtʃ]", "богатый"],
+            ["sail [seɪl]", "плыть под парусами"],
+            ["sell (sold) [sel | səʊld]", "продавать"],
+            ["wife [waɪf]", "жена"],
+            ["yacht [jɒt]", "яхта"]
           ]
         }
       ]
@@ -952,81 +908,1578 @@
 		}
       ]
     },
+	
+	{
+    "id": 5,
+    "title": "Little Bear and Other Stories",
+    "lessons": [
+    {
+      "id": 1,
+      "title": "Part 1",
+      "words": [
+        ["clock [klɒk]","часы"],
+        ["faster [ˈfɑːstə]","быстрее"],
+        ["end [end]","заканчиваться, конец"],
+        ["new [njuː]","новый"],
+        ["snow [snəʊ]","снег"],
+        ["hat [hæt]","шапка, шляпа"],
+        ["inside [ɪnˈsaɪd]","внутрь, внутри"],
+        ["tree [triː]","дерево"],
+        ["some [sʌm]","несколько, некоторые"],
+        ["fill [fɪl]","наполнять"]
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Part 2",
+      "words": [
+       ["fish [fɪʃ]","рыба, рыбачить"],
+       ["chopsticks [ˈtʃɒpstɪks]","палочки для еды"],
+       ["asleep [əˈsliːp]","спящий"],
+       ["over [ˈəʊvə]","над"],
+       ["door [dɔː]","дверь"],
+       ["come back [kʌm bæk]","возвращаться"],
+       ["earth [ɜːθ]","земля"],
+       ["wing [wɪŋ]","крыло"],
+       ["short [ʃɔːt]","низкого роста, короткий"],
+       ["be back [biː bæk]","возвращаться"]
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Part 3",
+      "words": [
+       ["see [siː]","видеть"],
+       ["toast [təʊst]","тост, сухарик"],
+       ["ceiling [ˈsiːlɪŋ]","потолок"],
+       ["together [təˈɡeðə]","вместе"],
+       ["jam [dʒæm]","варенье, джем"],
+       ["space [speɪs]","космический"],
+       ["sit [sɪt]","садиться, сидеть"],
+       ["miss [mɪs]","скучать"],
+       ["thing [θɪŋ]","вещь, предмет, штука"],
+       ["quiet [ˈkwaɪət]","тихий, тихо"]
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Part 4",
+      "words": [
+       ["snowy [ˈsnəʊɪ]","снежный"],
+       ["page [peɪdʒ]","страница"],
+       ["cookie [ˈkʊkɪ]","печенье"],
+       ["melt [melt]","таять"],
+       ["cat [kæt]","кот, кошка"],
+       ["sell [sel]","продавать"],
+       ["tomorrow [təˈmɒrəʊ]","завтра"],
+       ["bread [bred]","хлеб"],
+       ["potato [pəˈteɪtəʊ]","картофель"],
+       ["friend [frend]","друг"]
+      ]
+    },
     {
       "id": 5,
+      "title": "Part 5",
+      "words": [
+        ["fur coat [fɜː kəʊt]","шуба"],
+        ["nothing [ˈnʌθɪŋ]","ничего"],
+        ["Bang! [bæŋ]","Бах!"],
+        ["leave [liːv]","уходить"],
+        ["squirrel [ˈskwɪrəl]","белка"],
+        ["pencil [ˈpensəl]","карандаш"],
+        ["take back [teɪk bæk]","забирать"],
+        ["forget [fəˈɡet]","забывать"],
+        ["who [huː]","кто"],
+        ["sparrow [ˈspærəʊ]","воробей"]
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Part 6",
+      "words": [
+       ["today [təˈdeɪ]","сегодня"],
+       ["lie [laɪ]","ложь, неправда"],
+       ["open [ˈəʊpən]","открывать, открытый"],
+       ["others [ˈʌðəz]","другие"],
+       ["raindrop [ˈreɪndrɒp]","дождевая капля"],
+       ["green [ɡriːn]","зелёный"],
+       ["treetop [ˈtriːtɒp]","верхушка дерева"],
+       ["follow [ˈfɒləʊ]","идти следом, следовать"],
+       ["bathtub [ˈbɑːθtʌb]","ванна"],
+       ["forest [ˈfɒrɪst]","лес"]
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Part 7",
+      "words": [
+        ["stay [steɪ]","оставаться"],
+        ["wait [weɪt]","ждать"],
+        ["happy [ˈhæpɪ]","счастливый"],
+        ["root [ruːt]","корень"],
+        ["island [ˈaɪlənd]","остров"],
+        ["something [ˈsʌmθɪŋ]","что-то"],
+        ["run back [rʌn bæk]","бежать обратно"],
+        ["winter [ˈwɪntə]","зима"],
+        ["loudly [ˈlaʊdlɪ]","громко"],
+        ["come down [kʌm daʊn]","спускаться"]
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Part 8",
+      "words": [
+        ["sofa [ˈsəʊfə]","диван"],
+        ["wall [wɔːl]","стена"],
+        ["fix [fɪks]","чинить, исправлять"],
+        ["come out [kʌm aʊt]","выходить"],
+        ["hooray [hʊˈreɪ]","ура"],
+        ["log [lɒɡ]","бревно"],
+        ["pocketbook [ˈpɒkɪtˌbʊk]","записная книжка"],
+        ["fun [fʌn]","веселье"],
+        ["look for [lʊk fɔː]","искать что-либо"],
+        ["bathroom [ˈbɑːθruːm]","ванная комната"]
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Part 9",
+      "words": [
+        ["go away [ɡəʊ əˈweɪ]","уходить"],
+        ["goblin [ˈɡɒblɪn]","домовой, гоблин"],
+        ["spring [sprɪŋ]","весна"],
+        ["nap [næp]","дремота, короткий сон"],
+        ["cook [kʊk]","готовить еду"],
+        ["wet [wet]","мокрый"],
+        ["back [bæk]","назад"],
+        ["fisherman [ˈfɪʃəmən]","рыбак"],
+        ["same [seɪm]","одинаковый, такой же"],
+        ["front [frʌnt]","перед, передний"]
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Part 10",
+      "words": [
+        ["bigger [ˈbɪɡə]","больше"],
+        ["each other [iːtʃ ˈʌðə]","друг друга"],
+        ["word [wɜːd]","слово"],
+        ["pick up [pɪk ʌp]","поднимать, брать на руки"],
+        ["come [kʌm]","приходить"],
+        ["wish [wɪʃ]","желание, желать"],
+        ["rabbit [ˈræbɪt]","кролик"],
+        ["loud [laʊd]","громкий"],
+        ["can [kæn]","мочь, уметь"],
+        ["shut [ʃʌt]","закрывать"]
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Part 11",
+      "words": [
+        ["floor [flɔː]","пол"],
+        ["chair [tʃeə]","стул"],
+        ["birthday [ˈbɜːθdeɪ]","день рождения"],
+        ["live [lɪv]","жить"],
+        ["warm [wɔːm]","тёплый"],
+        ["fly by [flaɪ baɪ]","пролетать мимо"],
+        ["sweet [swiːt]","милый, приятный"],
+        ["always [ˈɔːlweɪz]","всегда"],
+        ["blackbird [ˈblækbɜːd]","дрозд"],
+        ["there [ðeə]","там"]
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Part 12",
+      "words": [
+       ["whole [həʊl]","целый"],
+       ["ten [ten]","десять"],
+       ["once [wʌns]","однажды"],
+       ["turn off [tɜːn ɒf]","выключать"],
+       ["nest [nest]","гнездо"],
+       ["brush [brʌʃ]","касаться, задевать"],
+       ["next [nekst]","следующий"],
+       ["true [truː]","правда, правдивый"],
+       ["come in [kʌm ɪn]","входить, заходить"],
+       ["bloom [bluːm]","цвести"]
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Part 13",
+      "words": [
+        ["nose [nəʊz]","нос"],
+        ["high [haɪ]","высокий"],
+        ["nice [naɪs]","милый"],
+        ["hurt [hɜːt]","болеть, причинять боль"],
+        ["sleep [sliːp]","спать"],
+        ["land [lænd]","приземляться"],
+        ["story [ˈstɔːrɪ]","рассказ, история"],
+        ["run [rʌn]","бежать"],
+        ["foot [fʊt]","ступня, нога"],
+        ["cool [kuːl]","прохладный"]
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Part 14",
+      "words": [
+        ["say [seɪ]","сказать"],
+        ["place [pleɪs]","место"],
+        ["pretty [ˈprɪtɪ]","симпатичный, красивый"],
+        ["well [wel]","колодец"],
+        ["shine [ʃaɪn]","сиять, светить"],
+        ["father [ˈfɑːðə]","отец, папа"],
+        ["tent [tent]","палатка, тент"],
+        ["grass [ɡrɑːs]","трава"],
+        ["basket [ˈbɑːskɪt]","корзинка"],
+        ["world [wɜːld]","мир"]
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Part 15",
+      "words": [
+        ["flower [ˈflaʊə]","цветок"],
+        ["fall [fɔːl]","падать"],
+        ["water [ˈwɔːtə]","вода, поливать"],
+        ["take out [teɪk aʊt]","вынимать, доставать"],
+        ["knock [nɒk]","стучать"],
+        ["kettle [ˈketl]","чайник"],
+        ["book [bʊk]","книга"],
+        ["outside [ˌaʊtˈsaɪd]","снаружи, наружу"],
+        ["music [ˈmjuːzɪk]","музыка"],
+        ["ouch [aʊtʃ]","ай!"]
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Part 16",
+      "words": [
+       ["town [taʊn]","город"],
+       ["four [fɔː]","четыре"],
+       ["take [teɪk]","брать"],
+       ["keep [kiːp]","хранить, держать у себя"],
+       ["glad [ɡlæd]","довольный, радостный"],
+       ["cry [kraɪ]","кричать, плакать"],
+       ["go [ɡəʊ]","идти, ходить"],
+       ["fork [fɔːk]","вилка"],
+       ["become [bɪˈkʌm]","становиться, превращаться"],
+       ["downstairs [ˌdaʊnˈsteəz]","нижний этаж, внизу"]
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Part 17",
+      "words": [
+        ["under [ˈʌndə]","под"],
+        ["both [bəʊθ]","оба"],
+        ["oops [uːps]","ой!"],
+        ["next to [nekst tuː]","рядом с"],
+        ["way [weɪ]","путь, дорога"],
+        ["crash [kræʃ]","грохот, треск"],
+        ["worm [wɜːm]","червяк"],
+        ["meet [miːt]","встречать, знакомиться"],
+        ["pot [pɒt]","кастрюля, горшок"],
+        ["closer [ˈkləʊsə]","ближе"]
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Part 18",
+      "words": [
+       ["tonight [təˈnaɪt]","сегодня вечером"],
+       ["listen [ˈlɪsən]","слушать"],
+       ["bug [bʌɡ]","жук"],
+       ["start [stɑːt]","начинать"],
+       ["get [ɡet]","получать, становиться"],
+       ["tape [teɪp]","клейкая лента"],
+       ["boat [bəʊt]","лодка"],
+       ["lap [læp]","колени"],
+       ["send [send]","посылать"],
+       ["underpants [ˈʌndəpænts]","кальсоны, трусы"]
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Part 19",
+      "words": [
+        ["kiss [kɪs]","поцелуй, целовать"],
+        ["dear [dɪə]","дорогой, милый"],
+        ["goodbye [ɡʊdˈbaɪ]","до свидания"],
+        ["like [laɪk]","как, нравиться"],
+        ["horrible [ˈhɒrɪbəl]","ужасный"],
+        ["octopus [ˈɒktəpəs]","осьминог"],
+        ["sing [sɪŋ]","петь"],
+        ["tear [teə]","рвать, разрывать"],
+        ["girl [ɡɜːl]","девочка"],
+        ["tenth [tenθ]","десятый"]
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Part 20",
+      "words": [
+       ["wife [waɪf]","жена"],
+       ["our [ˈaʊə]","наш"],
+       ["until [ənˈtɪl]","до тех пор"],
+       ["higher [ˈhaɪə]","выше"],
+       ["rain [reɪn]","дождь"],
+       ["top [tɒp]","вершина, макушка"],
+       ["east [iːst]","восток, восточный"],
+       ["down [daʊn]","вниз"],
+       ["care [keə]","беспокоиться, волноваться"],
+       ["surprise [səˈpraɪz]","сюрприз"]
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Part 21",
+      "words": [
+       ["carrot [ˈkærət]","морковь"],
+       ["street [striːt]","улица"],
+       ["pass by [pɑːs baɪ]","проходить мимо"],
+       ["stone [stəʊn]","камень"],
+       ["sleepy [ˈsliːpɪ]","сонный"],
+       ["sad [sæd]","грустный"],
+       ["oh dear [əʊ dɪə]","о господи!"],
+       ["lift [lɪft]","поднимать"],
+       ["time [taɪm]","время, раз"],
+       ["strange [streɪndʒ]","странный"]
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Part 22",
+      "words": [
+        ["doll [dɒl]","кукла"],
+        ["pillow [ˈpɪləʊ]","подушка"],
+        ["my goodness [maɪ ˈɡʊdnɪs]","господи! боже мой!"],
+        ["take off [teɪk ɒf]","снимать"],
+        ["come true [kʌm truː]","сбываться (о мечтах)"],
+        ["hallway [ˈhɔːlweɪ]","коридор, прихожая"],
+        ["spoon [spuːn]","ложка"],
+        ["wonder [ˈwʌndə]","интересоваться, размышлять"],
+        ["left [left]","левый, налево"],
+        ["pick [pɪk]","собирать"]
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Part 23",
+      "words": [
+       ["bird [bɜːd]","птица"],
+       ["duck [dʌk]","утка"],
+       ["tear [tɪə]","слеза, слёзный"],
+       ["sight [saɪt]","вид"],
+       ["tell [tel]","рассказывать"],
+       ["somewhere [ˈsʌmweə]","где-то"],
+       ["darkness [ˈdɑːknəs]","темнота"],
+       ["enough [ɪˈnʌf]","достаточно"],
+       ["skunk [skʌŋk]","скунс"],
+       ["feel [fiːl]","чувствовать"]
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Part 24",
+      "words": [
+       ["dry [draɪ]","сухой, вытирать"],
+       ["swim [swɪm]","плавать"],
+       ["heart [hɑːt]","сердце"],
+       ["each [iːtʃ]","каждый"],
+       ["toy [tɔɪ]","игрушечный, игрушка"],
+       ["pipe [paɪp]","курительная трубка"],
+       ["behave [bɪˈheɪv]","вести себя"],
+       ["laugh [lɑːf]","смеяться"],
+       ["wheel [wiːl]","колесо"],
+       ["lose [luːz]","терять"]
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Part 25",
+      "words": [
+       ["sea [siː]","море"],
+       ["whale [weɪl]","кит"],
+       ["cake [keɪk]","торт"],
+       ["Viking [ˈvaɪkɪŋ]","викинг"],
+       ["fat [fæt]","толстый"],
+       ["hole [həʊl]","дыра, отверстие"],
+       ["roller skates [ˈrəʊlə skeɪts]","роликовые коньки"],
+       ["drop [drɒp]","капать"],
+       ["give [ɡɪv]","давать"],
+       ["side [saɪd]","сторона"]
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Part 26",
+      "words": [
+       ["finish [ˈfɪnɪʃ]","заканчивать"],
+       ["jump up [dʒʌmp ʌp]","подпрыгивать"],
+       ["eye [aɪ]","глаз"],
+       ["dirty [ˈdɜːtɪ]","грязный"],
+       ["look [lʊk]","смотреть"],
+       ["blanket [ˈblæŋkɪt]","одеяло"],
+       ["coat [kəʊt]","пальто"],
+       ["duckling [ˈdʌklɪŋ]","утёнок"],
+       ["lie [laɪ]","лежать"],
+       ["good [ɡʊd]","хороший, хорошо"]
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Part 27",
+      "words": [
+        ["want [wɒnt]","хотеть"],
+        ["castle [ˈkɑːsəl]","замок"],
+        ["whiskers [ˈwɪskəz]","усики"],
+        ["monster [ˈmɒnstə]","чудище, монстр"],
+        ["cover [ˈkʌvə]","покрывать, укрывать"],
+        ["air [eə]","воздух"],
+        ["black [blæk]","чёрный"],
+        ["that [ðæt]","то, тот"],
+        ["scared [skeəd]","испуганный"],
+        ["salty [ˈsɔːltɪ]","солёный"]
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Part 28",
+      "words": [
+       ["tomato [təˈmɑːtəʊ]","томат, помидор"],
+       ["dark [dɑːk]","тёмный, темно"],
+       ["safe [seɪf]","безопасный"],
+       ["pull [pʊl]","тянуть, тащить"],
+       ["run away [rʌn əˈweɪ]","убегать"],
+       ["answer [ˈɑːnsə]","ответ, отвечать"],
+       ["guest [ɡest]","гость, посетитель"],
+       ["tunnel [ˈtʌnəl]","тоннель"],
+       ["spot [spɒt]","место"],
+       ["talk [tɔːk]","разговаривать"]
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Part 29",
+      "words": [
+        ["run around [rʌn əˈraʊnd]","бегать вокруг"],
+        ["pleasant [ˈplezənt]","приятный"],
+        ["right [raɪt]","прямо, правый"],
+        ["fit [fɪt]","умещаться, подходить"],
+        ["slam [slæm]","захлопывать"],
+        ["then [ðen]","тогда"],
+        ["put down [pʊt daʊn]","опускать, класть"],
+        ["pit-pat [ˈpɪt pæt]","топ-топ, шлёп-шлёп"],
+        ["smell [smel]","пахнуть"],
+        ["lost [lɒst]","потерявшийся, потерянный"]
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Part 30",
+      "words": [
+        ["wedding [ˈwedɪŋ]","свадьба"],
+        ["where [weə]","где"],
+        ["knee [niː]","колено"],
+        ["upstairs [ˌʌpˈsteəz]","наверху, на втором этаже"],
+        ["help [help]","помощь"],
+        ["hot [hɒt]","жаркий, горячий"],
+        ["home [həʊm]","дом"],
+        ["fall down [fɔːl daʊn]","падать вниз"],
+        ["next door [nekst dɔː]","по соседству"],
+        ["wishing well [ˈwɪʃɪŋ wel]","колодец, исполняющий желания"]
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Part 31",
+      "words": [
+        ["head [hed]","голова"],
+        ["look out [lʊk aʊt]","выглядывать"],
+        ["look back [lʊk bæk]","оглядываться"],
+        ["move [muːv]","двигаться"],
+        ["cricket [ˈkrɪkɪt]","сверчок"],
+        ["make a wish [meɪk ə wɪʃ]","загадывать желание"],
+        ["silly [ˈsɪlɪ]","глупый"],
+        ["yet [jet]","ещё"],
+        ["owl [aʊl]","сова, филин"],
+        ["break [breɪk]","ломать, ломаться"]
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Part 32",
+      "words": [
+       ["picture [ˈpɪktʃə]","картинка, картина"],
+       ["cupboard [ˈkʌbəd]","буфет, посудный шкаф"],
+       ["China [ˈtʃaɪnə]","Китай"],
+       ["write [raɪt]","писать"],
+       ["blow out [bləʊ aʊt]","задуть, потушить"],
+       ["march [mɑːtʃ]","шагать, маршировать"],
+       ["middle [ˈmɪdl]","середина"],
+       ["ocean [ˈəʊʃən]","океан"],
+       ["blue [bluː]","синий, голубой"],
+       ["ice [aɪs]","лёд"]
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Part 33",
+      "words": [
+        ["sail [seɪl]","плыть на лодке, под парусом"],
+        ["clever [ˈklevə]","умный"],
+        ["still [stɪl]","всё ещё, спокойный, тихий"],
+        ["bed [bed]","кровать"],
+        ["climb out [klaɪm aʊt]","вылезать, выбираться"],
+        ["second [ˈsekənd]","второй"],
+        ["robin [ˈrɒbɪn]","малиновка"],
+        ["dance [dɑːns]","танец, танцевать"],
+        ["thank [θæŋk]","благодарить"],
+        ["leg [leɡ]","нога"]
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Part 34",
+      "words": [
+        ["make [meɪk]","делать, изготавливать"],
+        ["hide [haɪd]","прятаться"],
+        ["catch [kætʃ]","ловить, поймать"],
+        ["close [kləʊs]","близко"],
+        ["run after [rʌn ˈɑːftə]","бежать за кем-то"],
+        ["swamp [swɒmp]","болото"],
+        ["put on [pʊt ɒn]","надевать"],
+        ["how [haʊ]","как"],
+        ["grow [ɡrəʊ]","расти"],
+        ["hundred [ˈhʌndrəd]","сто"]
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Part 35",
+      "words": [
+       ["lemonade [ˌleməˈneɪd]","лимонад"],
+       ["fill up [fɪl ʌp]","наполнять до краёв"],
+       ["mud [mʌd]","грязь"],
+       ["river [ˈrɪvə]","река"],
+       ["hug [hʌɡ]","обнимать"],
+       ["turn into [tɜːn ˈɪntuː]","превращаться"],
+       ["sneakers [ˈsniːkəz]","кроссовки"],
+       ["cloud [klaʊd]","облако"],
+       ["chewing gum [ˈtʃuːɪŋ ɡʌm]","жевательная резинка"],
+       ["lake [leɪk]","озеро"]
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Part 36",
+      "words": [
+        ["night [naɪt]","ночь"],
+        ["bear [beə]","медведь"],
+        ["else [els]","ещё, другой"],
+        ["frost [frɒst]","покрывать инеем, замораживать"],
+        ["boots [buːts]","ботинки"],
+        ["ear [ɪə]","ухо"],
+        ["west [west]","запад, западный"],
+        ["sound [saʊnd]","звук"],
+        ["need [niːd]","нуждаться"],
+        ["stairs [steəz]","ступени лестницы"]
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Part 37",
+      "words": [
+        ["roof [ruːf]","крыша"],
+        ["tea [tiː]","чай"],
+        ["hold [həʊld]","держать"],
+        ["wave [weɪv]","волна"],
+        ["now [naʊ]","сейчас"],
+        ["reed [riːd]","камыш, тростник"],
+        ["stove [stəʊv]","печь, кухонная плита"],
+        ["because [bɪˈkɒz]","потому что"],
+        ["shoe [ʃuː]","туфля"],
+        ["bee [biː]","пчела"]
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Part 38",
+      "words": [
+        ["face [feɪs]","лицо"],
+        ["climb [klaɪm]","взбираться"],
+        ["pull off [pʊl ɒf]","стянуть, стащить"],
+        ["shout [ʃaʊt]","кричать"],
+        ["hill [hɪl]","холм"],
+        ["year [jɪə]","год"],
+        ["puddle [ˈpʌdl]","лужа"],
+        ["these [ðiːz]","эти"],
+        ["paper [ˈpeɪpə]","бумага"],
+        ["owlet [ˈaʊlɪt]","совёнок"]
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Part 39",
+      "words": [
+       ["boil [bɔɪl]","кипятить"],
+       ["everyone [ˈevrɪwʌn]","все, каждый"],
+       ["living room [ˈlɪvɪŋ ruːm]","гостиная"],
+       ["lady [ˈleɪdɪ]","леди"],
+       ["tall [tɔːl]","высокий"],
+       ["pond [pɒnd]","пруд"],
+       ["arm [ɑːm]","рука"],
+       ["suddenly [ˈsʌdənlɪ]","вдруг, неожиданно"],
+       ["farther [ˈfɑːðə]","дальше"],
+       ["lovely [ˈlʌvlɪ]","милый"]
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Part 40",
+      "words": [
+        ["feet [fiːt]","ноги, ступни"],
+        ["put [pʊt]","класть"],
+        ["peep [piːp]","пищать"],
+        ["hear [hɪə]","слышать"],
+        ["fly away [flaɪ əˈweɪ]","улетать"],
+        ["fly [flaɪ]","летать, пролетать"],
+        ["blow [bləʊ]","дуть"],
+        ["go back [ɡəʊ bæk]","возвращаться"],
+        ["think [θɪŋk]","думать"],
+        ["find [faɪnd]","находить"]
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Part 41",
+      "words": [
+        ["those [ðəʊz]","те"],
+        ["eat [iːt]","кушать, есть"],
+        ["begin [bɪˈɡɪn]","начинать"],
+        ["bake [beɪk]","печь, выпекать"],
+        ["fur [fɜː]","мех"],
+        ["jump [dʒʌmp]","прыгать"],
+        ["visit [ˈvɪzɪt]","посещать, приходить в гости"],
+        ["climb down [klaɪm daʊn]","спускаться, слезать"],
+        ["honey [ˈhʌnɪ]","мёд"],
+        ["again [əˈɡen]","опять, снова"]
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Part 42",
+      "words": [
+        ["very [ˈverɪ]","очень"],
+        ["soon [suːn]","вскоре, скоро"],
+        ["mouse [maʊs]","мышь"],
+        ["fireplace [ˈfaɪəpleɪs]","камин"],
+        ["too [tuː]","тоже, слишком"],
+        ["get up [ɡet ʌp]","вставать"],
+        ["soup [suːp]","суп"],
+        ["everything [ˈevrɪθɪŋ]","всё"],
+        ["here [hɪə]","здесь"],
+        ["read [riːd]","читать"]
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Part 43",
+      "words": [
+        ["stop [stɒp]","останавливаться"],
+        ["away [əˈweɪ]","прочь"],
+        ["look at [lʊk æt]","смотреть на что-либо"],
+        ["mountain [ˈmaʊntɪn]","гора"],
+        ["may [meɪ]","можно"],
+        ["free [friː]","свободный"],
+        ["children [ˈtʃɪldrən]","дети"],
+        ["penny [ˈpenɪ]","пенни, монетка"],
+        ["fool [fuːl]","дурачиться"],
+        ["mice [maɪs]","мыши"]
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Part 44",
+      "words": [
+        ["call [kɔːl]","звать"],
+        ["hit [hɪt]","бить, ударять"],
+        ["push [pʊʃ]","толкать"],
+        ["fast [fɑːst]","быстрый, быстро"],
+        ["another [əˈnʌðə]","другой, ещё один"],
+        ["car [kɑː]","машина"],
+        ["already [ɔːlˈredɪ]","уже"],
+        ["real [rɪəl]","настоящий"],
+        ["bump [bʌmp]","выпуклость, вздутие"],
+        ["let [let]","позволять"]
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Part 45",
+      "words": [
+       ["pen [pen]","шариковая ручка"],
+       ["pajamas [pəˈdʒɑːməz]","пижама"],
+       ["really [ˈrɪəlɪ]","правда, действительно"],
+       ["pea [piː]","горох, гороховый"],
+       ["ask [ɑːsk]","спрашивать"],
+       ["first [fɜːst]","первый"],
+       ["fine [faɪn]","хороший, прекрасный"],
+       ["never [ˈnevə]","никогда"],
+       ["plate [pleɪt]","тарелка"],
+       ["north [nɔːθ]","север, северный"]
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Part 46",
+      "words": [
+        ["tired [ˈtaɪəd]","усталый"],
+        ["sail away [seɪl əˈweɪ]","уплывать"],
+        ["milk [mɪlk]","молоко"],
+        ["wonderful [ˈwʌndəfəl]","чудесный, прекрасный"],
+        ["up [ʌp]","вверх"],
+        ["wind [wɪnd]","ветер"],
+        ["roll [rəʊl]","катиться"],
+        ["house [haʊs]","дом, здание"],
+        ["vegetable [ˈvedʒtəbəl]","овощ"],
+        ["every [ˈevrɪ]","каждый"]
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Part 47",
+      "words": [
+        ["across [əˈkrɒs]","через, поперёк, напротив"],
+        ["frog [frɒɡ]","лягушка"],
+        ["love [lʌv]","любовь, любить"],
+        ["moon [muːn]","луна"],
+        ["other [ˈʌðə]","другой"],
+        ["princess [prɪnˈses]","принцесса"],
+        ["so [səʊ]","поэтому, итак"],
+        ["evening [ˈiːvnɪŋ]","вечер"],
+        ["between [bɪˈtwiːn]","между"],
+        ["bath [bɑːθ]","купание в ванне"]
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Part 48",
+      "words": [
+       ["far [fɑː]","далеко, далёкий"],
+       ["everywhere [ˈevrɪweə]","везде"],
+       ["round [raʊnd]","круглый, вокруг"],
+       ["road [rəʊd]","дорога"],
+       ["party [ˈpɑːtɪ]","праздник, вечеринка"],
+       ["behind [bɪˈhaɪnd]","за, позади"],
+       ["valley [ˈvælɪ]","долина"],
+       ["stand [stænd]","стоять"],
+       ["tale [teɪl]","рассказ"],
+       ["go out [ɡəʊ aʊt]","выходить"]
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Part 49",
+      "words": [
+       ["just [dʒʌst]","только, как раз"],
+       ["turn [tɜːn]","поворачивать"],
+       ["chin [tʃɪn]","подбородок"],
+       ["garden [ˈɡɑːdn]","сад"],
+       ["baby sit [ˈbeɪbɪ sɪt]","присматривать за детьми, нянчить"],
+       ["this [ðɪs]","это, этот"],
+       ["cellar [ˈselə]","подвал"],
+       ["supper [ˈsʌpə]","ужин"],
+       ["waist [weɪst]","талия, пояс"],
+       ["watch [wɒtʃ]","смотреть, наблюдать"]
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Part 50",
+      "words": [
+        ["clean [kliːn]","чистый"],
+        ["buzz [bʌz]","жужжать"],
+        ["get married [ɡet ˈmærɪd]","жениться"],
+        ["rainbow [ˈreɪnbəʊ]","радуга"],
+        ["kind [kaɪnd]","тип, вид, добрый"],
+        ["helmet [ˈhelmɪt]","шлем"],
+        ["around [əˈraʊnd]","вокруг"],
+        ["person [ˈpɜːsən]","человек"],
+        ["rock [rɒk]","камень"],
+        ["mother [ˈmʌðə]","мама"]
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Part 51",
+      "words": [
+        ["wide [waɪd]","широкий"],
+        ["such [sʌtʃ]","такой"],
+        ["morning [ˈmɔːnɪŋ]","утро"],
+        ["belt [belt]","ремень"],
+        ["unhappy [ʌnˈhæpɪ]","несчастный"],
+        ["silver [ˈsɪlvə]","серебряный"],
+        ["jar [dʒɑː]","банка"],
+        ["chat [tʃæt]","беседовать, болтать"],
+        ["walk [wɔːk]","идти, прогулка"],
+        ["cave [keɪv]","пещера"]
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Part 52",
+      "words": [
+        ["fishing [ˈfɪʃɪŋ]","рыбалка"],
+        ["twenty [ˈtwentɪ]","двадцать"],
+        ["step [step]","ступень, ступать"],
+        ["cold [kəʊld]","холодный"],
+        ["muddy [ˈmʌdi]","грязный"],
+        ["hen [hen]","курица"],
+        ["sky [skaɪ]","небо"],
+        ["maybe [ˈmeɪbi]","может быть, возможно"],
+        ["song [sɒŋ]","песня"],
+        ["fire [ˈfaɪə]","огонь"]
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Part 53",
+      "words": [
+        ["apple [ˈæpəl]","яблоко"],
+        ["be over [biː ˈəʊvə]","заканчиваться"],
+        ["feather [ˈfeðə]","перо"],
+        ["know [nəʊ]","знать"],
+        ["window [ˈwɪndəʊ]","окно"],
+        ["south [saʊθ]","юг, южный"],
+        ["light [laɪt]","свет"],
+        ["learn [lɜːn]","учиться, научиться"],
+        ["poor [pʊə]","бедный, несчастный"],
+        ["late [leɪt]","поздно"]
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Part 54",
+      "words": [
+        ["cooking [ˈkʊkɪŋ]","стряпня, кулинария"],
+        ["summer [ˈsʌmə]","лето"],
+        ["drive [draɪv]","вести, ехать (на машине)"],
+        ["field [fiːld]","поле"],
+        ["pants [pænts]","штаны, брюки"],
+        ["pass [pɑːs]","проходить"],
+        ["bedroom [ˈbedruːm]","спальня"],
+        ["sit down [sɪt daʊn]","сесть"],
+        ["long [lɒŋ]","длинный"]
+       ]
+      }
+	 ]
+    },
+	{
+     "id": 6,
+     "title": "Hedgehog Bob and Tom",
+     "lessons": [
+       {
+         "id": 1,
+         "title": "Part 1",
+         "words": [
+		    ["a creature [ˈkriːtʃə]", "существо"],
+            ["a diary [ˈdaɪəri]", "дневник"],
+            ["a hedgehog [ˈhedʒhɒɡ]", "ёж, ежик"],
+            ["a plant [plɑːnt]", "растение"],
+            ["a teenager [ˈtiːnˌeɪdʒə]", "тинейджер, подросток от 13 до 19 лет"],
+            ["an overgrown garden", "заросший сад"],
+            ["by human standards", "по человеческим меркам"],
+            ["curious [ˈkjʊəriəs]", "любопытный"],
+            ["for sale [fə ˈseɪl]", "на продажу, продается"],
+            ["good-looking [ˌɡʊd ˈlʊkɪŋ]", "симпатичный"]
+         ]
+       },
+	   {
+         "id": 2,
+         "title": "Part 2",
+         "words": [
+		    ["hard-working [ˌhɑːd ˈwɜːkɪŋ]", "трудолюбивый"],
+            ["I am smart for my age.", "Я умен для своего возраста."],
+            ["in the suburbs [ɪn ðə ˈsʌbɜːbz]", "на окраине"],
+            ["noisy [ˈnɔɪzi]", "шумный"],
+            ["quick-tempered [ˌkwɪk ˈtempəd]", "раздражительный"],
+            ["sharp spines [ʃɑːp spaɪnz]", "острые иголки"],
+            ["strict [strɪkt]", "строгий"],
+            ["to bring up", "растить, воспитывать"],
+            ["to explore [ɪkˈsplɔː]", "изучать"],
+            ["to knit [nɪt]", "вязать"]
+         ]
+       },
+	   {
+         "id": 3,
+         "title": "Part 3",
+         "words": [
+		    ["to make noise [nɔɪz]", "шуметь"],
+            ["to move [muːv]", "зд. переезжать"],
+            ["a bunk bed", "двухэтажная кровать"],
+            ["a chest of drawers [ˌtʃest əv ˈdrɔːz]", "комод"],
+            ["a cot", "кроватка (для младенцев)"],
+            ["a robin [ˈrɒbɪn]", "малиновка"],
+            ["a rocking chair", "кресло-качалка"],
+            ["amusing [əˈmjuːzɪŋ]", "забавный"],
+            ["an insect [ˈɪnsekt]", "насекомое"],
+            ["brave [breɪv]", "смелый"]
+
+         ]
+       },
+	   {
+         "id": 4,
+         "title": "Part 4",
+         "words": [
+            ["ceiling [ˈsiːlɪŋ]", "потолок"],
+            ["comfy [ˈkʌmfi]", "удобный"],
+            ["downstairs [ˌdaʊnˈsteəz]", "внизу"],
+            ["Families live in the same house for generations.", "Семьи живут в одном и том же доме поколениями."],
+            ["Grandpa doesn’t mind.", "Дедушка не возражает."],
+            ["His legs are like trees.", "Его ноги похожи на деревья."],
+            ["messy [ˈmesi]", "неряшливый"],
+            ["quiet [ˈkwaɪət]", "спокойный"],
+            ["tidy [ˈtaɪdi]", "аккуратный"],
+            ["to share a room", "жить в одной комнате с кем-либо"]
+         ]
+       },
+	   {
+         "id": 5,
+         "title": "Part 5",
+         "words": [
+		    ["to tame somebody", "приручить кого-либо"],
+            ["unfair [ˌʌnˈfeə]", "несправедливо"],
+            ["unfortunately [ʌnˈfɔːtʃənətli]", "к сожалению"],
+            ["upstairs [ˌʌpˈsteəz]", "наверху"],
+            ["wallpaper [ˈwɔːlˌpeɪpə]", "обои"],
+            ["an adventure [ədˈventʃə]", "приключение"],
+            ["For what you have tamed, you become responsible forever.", "Мы в ответе за тех, кого приручили."],
+            ["a candle [ˈkændl]", "свеча"],
+            ["a guinea pig [ˈɡɪni pɪɡ]", "морская свинка"],
+            ["a party hat [ˈpɑːti hæt]", "празднечная шляпа"]
+         ]
+       },
+	   {
+         "id": 6,
+         "title": "Part 6",
+         "words": [
+		    ["a playmate [ˈpleɪmeɪt]", "товарищ (партнёр) по играм"],
+            ["a tortoise [ˈtɔːtəs]", "черепаха"],
+            ["a vet surgery [ˈvet ˌsɜːdʒəri]", "ветеринарная больница"],
+            ["a veterinary (vet) [ˈvetərɪnəri]", "ветеринар"],
+            ["dangerous [ˈdeɪndʒərəs]", "опасный"],
+            ["faithful [ˈfeɪθfʊl]", "верный, преданный"],
+            ["ill [ɪl]", "больной"],
+            ["mouse [maʊs]", "мышь"],
+            ["to bake [beɪk]", "печь"],
+            ["to be away", "отсутствовать"]
+         ]
+       },
+	   {
+         "id": 7,
+         "title": "Part 7",
+         "words": [
+			["to celebrate [ˈselɪbreɪt]", "праздновать"],
+            ["to comfort [ˈkʌmfət]", "утешать"],
+            ["to invite [ɪnˈvaɪt]", "приглашать"],
+            ["to join in [ˌdʒɔɪn ˈɪn]", "присоединяться"],
+            ["to miss [mɪs]", "скучать"],
+            ["to push [pʊʃ]", "толкать"],
+            ["to roll a ball along the path", "катать мяч по тропинке"],
+            ["twice [twaɪs]", "дважды"],
+            ["a newspaper [ˈnjuːzˌpeɪpə]", "газета"],
+            ["rubbish [ˈrʌbɪʃ]", "мусор"]
+         ]
+       },
+	   {
+         "id": 8,
+         "title": "Part 8",
+         "words": [
+		    ["a yogurt tub [ˈjɒɡət tʌb]", "баночка из-под йогурта"],
+            ["primary school [ˈpraɪməri skuːl]", "начальная школа"],
+            ["high school [ˈhaɪ skuːl]", "средняя школа"],
+            ["a ladybird [ˈleɪdiˌbɜːd]", "божья коровка"],
+            ["a nest [nest]", "гнездо"],
+            ["midnight [ˈmɪdnaɪt]", "полночь"],
+            ["to disappear [ˌdɪsəˈpɪə]", "исчезать"],
+            ["to steal [stiːl]", "украсть"],
+            ["to recycle [ˌriːˈsaɪkl]", "перерабатывать (мусор)"],
+            ["to describe [dɪˈskraɪb]", "описывать"]
+         ]
+       },
+	   {
+         "id": 9,
+         "title": "Part 9",
+         "words": [
+		    ["to drive somebody to school", "подвозить кого-нибудь в школу"],
+            ["to collect somebody from school", "забирать кого-нибудь из школы"],
+            ["to prefer to walk", "предпочитать ходить пешком"],
+            ["My nose stuck in the tub.", "Мой нос застрял в баночке."],
+            ["a play [pleɪ]", "зд. представление"],
+            ["a puppet [ˈpʌpɪt]", "кукла"],
+            ["a voice [vɔɪs]", "голос"],
+            ["a wolf [wʊlf]", "волк"],
+            ["puppet theatre [ˈpʌpɪt ˌθɪətə]", "кукольный театр"],
+            ["quiet [ˈkwaɪət]", "тихий"]
+
+         ]
+       },
+	   {
+         "id": 10,
+         "title": "Part 10",
+         "words": [
+		    ["soft [sɒft]", "мягкий"],
+            ["stomach [ˈstʌmək]", "зд. брюхо"],
+            ["to be curious [ˈkjʊəriəs]", "интересоваться"],
+            ["to play [pleɪ]", "зд. играть в пьесе"],
+            ["jam [dʒæm]", "варенье"],
+            ["strawberry [ˈstrɔːbəri]", "клубника"],
+            ["traffic [ˈtræfɪk]", "транспорт"],
+            ["a traffic jam", "пробка на дороге"],
+            ["a block of flats", "многоэтажный дом"],
+            ["a button [ˈbʌtn]", "кнопка"]
+
+         ]
+       },
+	   {
+         "id": 11,
+         "title": "Part 11",
+         "words": [
+		    ["a mirror [ˈmɪrə]", "зеркало"],
+            ["the lost property room [ˈprɒpəti]", "бюро находок"],
+            ["a sticker [ˈstɪkə]", "наклейка"],
+            ["to recognise [ˈrekəɡnaɪz]", "узнавать"],
+            ["social [ˈsəʊʃl]", "общественный, социальный"],
+            ["at the same time", "в то же время"],
+            ["by accident [ˈæksɪdənt]", "случайно"],
+            ["a neighbour [ˈneɪbə]", "сосед"],
+            ["a chick [tʃɪk]", "птенец"],
+            ["a fence [fens]", "забор"]
+
+         ]
+       },
+	   {
+         "id": 12,
+         "title": "Part 12",
+         "words": [		    
+			["a hole [həʊl]", "дырка"],
+            ["a ladder [ˈlædə]", "лестница"],
+            ["a puddle [ˈpʌdl]", "лужа"],
+            ["a spine [spaɪn]", "колючка"],
+            ["to pinch somebody’s nose", "ущипнуть кого-нибудь за нос"],
+            ["to bite [baɪt]", "кусать"],
+            ["to curl up [kɜːl ʌp]", "сворачиваться клубком"],
+            ["to hide [haɪd]", "прятаться"],
+            ["to follow somebody [ˈfɒləʊ]", "следовать за кем-нибудь"],
+            ["to howl [haʊl]", "выть"]
+
+         ]
+       },
+	   {
+         "id": 13,
+         "title": "Part 13",
+         "words": [
+		    ["to look after somebody", "присматривать за кем-либо"],
+            ["They say the dog takes after its master.", "Говорят, собака похожа на своего хозяина."],
+            ["a picnic [ˈpɪknɪk]", "пикник"],
+            ["a watermelon [ˈwɔːtəˌmelən]", "арбуз"],
+            ["the North Pole [ˌnɔːθ ˈpəʊl]", "Северный полюс"],
+            ["a storm [stɔːm]", "шторм"],
+            ["a thunderstorm [ˈθʌndəstɔːm]", "гроза"],
+            ["lightning [ˈlaɪtnɪŋ]", "молния"],
+            ["a weatherman [ˈweðəmæn]", "синоптик"],
+            ["to rely on the weather forecast", "полагаться на прогноз погоды"]
+
+         ]
+       }	   
+     ]
+   },
+   {
+      "id": 7,
+      "title": "Ray Bradbary: Short Stories",
+      "lessons": [
+          {
+            "id": 1,
+            "title": "Part 1",
+            "words": [
+              ["headache [ˈhedeɪk]","головная боль"],
+              ["blade of grass [bleɪd əv ɡrɑːs]","травинка"],
+              ["silk [sɪlk]","шёлк"],
+              ["unfair [ˌʌnˈfeə]","несправедливый"],
+              ["purpose [ˈpɜːpəs]","цель"],
+              ["clear [klɪə]","ясный, чистый"],
+              ["quiz [kwɪz]","викторина, тест"],
+              ["replace [rɪˈpleɪs]","заменять"],
+              ["soul [səʊl]","душа"],
+              ["hardly [ˈhɑːdli]","едва, почти не"]
+            ]
+          },
+          {
+            "id": 2,
+            "title": "Part 2",
+            "words": [
+              ["title [ˈtaɪtl]","название, титул"],
+              ["graveyard [ˈɡreɪvjɑːd]","кладбище"],
+              ["highway [ˈhaɪweɪ]","шоссе, автомагистраль"],
+              ["ugly [ˈʌɡli]","уродливый"],
+              ["dreadful [ˈdredfl]","ужасный"],
+              ["crime [kraɪm]","преступление"],
+              ["shore [ʃɔː]","берег"],
+              ["light [laɪt]","свет; лёгкий"],
+              ["nursery [ˈnɜːsəri]","детская комната, питомник"],
+              ["familiar [fəˈmɪliə]","знакомый"]
+            ]
+          },
+          {
+            "id": 3,
+            "title": "Part 3",
+            "words": [
+              ["quarrel [ˈkwɒrəl]","ссора; ссориться"],
+              ["beyond [bɪˈjɒnd]","за пределами, дальше"],
+              ["whistle [ˈwɪsl]","свистеть, свисток"],
+              ["admire [ədˈmaɪə]","восхищаться"],
+              ["miraculous [mɪˈrækjələs]","чудесный"],
+              ["knight [naɪt]","рыцарь"],
+              ["forehead [ˈfɒrɪd]","лоб"],
+              ["stage [steɪdʒ]","сцена, этап"],
+              ["slip [slɪp]","скользить, поскользнуться"],
+              ["genius [ˈdʒiːniəs]","гений"]
+            ]
+          },
+          {
+            "id": 4,
+            "title": "Part 4",
+            "words": [
+              ["immortalize [ɪˈmɔːtəlaɪz]","увековечить"],
+              ["expression [ɪkˈspreʃn]","выражение"],
+              ["solemn [ˈsɒləm]","торжественный, серьёзный"],
+              ["poisonous [ˈpɔɪzənəs]","ядовитый"],
+              ["glory [ˈɡlɔːri]","слава"],
+              ["raise [reɪz]","поднимать"],
+              ["roar [rɔː]","рычать, рёв"],
+              ["purely [ˈpjʊəli]","чисто, исключительно"],
+              ["teaspoonful [ˈtiːspuːnfʊl]","чайная ложка"],
+              ["invisible [ɪnˈvɪzəbl]","невидимый"]
+            ]
+          },
+          {
+            "id": 5,
+            "title": "Part 5",
+            "words": [
+              ["bullet [ˈbʊlɪt]","пуля"],
+              ["give somebody away [ɡɪv ˈsʌmbədi əˈweɪ]","выдать кого-либо"],
+              ["bloodthirsty [ˈblʌdθɜːsti]","кровожадный"],
+              ["armour [ˈɑːmə]","доспехи, броня"],
+              ["below [bɪˈləʊ]","ниже, внизу"],
+              ["guilty [ˈɡɪlti]","виновный"],
+              ["sword [sɔːd]","меч"],
+              ["frown [fraʊn]","хмуриться"],
+              ["flame [fleɪm]","пламя"],
+              ["knowledge [ˈnɒlɪdʒ]","знание"]
+            ]
+          },
+          {
+            "id": 6,
+            "title": "Part 6",
+            "words": [
+              ["oxygen [ˈɒksɪdʒən]","кислород"],
+              ["examine [ɪɡˈzæmɪn]","осматривать, изучать"],
+              ["audience [ˈɔːdiəns]","аудитория, зрители"],
+              ["tribute [ˈtrɪbjuːt]","дань уважения"],
+              ["glance [ɡlɑːns]","взгляд; взглянуть"],
+              ["nightmare [ˈnaɪtmeə]","кошмар"],
+              ["shy [ʃaɪ]","застенчивый"],
+              ["lawbreaker [ˈlɔːbreɪkə]","нарушитель закона"],
+              ["sunrise [ˈsʌnraɪz]","восход солнца"],
+              ["bandage [ˈbændɪdʒ]","бинт, повязка"]
+            ]
+          },
+          {
+            "id": 7,
+            "title": "Part 7",
+            "words": [
+              ["gorgeous [ˈɡɔːdʒəs]","великолепный"],
+              ["simply [ˈsɪmpli]","просто"],
+              ["employer [ɪmˈplɔɪə]","работодатель"],
+              ["hill [hɪl]","холм"],
+              ["noble [ˈnəʊbl]","благородный"],
+              ["tag [tæɡ]","ярлык, метка"],
+              ["soap [səʊp]","мыло"],
+              ["misty [ˈmɪsti]","туманный"],
+              ["blossom [ˈblɒsəm]","цвести, цветение"],
+              ["carpet [ˈkɑːpɪt]","ковёр"]
+            ]
+          },
+          {
+            "id": 8,
+            "title": "Part 8",
+            "words": [
+              ["star [stɑː]","звезда"],
+              ["battleground [ˈbætlɡraʊnd]","поле боя"],
+              ["independence [ˌɪndɪˈpendəns]","независимость"],
+              ["bottle [ˈbɒtl]","бутылка"],
+              ["peacock [ˈpiːkɒk]","павлин"],
+              ["warmth [wɔːmθ]","тепло"],
+              ["stripe [straɪp]","полоса"],
+              ["guess [ɡes]","угадывать, предполагать"],
+              ["shame [ʃeɪm]","стыд, позор"],
+              ["spoil [spɔɪl]","портить"]
+            ]
+          },
+          {
+            "id": 9,
+            "title": "Part 9",
+            "words": [
+              ["heart [hɑːt]","сердце"],
+              ["message [ˈmesɪdʒ]","сообщение"],
+              ["desperate [ˈdespərət]","отчаянный"],
+              ["jerky [ˈdʒɜːki]","резкий, дёрганый"],
+              ["breath [breθ]","дыхание"],
+              ["guilt [ɡɪlt]","вина"],
+              ["gasp [ɡɑːsp]","задыхаться, ахнуть"],
+              ["lighthouse [ˈlaɪthaʊs]","маяк"],
+              ["straw [strɔː]","солома, соломинка"],
+              ["violent [ˈvaɪələnt]","жестокий, насильственный"]
+            ]
+          },
+          {
+            "id": 10,
+            "title": "Part 10",
+            "words": [
+              ["tower [ˈtaʊə]","башня"],
+              ["pedestrian [pəˈdestriən]","пешеход"],
+              ["makeup [ˈmeɪkʌp]","макияж"],
+              ["battle [ˈbætl]","битва, сражение"],
+              ["crash [kræʃ]","авария, грохот; врезаться"],
+              ["fail [feɪl]","терпеть неудачу, провалиться"],
+              ["tremble [ˈtrembl]","дрожать"],
+              ["realize [ˈrɪəlaɪz]","осознавать, понимать"],
+              ["set foot [set fʊt]","ступить ногой"],
+              ["mystery [ˈmɪstri]","тайна"]
+            ]
+          },
+          {
+            "id": 11,
+            "title": "Part 11",
+            "words": [
+              ["destroy [dɪˈstrɔɪ]","разрушать"],
+              ["give up [ɡɪv ʌp]","сдаваться, бросать"],
+              ["mighty [ˈmaɪti]","могучий"],
+              ["treatment [ˈtriːtmənt]","лечение, обращение"],
+              ["anger [ˈæŋɡə]","гнев, злость"],
+              ["riverbed [ˈrɪvəbed]","русло реки"],
+              ["belong [bɪˈlɒŋ]","принадлежать"],
+              ["attic [ˈætɪk]","чердак"],
+              ["touching [ˈtʌtʃɪŋ]","трогательный"],
+              ["cheek [tʃiːk]","щека"]
+            ]
+          },
+          {
+            "id": 12,
+            "title": "Part 12",
+            "words": [
+              ["silent [ˈsaɪlənt]","тихий, молчаливый"],
+              ["pterodactyl [ˌterəˈdæktɪl]","птеродактиль"],
+              ["vacation [vəˈkeɪʃn]","каникулы, отпуск"],
+              ["victim [ˈvɪktɪm]","жертва"],
+              ["reshape [ˌriːˈʃeɪp]","изменять форму, преобразовывать"],
+              ["perfume [ˈpɜːfjuːm]","духи, аромат"],
+              ["faraway [ˈfɑːrəweɪ]","далёкий"],
+              ["predict [prɪˈdɪkt]","предсказывать"],
+              ["fail [feɪl]","терпеть неудачу, провалиться"],
+              ["sweep [swiːp]","подметать, сметать"]
+            ]
+          },
+          {
+            "id": 13,
+            "title": "Part 13",
+            "words": [
+              ["cemetery [ˈsemətri]","кладбище"],
+              ["make off [meɪk ɒf]","убежать, скрыться"],
+              ["pause [pɔːz]","пауза; делать паузу"],
+              ["closet [ˈklɒzɪt]","шкаф, кладовка"],
+              ["poison [ˈpɔɪzn]","яд; отравлять"],
+              ["rubber [ˈrʌbə]","резина"],
+              ["lonely [ˈləʊnli]","одинокий"],
+              ["lock [lɒk]","замок; запирать"],
+              ["tight [taɪt]","тугой, тесный"],
+              ["lawyer [ˈlɔːjə]","юрист, адвокат"]
+            ]
+          },
+          {
+            "id": 14,
+            "title": "Part 14",
+            "words": [
+              ["prehistoric [ˌpriːhɪˈstɒrɪk]","доисторический"],
+              ["vapour [ˈveɪpə]","пар"],
+              ["bottom [ˈbɒtəm]","дно, низ"],
+              ["giant [ˈdʒaɪənt]","гигант, великан"],
+              ["scientist [ˈsaɪəntɪst]","учёный"],
+              ["selfish [ˈselfɪʃ]","эгоистичный"],
+              ["needle [ˈniːdl]","игла"],
+              ["desire [dɪˈzaɪə]","желание"],
+              ["express [ɪkˈspres]","выражать"],
+              ["stream [striːm]","ручей, поток"]
+            ]
+          },
+          {
+            "id": 15,
+            "title": "Part 15",
+            "words": [
+              ["gigantic [dʒaɪˈɡæntɪk]","гигантский"],
+              ["flow [fləʊ]","течь, поток"],
+              ["scent [sent]","запах, аромат"],
+              ["gentle [ˈdʒentl]","нежный, мягкий"],
+              ["fear [fɪə]","страх; бояться"],
+              ["incredible [ɪnˈkredəbl]","невероятный"],
+              ["record [ˈrekɔːd]","запись; рекорд"],
+              ["rustle [ˈrʌsl]","шелестеть, шелест"],
+              ["footfall [ˈfʊtfɔːl]","звук шагов"],
+              ["point [pɔɪnt]","точка; указывать"]
+            ]
+          },
+          {
+            "id": 16,
+            "title": "Part 16",
+            "words": [
+              ["tomb [tuːm]","гробница"],
+              ["imagination [ɪˌmædʒɪˈneɪʃn]","воображение"],
+              ["frame [freɪm]","рама, каркас"],
+              ["try one's best [traɪ wʌnz best]","стараться изо всех сил"],
+              ["fog [fɒɡ]","туман"]
+            ]
+          }		
+      ]
+    },
+	{
+      "id": 8,
+      "title": "Jane Thayer: Funny Stories",
+      "lessons": [
+         {
+           "id": 1,
+           "title": "Part 1",
+           "words": [
+             ["furniture [ˈfɜːnɪtʃə]","мебель"],
+             ["bedtime [ˈbedtaɪm]","время сна"],
+             ["ring up [rɪŋ ʌp]","позвонить"],
+             ["broad [brɔːd]","широкий"],
+             ["engine [ˈendʒɪn]","двигатель"],
+             ["poodle [ˈpuːdl]","пудель"],
+             ["through [θruː]","через, сквозь"],
+             ["ham [hæm]","ветчина"],
+             ["bitter [ˈbɪtə]","горький"],
+             ["fence [fens]","забор"]
+           ]
+         },
+         {
+           "id": 2,
+           "title": "Part 2",
+           "words": [
+             ["look after [lʊk ˈɑːftə]","присматривать за, заботиться о"],
+             ["drawer [drɔːə]","ящик"],
+             ["race [reɪs]","гонка, раса; мчаться"],
+             ["fight [faɪt]","бороться, драться; драка"],
+             ["empty [ˈempti]","пустой"],
+             ["principal [ˈprɪnsəpl]","директор школы; главный"],
+             ["bit [bɪt]","кусочек, немного"],
+             ["tiptoe [ˈtɪptəʊ]","ходить на цыпочках"],
+             ["shore [ʃɔː]","берег"],
+             ["reply [rɪˈplaɪ]","отвечать; ответ"]
+           ]
+         },
+         {
+           "id": 3,
+           "title": "Part 3",
+           "words": [
+             ["drive off [draɪv ɒf]","уехать, отъехать"],
+             ["shade [ʃeɪd]","тень, оттенок"],
+             ["block [blɒk]","блок, квартал; блокировать"],
+             ["milkman [ˈmɪlkmən]","молочник"],
+             ["tie [taɪ]","галстук; завязывать"],
+             ["postman [ˈpəʊstmən]","почтальон"],
+             ["fit [fɪt]","подходить по размеру; быть в форме"],
+             ["forever [fərˈevə]","навсегда"],
+             ["gate [ɡeɪt]","ворота, калитка"],
+             ["else [els]","ещё, другой"]
+           ]
+         },
+         {
+           "id": 4,
+           "title": "Part 4",
+           "words": [
+             ["pretend [prɪˈtend]","притворяться"],
+             ["country [ˈkʌntri]","страна, сельская местность"],
+             ["later [ˈleɪtə]","позже"],
+             ["roll [rəʊl]","катиться, рулон"],
+             ["shake [ʃeɪk]","трясти, дрожать"],
+             ["pillowcase [ˈpɪləʊkeɪs]","наволочка"],
+             ["cheap [tʃiːp]","дешёвый"],
+             ["smoke [sməʊk]","дым; курить"],
+             ["great [ɡreɪt]","великий, отличный"],
+             ["licence [ˈlaɪsns]","лицензия, разрешение"]
+           ]
+         },
+         {
+           "id": 5,
+           "title": "Part 5",
+           "words": [
+             ["square [skweə]","квадрат, площадь"],
+             ["curtain [ˈkɜːtn]","занавеска, штора"],
+             ["flashlight [ˈflæʃlaɪt]","фонарик"],
+             ["be on fire [bi ɒn ˈfaɪə]","гореть, быть в огне"],
+             ["mind [maɪnd]","разум; возражать"],
+             ["right [raɪt]","правильный, правый; право"],
+             ["hope [həʊp]","надежда; надеяться"],
+             ["burst [bɜːst]","взрываться, разразиться"],
+             ["suitable [ˈsuːtəbl]","подходящий"],
+             ["pitcher [ˈpɪtʃə]","кувшин"]
+           ]
+         },
+         {
+           "id": 6,
+           "title": "Part 6",
+           "words": [
+             ["seem [siːm]","казаться"],
+             ["beside [bɪˈsaɪd]","рядом с, возле"],
+             ["mix [mɪks]","смешивать"],
+             ["lock [lɒk]","замок; запирать"],
+             ["chop [tʃɒp]","рубить, нарезать"],
+             ["flow [fləʊ]","течь, поток"],
+             ["burst into laughter [bɜːst ˈɪntuː ˈlɑːftə]","рассмеяться, разразиться смехом"],
+             ["pie [paɪ]","пирог"],
+             ["suit [suːt]","костюм; подходить"],
+             ["kindergarten [ˈkɪndəɡɑːtn]","детский сад"]
+           ]
+         },
+         {
+           "id": 7,
+           "title": "Part 7",
+           "words": [
+             ["starter [ˈstɑːtə]","стартер; закуска"],
+             ["fool [fuːl]","дурак; одурачить"],
+             ["nurse [nɜːs]","медсестра; ухаживать"],
+             ["lonely [ˈləʊnli]","одинокий"],
+             ["raise [reɪz]","поднимать"],
+             ["stairs [steəz]","лестница, ступеньки"],
+             ["sniff [snɪf]","нюхать, сопеть"],
+             ["closet [ˈklɒzɪt]","шкаф, кладовка"],
+             ["law [lɔː]","закон"],
+             ["order [ˈɔːdə]","заказ, порядок; приказывать"]
+           ]
+         },
+         {
+           "id": 8,
+           "title": "Part 8",
+           "words": [
+             ["bone [bəʊn]","кость"],
+             ["pass [pɑːs]","проходить, передавать"],
+             ["stray [streɪ]","бродячий; заблудиться"],
+             ["shine [ʃaɪn]","сиять, светить"],
+             ["ride [raɪd]","ездить верхом/на транспорте; поездка"],
+             ["on tiptoe [ɒn ˈtɪptəʊ]","на цыпочках"],
+             ["kindly [ˈkaɪndli]","любезно, доброжелательно"],
+             ["ferry boat [ˈferi bəʊt]","паром"],
+             ["bump [bʌmp]","удар, шишка; ударяться"],
+             ["special [ˈspeʃl]","особенный, специальный"]
+           ]
+         },
+         {
+           "id": 9,
+           "title": "Part 9",
+           "words": [
+             ["prove [pruːv]","доказывать"],
+             ["bow [baʊ]","кланяться; поклон"],
+             ["crowd [kraʊd]","толпа"],
+             ["lonesome [ˈləʊnsəm]","одинокий, тоскливый"],
+             ["peach [piːtʃ]","персик"],
+             ["eve [iːv]","канун"],
+             ["instead [ɪnˈsted]","вместо этого"],
+             ["lie down [laɪ daʊn]","лечь"]
+           ]
+         }       
+      ]
+    },	
+    {
+      "id": 9,
       "title": "Рената",
       "lessons": [
         {
           "id": 1,
           "title": "Part 1",
           "words": [
-            ["imagine", "представь(те)"],
-            ["scene", "сцена, сценка"],
-            ["title", "название, заголовок"],
-            ["subheadings", "подзаголовки"],
-            ["specific", "конкретный, определённый"],
-            ["part", "часть"],
-            ["each", "каждый"],
-            ["refers", "отсылает, ссылается"],
-            ["may", "может"],
-            ["choose", "выбирай(те)"],
-            ["call", "звонить, называть, вызов"],
-            ["called", "называемый, под названием"],
-            ["double-decker", "двухэтажный"],
-            ["buses", "автобусы"],
-            ["cab", "такси"],
-            ["drivers", "водители"],
-            ["sit", "сидеть"],
-            ["sit exams", "сдавать экзамен"]
+            ["imagine [ɪˈmædʒɪn]", "представь(те)"],
+            ["scene [siːn]", "сцена, сценка"],
+            ["title [ˈtaɪtl]", "название, заголовок"],
+            ["subheadings [ˈsʌbˌhedɪŋz]", "подзаголовки"],
+            ["specific [spəˈsɪfɪk]", "конкретный, определённый"],
+            ["part [pɑːt]", "часть"],
+            ["each [iːtʃ]", "каждый"],
+            ["refers [rɪˈfɜːz]", "отсылает, ссылается"],
+            ["may [meɪ]", "может"],
+            ["choose [tʃuːz]", "выбирай(те)"],
+            ["call [kɔːl]", "звонить, называть, вызов"],
+            ["called [kɔːld]", "называемый, под названием"],
+            ["double-decker [ˌdʌblˈdekə]", "двухэтажный"],
+            ["buses [ˈbʌsɪz]", "автобусы"],
+            ["cab [kæb]", "такси"],
+            ["drivers [ˈdraɪvəz]", "водители"],
+            ["sit [sɪt]", "сидеть"],
+            ["sit exams [sɪt ɪɡˈzæmz]", "сдавать экзамен"]
           ]
         }
       ]
     },
     {
-      "id": 6,
+      "id": 10,
       "title": "Юлия",
       "lessons": [
         {
           "id": 1,
           "title": "Part 1",
           "words": [
-            ["think", "думать"],
-            ["him", "ему"],
-            ["some", "немного"],
-            ["where", "где, куда"],
-            ["who", "кто"],
-            ["when", "когда"],
-            ["what", "что, какой"],
-            ["how", "как"],
-            ["near", "рядом"],
-            ["drink", "пить"],
-            ["be hungry", "быть голодным"],
-            ["hand", "рука"],
-            ["beauty", "красота"],
-            ["us", "нас, нам"],
-            ["how much", "сколько"],
-			["must", "должен"],
-			["only", "только"]
+            ["think [θɪŋk]", "думать"],
+            ["him [hɪm]", "ему"],
+            ["some [sʌm]", "немного"],
+            ["where [weə]", "где, куда"],
+            ["who [huː]", "кто"],
+            ["when [wen]", "когда"],
+            ["what [wɒt]", "что, какой"],
+            ["how [haʊ]", "как"],
+            ["near [nɪə]", "рядом"],
+            ["drink [drɪŋk]", "пить"],
+            ["be hungry [biː ˈhʌŋɡri]", "быть голодным"],
+            ["hand [hænd]", "рука"],
+            ["beauty [ˈbjuːti]", "красота"],
+            ["us [ʌs]", "нас, нам"],
+            ["how much [haʊ mʌtʃ]", "сколько"],
+            ["must [mʌst]", "должен"],
+            ["only [ˈəʊnli]", "только"]
           ]
         },
         {
           "id": 2,
           "title": "Part 2",
           "words": [
-            ["something", "что-то"],
-            ["alright", "в порядке"],
-            ["hate", "ненавидеть"],
-            ["window", "окно"],
-            ["course", "курс"],
-            ["lunch", "обед"],
-            ["bedroom", "спальня"],
-            ["bathroom", "ванная"],
-            ["kitchen", "кухня"],
-            ["question", "вопрос"],
-            ["more", "больше"],
-            ["glass", "стекло"],
-			["me", "мне, меня"],
-			["which", "который"]
+            ["something [ˈsʌmθɪŋ]", "что-то"],
+            ["alright [ɔːlˈraɪt]", "в порядке"],
+            ["hate [heɪt]", "ненавидеть"],
+            ["window [ˈwɪndəʊ]", "окно"],
+            ["course [kɔːs]", "курс"],
+            ["lunch [lʌntʃ]", "обед"],
+            ["bedroom [ˈbedruːm]", "спальня"],
+            ["kitchen [ˈkɪtʃɪn]", "кухня"],
+            ["question [ˈkwestʃən]", "вопрос"],
+            ["more [mɔː]", "больше"],
+            ["glass [ɡlɑːs]", "стекло"],
+            ["translate [trænzˈleɪt]", "переведи"],
+            ["us [ʌs]", "нам, нас"],
+            ["me [miː]", "мне, меня"],
+            ["bathroom [ˈbɑːθruːm]", "ванная"],
+            ["which [wɪtʃ]", "который"]
           ]
         }
       ]

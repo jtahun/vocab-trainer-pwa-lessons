@@ -14,8 +14,7 @@
       color: var(--text); font: 16px/1.5 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", "Noto Sans", Arial, sans-serif;
       -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
     }
-    .container { max-width: 960px; margin: 0 auto; padding: 24px; }
-    header { display:flex; align-items:center; justify-content:space-between; gap:16px; margin-bottom: 18px; }
+    .container { max-width: 960px; margin: 0 auto; padding: 24px; }    
     h1 { font-size: 22px; margin: 0; letter-spacing: .2px; }
     .muted { color: var(--muted); }
     .card {
@@ -96,4 +95,47 @@ a.link:hover { text-decoration: underline; }
   .word-pair { gap:8px; }
 }
 
+}
+/* ===== HEADER: логин сверху, логотип ниже ===== */
+header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: auto auto;
+  row-gap: 8px;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+/* логотип */
+header h1 {
+  grid-column: 1 / -1;   /* на всю строку */
+  grid-row: 2;           /* вторая строка */
+  margin: 0;
+}
+
+/* панель логина */
+#auth-bar {
+  grid-column: 2;
+  grid-row: 1;           /* первая строка */
+  justify-self: end;
+  display: none;         /* управляется JS */
+  align-items: center;
+  gap: 8px;
+}
+
+/* компактнее на телефонах */
+@media (max-width: 480px) {
+  header {
+    row-gap: 10px;
+  }
+  header h1 {
+    font-size: 19px;
+  }
+  #auth-user {
+    font-size: 12px;
+  }
+  #btn-logout {
+    font-size: 12px;
+    padding: 4px 8px;
+  }
 }
