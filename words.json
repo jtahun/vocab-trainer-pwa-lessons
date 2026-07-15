@@ -2000,7 +2000,7 @@
    },
    {
       "id": 7,
-      "title": "Ray Bradbary: Short Stories",
+      "title": "Ray Bradbury: Short Stories",
       "lessons": [
           {
             "id": 1,
@@ -2250,9 +2250,68 @@
               ["imagination [ɪˌmædʒɪˈneɪʃn]","воображение"],
               ["frame [freɪm]","рама, каркас"],
               ["try one's best [traɪ wʌnz best]","стараться изо всех сил"],
-              ["fog [fɒɡ]","туман"]
+              ["fog [fɒɡ]","туман"],
+			  ["title [ˈtaɪtl]", "название, заголовок"],
+              ["subheadings [ˈsʌbˌhedɪŋz]", "подзаголовки"],
+              ["specific [spəˈsɪfɪk]", "конкретный, определённый"],
+              ["part [pɑːt]", "часть"],
+              ["each [iːtʃ]", "каждый"]
+		    ]
+		  },
+
+          {
+            "id": 17,
+            "title": "Part 17",
+            "words": [
+			  ["Studio [ˈstjuːdiəʊ]", "студия"],
+              ["Packing [ˈpækɪŋ]", "упаковка"],
+              ["Continued [kənˈtɪnjuːd]", "продолжил"],
+              ["Honour [ˈɒnə]", "честь"],
+              ["Friendship [ˈfrendʃɪp]", "дружба"],
+              ["Hero [ˈhɪərəʊ]", "герой"],
+              ["Industry [ˈɪndəstri]", "промышленность"],
+              ["Symbol [ˈsɪmbəl]", "символ"],
+              ["Strength [streŋθ]", "сила"],
+              ["Impressed [ɪmˈprest]", "впечатлённый"]
+              
             ]
-          }		
+          },	
+
+          {
+            "id": 18,
+            "title": "Part 18",
+            "words": [
+			  ["Based [beɪst]", "основанный"],
+              ["Employers [ɪmˈplɔɪəz]", "работодатели"],
+              ["Models [ˈmɒdəlz]", "модели"],
+              ["Jungle [ˈdʒʌŋɡl]", "джунгли"],
+              ["Destroying [dɪˈstrɔɪɪŋ]", "разрушающий"],
+              ["Beasts [biːsts]", "звери"],
+              ["Moved [muːvd]", "переехал"],
+              ["Photographed [ˈfəʊtəɡrɑːft]", "сфотографировал"],
+              ["Admiring [ədˈmaɪərɪŋ]", "восхищающийся"],
+              ["Possible [ˈpɒsəbl]", "возможный"]
+              
+            ]
+          },
+		  
+		  {
+            "id": 19,
+            "title": "Part 19",
+            "words": [
+			  ["Hero [ˈhɪərəʊ]", "герой"],
+              ["Industry [ˈɪndəstri]", "промышленность"],
+              ["Glory [ˈɡlɔːri]", "слава"],
+              ["Lonely [ˈləʊnli]", "одинокий"],
+              ["Symbol [ˈsɪmbəl]", "символ"],
+              ["Independence [ˌɪndɪˈpendəns]", "независимость"],
+              ["Strength [streŋθ]", "сила"],
+              ["Impressed [ɪmˈprest]", "впечатлённый"],
+              ["Immortalize [ɪˈmɔːtəlaɪz]", "увековечить"],
+              ["Based [beɪst]", "основанный"]
+              
+            ]
+        }       		
       ]
     },
 	{
