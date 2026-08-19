@@ -2463,7 +2463,205 @@
       ]
     },	
     {
-      "id": 9,
+   "id": 9,
+   "title": "Fairy Tales",
+   "lessons": [
+   {
+  "id": 1,
+  "title": "Green knight 1",
+  "words": [
+    ["for a long time [fər ə ˈlɒŋ taɪm]", "долгое время"],
+    ["peace [piːs]", "мир, покой"],
+    ["messenger [ˈmesɪndʒə]", "посланник, гонец"],
+    ["invite [ɪnˈvaɪt]", "приглашать"],
+    ["accept [əkˈsept]", "принимать, соглашаться"],
+    ["setting out [ˌsetɪŋ ˈaʊt]", "отправление в путь"],
+    ["to take leave [tə ˌteɪk ˈliːv]", "прощаться, откланиваться"],
+    ["knight [naɪt]", "рыцарь"],
+    ["nobles [ˈnəʊbəlz]", "дворяне, знать"],
+    ["splendid [ˈsplendɪd]", "великолепный"]
+  ]
+},
+   {
+  "id": 2,
+  "title": "Green knight 2",
+  "words": [
+    ["set up [ˌset ˈʌp]", "устанавливать, организовывать"],
+    ["therefore [ˈðeəfɔː]", "поэтому, следовательно"],
+    ["rode off [ˌrəʊd ˈɒf]", "уехал верхом"],
+    ["existence [ɪɡˈzɪstəns]", "существование"],
+    ["presently [ˈprezəntli]", "вскоре, в настоящее время"],
+    ["immediately [ɪˈmiːdiətli]", "немедленно"],
+    ["midst [mɪdst]", "середина, гуща"],
+    ["dense [dens]", "густой, плотный"],
+    ["rode on [ˌrəʊd ˈɒn]", "поехал дальше"],
+    ["path [pɑːθ]", "тропа, путь"]
+  ]
+},
+
+   {
+  "id": 3,
+  "title": "Green knight 3",
+  "words": [
+    ["ecstatic [ɪkˈstætɪk]", "в восторге, вне себя от радости"],
+    ["palace [ˈpælɪs]", "дворец"],
+    ["edge [edʒ]", "край"],
+    ["marble [ˈmɑːbəl]", "мрамор"],
+    ["handsome man [ˌhænsəm ˈmæn]", "красивый мужчина"],
+    ["suit [suːt]", "костюм; подходить"],
+    ["setting down [ˌsetɪŋ ˈdaʊn]", "опускание, высаживание"],
+    ["through [θruː]", "через, сквозь"],
+    ["advise [ədˈvaɪz]", "советовать"],
+    ["not advisable [ˌnɒt ədˈvaɪzəbəl]", "не рекомендуется, нецелесообразно"]
+  ]
+},
+   {
+  "id": 4,
+  "title": "Green knight 4",
+  "words": [
+    ["accept [əkˈsept]", "принимать, соглашаться"],
+    ["access [ˈækses]", "доступ"],
+    ["a jewelled casket [ə ˌdʒuːəld ˈkɑːskɪt]", "украшенная драгоценностями шкатулка"],
+    ["certain [ˈsɜːtən]", "определённый, уверенный"],
+    ["towards [təˈwɔːdz]", "к, по направлению к"],
+    ["indeed [ɪnˈdiːd]", "действительно, в самом деле"],
+    ["meanwhile [ˈmiːnwaɪl]", "тем временем"],
+    ["arrived [əˈraɪvd]", "прибыл, приехал"],
+    ["fell in love [ˌfel ɪn ˈlʌv]", "влюбился"],
+    ["recognise [ˈrekəɡnaɪz]", "узнавать, распознавать"]
+  ]
+},
+
+   {
+  "id": 5,
+  "title": "Green knight 5",
+  "words": [
+    ["bride [braɪd]", "невеста"],
+    ["advise [ədˈvaɪz]", "советовать"],
+    ["otherwise [ˈʌðəwaɪz]", "иначе, в противном случае"],
+    ["ruin [ˈruːɪn]", "разрушать; разорение"],
+    ["any longer [ˌeni ˈlɒŋɡə]", "больше, дольше"],
+    ["that way [ˌðæt ˈweɪ]", "таким образом, в ту сторону"],
+    ["wandering [ˈwɒndərɪŋ]", "бродящий, странствующий"],
+    ["furious [ˈfjʊəriəs]", "в ярости, разъярённый"],
+    ["potion [ˈpəʊʃən]", "зелье, снадобье"],
+    ["dusk [dʌsk]", "сумерки"]
+  ]
+},
+
+   {
+  "id": 6,
+  "title": "Green knight 6",
+  "words": [
+    ["unaware [ˌʌnəˈweə]", "не знающий, не подозревающий"],
+    ["apply [əˈplaɪ]", "применять, наносить"],
+    ["oar [ɔː]", "весло"],
+    ["all over the handle of the oar [ɔːl ˌəʊvə ðə ˌhændl əv ði ˈɔː]", "по всей рукоятке весла"],
+    ["start rowing [ˌstɑːt ˈrəʊɪŋ]", "начать грести"],
+    ["wipe forehead [ˌwaɪp ˈfɔːhed]", "вытереть лоб"],
+    ["skin [skɪn]", "кожа"],
+    ["longed [lɒŋd]", "сильно желал, тосковал"],
+    ["for the matters of [fə ðə ˈmætəz əv]", "в вопросах, касающихся"],
+    ["sick [sɪk]", "больной"]
+  ]
+},
+   {
+  "id": 7,
+  "title": "Green knight 7",
+  "words": [
+    ["happen [ˈhæpən]", "случаться, происходить"],
+    ["explanation [ˌekspləˈneɪʃən]", "объяснение"],
+    ["herb [hɜːb]", "трава, лекарственное растение"],
+    ["nurse [nɜːs]", "медсестра; ухаживать"],
+    ["allow [əˈlaʊ]", "позволять"],
+    ["instantly [ˈɪnstəntli]", "мгновенно, немедленно"],
+    ["trust [trʌst]", "доверять; доверие"],
+    ["at once [ət ˈwʌns]", "сразу, немедленно"],
+    ["intend [ɪnˈtend]", "намереваться"],
+    ["have failed [həv ˈfeɪld]", "потерпели неудачу, не смогли"]
+  ]
+},
+   {
+  "id": 8,
+  "title": "Green knight 8",
+  "words": [
+    ["is fatal [ɪz ˈfeɪtəl]", "смертельно, является смертельным"],
+    ["choice [tʃɔɪs]", "выбор"],
+    ["it's worth giving a try [ɪts ˌwɜːθ ˌɡɪvɪŋ ə ˈtraɪ]", "стоит попробовать"],
+    ["ailing [ˈeɪlɪŋ]", "больной, нездоровый"],
+    ["entire [ɪnˈtaɪə]", "весь, целый"],
+    ["start sweating [ˌstɑːt ˈswetɪŋ]", "начать потеть"],
+    ["completely [kəmˈpliːtli]", "полностью"],
+    ["cured [kjʊəd]", "вылеченный, исцелённый"],
+    ["reward [rɪˈwɔːd]", "награда; вознаграждать"],
+    ["been taught [ˌbiːn ˈtɔːt]", "был обучен, научили"]
+  ]
+},
+   {
+  "id": 9,
+  "title": "Green knight 9",
+  "words": [
+    ["was delighted [wəz dɪˈlaɪtɪd]", "был в восторге, был очень рад"],
+    ["was confused [wəz kənˈfjuːzd]", "был озадачен, растерялся"],
+    ["splendour [ˈsplendə]", "великолепие, роскошь"],
+    ["warned [wɔːnd]", "предупредил, предупредили"],
+    ["under them [ˌʌndə ˈðem]", "под ними"],
+    ["everyone [ˈevriwʌn]", "все, каждый"],
+    ["charming [ˈtʃɑːmɪŋ]", "очаровательный"],
+    ["had passed [həd ˈpɑːst]", "прошёл, миновал"],
+    ["be aware [bi əˈweə]", "знать, осознавать"],
+    ["noble [ˈnəʊbəl]", "благородный; дворянин"]
+  ]
+},
+   {
+  "id": 10,
+  "title": "Green knight 10",
+  "words": [
+    ["palace [ˈpælɪs]", "дворец"],
+    ["while [waɪl]", "пока, в то время как"],
+    ["treated [ˈtriːtɪd]", "обращался; лечил"],
+    ["journey [ˈdʒɜːni]", "путешествие, путь"],
+    ["farewell [ˌfeəˈwel]", "прощание"],
+    ["impossible [ɪmˈpɒsəbəl]", "невозможный"],
+    ["immediately [ɪˈmiːdiətli]", "немедленно"],
+    ["deprived [dɪˈpraɪvd]", "лишённый"],
+    ["turn pale [ˌtɜːn ˈpeɪl]", "побледнеть"],
+    ["dying [ˈdaɪɪŋ]", "умирающий"]
+  ]
+}, 
+   {
+  "id": 11,
+  "title": "Green knight 11",
+  "words": [
+    ["ecstatic [ɪkˈstætɪk]", "в восторге, вне себя от радости"],
+    ["festivities [feˈstɪvətiz]", "празднества, торжества"],
+    ["in spite [ɪn ˈspaɪt]", "несмотря на"],
+    ["joy [dʒɔɪ]", "радость"],
+    ["exactly [ɪɡˈzæktli]", "точно, именно"],
+    ["manner [ˈmænə]", "манера, способ"],
+    ["towards [təˈwɔːdz]", "к, по направлению к"],
+    ["jealous [ˈdʒeləs]", "ревнивый, завистливый"],
+    ["heir [eə]", "наследник"],
+    ["instead [ɪnˈsted]", "вместо этого"]
+  ]
+},
+   
+   {
+    "id": 12,
+    "title": "Green knight 12",
+    "words": [
+      ["rough [rʌf]", "грубый, суровый"],
+      ["get out [ˌɡet ˈaʊt]", "выйти, выбраться"],
+      ["behaviour [bɪˈheɪvjə]", "поведение"],
+      ["upset [ʌpˈset]", "расстроенный; расстраивать"],
+      ["suffer [ˈsʌfə]", "страдать"],
+      ["promise [ˈprɒmɪs]", "обещание; обещать"]
+     ]          
+   }
+  ]
+},
+    {
+      "id": 30,
       "title": "Рената",
       "lessons": [
         {
@@ -2493,7 +2691,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 31,
       "title": "Юлия",
       "lessons": [
         {
