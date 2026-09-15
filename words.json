@@ -2657,7 +2657,130 @@
       ["suffer [ˈsʌfə]", "страдать"],
       ["promise [ˈprɒmɪs]", "обещание; обещать"]
      ]          
+   },
+   {
+    "id": 13,
+    "title": "The Gift of the Magi 1",
+    "words": [
+      ["Gift [ɡɪft]", "подарок"],
+      ["Mad [mæd]", "безумный, сумасшедший"],
+      ["Madly [ˈmædli]", "безумно"],
+      ["Salary [ˈsæləri]", "зарплата"],
+      ["Propose [prəˈpəʊz]", "предлагать; делать предложение"],
+      ["Since [sɪns]", "с тех пор как; с"],
+      ["Till [tɪl]", "до; пока не"],
+      ["Grow old [ɡrəʊ əʊld]", "стареть"],
+      ["Thus [ðʌs]", "таким образом"],
+      ["Celebration [ˌselɪˈbreɪʃn]", "празднование"]
+    ]
+  },
+  {
+    "id": 14,
+    "title": "The Gift of the Magi 2",
+    "words": [
+      ["Rent [rent]", "арендная плата; арендовать"],
+      ["Flat [flæt]", "квартира"],
+      ["Furniture [ˈfɜːnɪtʃə]", "мебель"],
+      ["Furnished [ˈfɜːnɪʃt]", "меблированный"],
+      ["Couple [ˈkʌpl]", "пара"],
+      ["Until [ənˈtɪl]", "до; до тех пор пока"],
+      ["Recession struck [rɪˈseʃn strʌk]", "наступил экономический спад"],
+      ["Shrunk [ʃrʌŋk]", "сократился; уменьшился"],
+      ["Of course [əv ˈkɔːs]", "конечно"],
+      ["Husband [ˈhʌzbənd]", "муж"]
+    ]
+  },
+  {
+    "id": 15,
+    "title": "The Gift of the Magi 3",
+    "words": [
+      ["Meet ends [miːt endz]", "сводить концы с концами"],
+      ["Meanwhile [ˈmiːnwaɪl]", "тем временем"],
+      ["Purse [pɜːs]", "кошелёк; дамская сумочка"],
+      ["Went through her purse [went θruː hə pɜːs]", "перерыла свою сумочку"],
+      ["Possession [pəˈzeʃn]", "владение; имущество"],
+      ["Garment [ˈɡɑːmənt]", "предмет одежды"],
+      ["Below [bɪˈləʊ]", "ниже; внизу"],
+      ["Escape [ɪˈskeɪp]", "вырываться; ускользать"],
+      ["Two tears escaped her eyes [tuː tɪəz ɪˈskeɪpt hə aɪz]", "две слезы выкатились из её глаз"],
+      ["Fluttered out [ˈflʌtəd aʊt]", "выпорхнул; вылетел"]
+    ]
+  },
+  {
+    "id": 16,
+    "title": "The Gift of the Magi 4",
+    "words": [
+      ["Approval [əˈpruːvl]", "одобрение"],
+      ["Approve [əˈpruːv]", "одобрять"],
+      ["No one else [nəʊ wʌn els]", "никто другой"],
+      ["Value [ˈvæljuː]", "ценность; ценить"],
+      ["Hurry [ˈhʌri]", "спешить; спешка"],
+      ["Frying pan [ˈfraɪɪŋ pæn]", "сковорода"],
+      ["To cook [tə kʊk]", "готовить"],
+      ["The chops [ðə tʃɒps]", "отбивные"],
+      ["Made her look like [meɪd hə lʊk laɪk]", "делало её похожей на"],
+      ["At least [ət ˈliːst]", "по крайней мере"]
+    ]
+  },
+  {
+    "id": 17,
+    "title": "The Gift of the Magi 5",
+    "words": [
+      ["Step [step]", "шаг"],
+      ["Still [stɪl]", "всё ещё; всё же"],
+      ["Look at [lʊk æt]", "смотреть на"],
+      ["Expression [ɪkˈspreʃn]", "выражение"],
+      ["To terrify [tə ˈterɪfaɪ]", "ужасать; пугать"],
+      ["Wriggle [ˈrɪɡl]", "извиваться; ёрзать"],
+      ["Awfully [ˈɔːfəli]", "ужасно; очень"],
+      ["Reply [rɪˈplaɪ]", "отвечать; ответ"],
+      ["Anyhow [ˈenihaʊ]", "в любом случае; как-нибудь"],
+      ["Less [les]", "меньше"]
+    ]
+  },
+  {
+    "id": 18,
+    "title": "The Gift of the Magi 6",
+    "words": [
+      ["Shave [ʃeɪv]", "брить; бриться"],
+      ["Stunned [stʌnd]", "ошеломлённый"],
+      ["Tore [tɔː]", "разорвал; рванул"],
+      ["Scream of joy [skriːm əv dʒɔɪ]", "крик радости"],
+      ["Combs [kəʊmz]", "гребни; расчёски"],
+      ["Cheap [tʃiːp]", "дешёвый"],
+      ["Expensive [ɪkˈspensɪv]", "дорогой"],
+      ["Crave [kreɪv]", "страстно желать"],
+      ["Yearn without the least hope [jɜːn wɪˈðaʊt ðə liːst həʊp]", "страстно желать без малейшей надежды"],
+      ["Adorned [əˈdɔːnd]", "украшенный"]
+    ]
+  },
+  {
+    "id": 19,
+    "title": "The Gift of the Magi 7",
+    "words": [
+      ["Coveted [ˈkʌvɪtɪd]", "желанный; страстно желаемый"],
+      ["Adornments [əˈdɔːnmənts]", "украшения"],
+      ["Leapt up [lept ʌp]", "вскочил"],
+      ["Eagerly [ˈiːɡəli]", "с нетерпением; охотно"],
+      ["Palm [pɑːm]", "ладонь"],
+      ["Obeying [əˈbeɪɪŋ]", "подчиняясь"],
+      ["Tumbled down [ˈtʌmbld daʊn]", "рухнул; упал вниз"],
+      ["What do you mean? [wɒt də juː miːn]", "что ты имеешь в виду?"],
+      ["Sudden silence [ˈsʌdn ˈsaɪləns]", "внезапная тишина"],
+      ["Suppose [səˈpəʊz]", "предполагать; полагать"]
+    ]
+  },
+  {
+    "id": 20,
+    "title": "The Gift of the Magi 8",
+    "words": [
+      ["Uneventful [ˌʌnɪˈventfl]", "спокойный; без происшествий"],
+      ["Doubt [daʊt]", "сомнение; сомневаться"],
+      ["Greatest treasure [ˈɡreɪtɪst ˈtreʒə]", "величайшее сокровище"],
+      ["Most unwisely sacrificed for each other [məʊst ʌnˈwaɪzli ˈsækrɪfaɪst fər iːtʃ ˈʌðə]", "крайне неразумно пожертвовали ради друг друга"]
+    ]
    }
+
   ]
 },
     {
@@ -2743,3 +2866,4 @@
     }
   ]
 }
+
