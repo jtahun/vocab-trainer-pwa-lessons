@@ -2530,9 +2530,8 @@
     ["fell in love [ˌfel ɪn ˈlʌv]", "влюбился"],
     ["recognise [ˈrekəɡnaɪz]", "узнавать, распознавать"]
   ]
-},
-
-   {
+ },
+ {
   "id": 5,
   "title": "Green knight 5",
   "words": [
@@ -2777,11 +2776,111 @@
       ["Uneventful [ˌʌnɪˈventfl]", "спокойный; без происшествий"],
       ["Doubt [daʊt]", "сомнение; сомневаться"],
       ["Greatest treasure [ˈɡreɪtɪst ˈtreʒə]", "величайшее сокровище"],
-      ["Most unwisely sacrificed for each other [məʊst ʌnˈwaɪzli ˈsækrɪfaɪst fər iːtʃ ˈʌðə]", "крайне неразумно пожертвовали ради друг друга"]
+      ["Most unwisely sacrificed for each other [məʊst ʌnˈwaɪzli ˈsækrɪfaɪst fər iːtʃ ˈʌðə]", "крайне неразумно пожертвовали ради друг друга"],
+      ["Tumbled [ˈtʌmbld]", "упал; рухнул"],
+      ["Sudden silence [ˈsʌdn ˈsaɪləns]", "внезапная тишина"],
+      ["Intended [ɪnˈtendɪd]", "намеревался; предназначенный"],
+      ["Sacrificed [ˈsækrɪfaɪst]", "пожертвовал"],
+      ["Wisest [ˈwaɪzɪst]", "мудрейший"]
     ]
-   }
-
+   },
+   {
+   "id": 21,
+    "title": "The Gift of the Magi 9",
+    "words": [
+    ["College [ˈkɒlɪdʒ]", "колледж"],
+    ["Eve [iːv]", "канун"],
+    ["Seemed [siːmd]", "казалось"],
+    ["Itself [ɪtˈself]", "само; себя"],
+    ["Nervously [ˈnɜːvəsli]", "нервно"],
+    ["Might [maɪt]", "мог бы; возможно"],
+    ["Removed [rɪˈmuːvd]", "снял; удалил"],
+    ["Surely [ˈʃʊəli]", "наверняка; конечно"],
+    ["Platinum fob [ˈplætɪnəm fɒb]", "платиновая цепочка для часов"],
+    ["Chased [tʃeɪst]", "чеканный"]
   ]
+},
+{
+  "id": 22,
+  "title": "The Gift of the Magi 10",
+  "words": [
+    ["Design [dɪˈzaɪn]", "дизайн; узор"],
+    ["Proclaiming [prəˈkleɪmɪŋ]", "провозглашая"],
+    ["Meritorious [ˌmerɪˈtɔːriəs]", "достойный похвалы"],
+    ["Ornamentation [ˌɔːnəmenˈteɪʃn]", "украшение; орнамент"],
+    ["Curls [kɜːlz]", "локоны"],
+    ["Chorus [ˈkɔːrəs]", "хор"],
+    ["Straight [streɪt]", "прямой; прямо"],
+    ["Buying [ˈbaɪɪŋ]", "покупка; покупая"],
+    ["Yearned [jɜːnd]", "страстно желал"],
+    ["Yet [jet]", "ещё; всё же; однако"]
+  ]
+},
+{
+  "id": 23,
+  "title": "The Gift of the Magi 11",
+  "words": [
+    ["Held [held]", "держал"],
+    ["Couch [kaʊtʃ]", "диван"],
+    ["Wise [waɪz]", "мудрый"],
+    ["Over [ˈəʊvə]", "над; через; законченный"],
+    ["Typist [ˈtaɪpɪst]", "машинистка"],
+    ["Per [pɜː]", "за; на; в расчёте на"],
+    ["Content [kənˈtent]", "довольный"],
+    ["Covered [ˈkʌvəd]", "покрытый"],
+    ["Decorated [ˈdekəreɪtɪd]", "украшенный"],
+    ["Which [wɪtʃ]", "который"]
+  ]
+},
+{
+  "id": 24,
+  "title": "The Gift of the Magi 12",
+  "words": [
+    ["Mighty [ˈmaɪti]", "могущественный; очень"],
+    ["Pride [praɪd]", "гордость"],
+    ["Almost [ˈɔːlməʊst]", "почти"],
+    ["Stood [stʊd]", "стоял"],
+    ["Practised [ˈpræktɪst]", "практиковался; репетировал"],
+    ["Replied [rɪˈplaɪd]", "ответил"],
+    ["Approval [əˈpruːvl]", "одобрение"],
+    ["Perfect [ˈpɜːfɪkt]", "идеальный; совершенный"],
+    ["Simple [ˈsɪmpl]", "простой"],
+    ["Properly [ˈprɒpəli]", "правильно; должным образом"]
+  ]
+},
+{
+  "id": 25,
+  "title": "The Gift of the Magi 13",
+  "words": [
+    ["Suspense [səˈspens]", "напряжённое ожидание"],
+    ["Worthy [ˈwɜːði]", "достойный"],
+    ["Serious [ˈsɪəriəs]", "серьёзный"],
+    ["Expression [ɪkˈspreʃn]", "выражение"],
+    ["Testify [ˈtestɪfaɪ]", "свидетельствовать; подтверждать"],
+    ["Reply [rɪˈplaɪ]", "ответ; отвечать"],
+    ["Sold [səʊld]", "продал; проданный"],
+    ["Anyhow [ˈenihaʊ]", "в любом случае"],
+    ["Stray [streɪ]", "заблудившийся; случайный"],
+    ["Aren't [ɑːnt]", "не являются; не"]
+  ]
+},
+{
+  "id": 26,
+  "title": "The Gift of the Magi 14",
+  "words": [
+    ["Haircut [ˈheəkʌt]", "стрижка"],
+    ["Less [les]", "меньше"],
+    ["Unwrapped [ʌnˈræpt]", "развернул; распаковал"],
+    ["Package [ˈpækɪdʒ]", "пакет; посылка"],
+    ["Broadway [ˈbrɔːdweɪ]", "Бродвей"],
+    ["She'll [ʃiːl]", "она будет"],
+    ["Rims [rɪmz]", "ободки; края"],
+    ["Expensive [ɪkˈspensɪv]", "дорогой"],
+    ["Craved [kreɪvd]", "страстно желал"],
+    ["Mean [miːn]", "означать; иметь в виду"]
+   ]
+  }
+ ]
 },
     {
       "id": 30,
